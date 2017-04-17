@@ -1,1 +1,9 @@
+# Configurações de construção do site
 theme: jekyll-theme-hacker
+
+# Jekyll : Configurações gerais
+title: [(pos) Programação Orientada a Serviços]
+description: [Página da disciplina de pos (Programação Orientada a Serviços) do curso técnico integrado de Informática para Internet.]
+url: https://tiipos.github.io
+
+exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
