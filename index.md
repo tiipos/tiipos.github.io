@@ -24,7 +24,7 @@ layout: default
 6. ~~_06/04_~~ : Introdução a js (JavaScript) com Node.js
 7. ~~_10/04_~~ : (4 aulas) Introdução a POO em js com Node.js
 8. ~~_17/04_~~ : (4 aulas) DOJO POO com Node.js [crime](http://dojopuzzles.com/problemas/exibe/descubra-o-assassino/)
-9. _19/04_ : DOJO POO com Node.js
+9. _19/04_ : DOJO POO com Node.js [calculadora](http://dojopuzzles.com/problemas/exibe/avaliando-expressoes-matematicas/)
 10. _20/04_ : (4 aulas) DOJO POO com Node.js
 11. _24/04_ : DOJO POO com Node.js
 12. _27/04_ : Manipulando arquivos texto (CSV, XML e JSON) em js com Node.js
