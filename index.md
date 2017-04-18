@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# [info](#header-1) Infomações gerais da disciplina
+# [](#header-1) Infomações gerais da disciplina
 
 - [Curso Técnico integrado em Informática para Internet TII](http://diatinf.ifrn.edu.br/doku.php?id=cursos:tecnicos:ii:start)
 - [Ementa](http://diatinf.ifrn.edu.br/lib/exe/fetch.php?media=cursos:tecnicos:ii:info4_-_programacao_orientada_a_servicos.pdf)
@@ -10,9 +10,9 @@ layout: default
 - Carga horária semanal: 4 horas/aula
 - Carga horária por bimestre: 10 semanas com carga-horária de 40 horas/aula
 
-# [programa](#header-1) Programa da disciplina
+# [](#header-1) Programa da disciplina
 
-## [1bim](#header-2) 1o Bimestre
+## [](#header-2) 1o Bimestre
 
 **Aulas**
 
@@ -43,7 +43,7 @@ layout: default
 2. 30% DOJO __em breve__
 3. 40% Prova escrita
 
-## [2bim](#header-2) 2o Bimestre
+## [](#header-2) 2o Bimestre
 
 **Aulas**
 
@@ -70,8 +70,8 @@ layout: default
 21. __31/07__ :
 
 
-## [3bim](#header-2) 3o Bimestre
+## [](#header-2) 3o Bimestre
 
 
 
-## [4bim](#header-2) 4o Bimestre
+## [](#header-2) 4o Bimestre
