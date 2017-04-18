@@ -16,31 +16,31 @@ layout: default
 
 **Aulas**
 
-1. __23/03__ : Apresentação da disciplina
-2. __25/03__ : **Sábado** : Trabalho sobre linguagens de scripts __Meta 1__
-3. __27/03__ : Trabalho sobre linguagens de scripts __Meta 2__
-4. __30/03__ : Trabalho sobre linguagens de scripts __Meta 3__
-5. __03/04__ : Trabalho sobre linguagens de scripts __Meta 4__
-6. __06/04__ : Introdução a js (JavaScript) com Node.js
-7. __10/04__ : (4 aulas) Introdução a POO em js com Node.js
-8. __17/04__ : (4 aulas) DOJO POO com Node.js [crime](http://dojopuzzles.com/problemas/exibe/descubra-o-assassino/)
-9. __19/04__ : DOJO POO com Node.js
-10. __20/04__ : (4 aulas) DOJO POO com Node.js
-11. __24/04__ : DOJO POO com Node.js
-12. __27/04__ : Manipulando arquivos texto (CSV, XML e JSON) em js com Node.js
-13. __04/05__ DOJO CSV/XML/JSON com Node.js
-14. __06/05__ : **Sábado** : Trabalho sobre linguagens de scripts __Meta 5__
-15. __08/05__ : DOJO CSV/XML/JSON com Node.js
-16. __11/05__ : DOJO CSV/XML/JSON com Node.js
-17. __15/05__ : Prova escrita e individual
-18. __18/05__ : Apresentação sobre linguagens de scripts
-19. __20/05__ : **Sábado** : Trabalho sobre linguagens de scripts __Meta 6__
-20. __22/05__ : Apresentação sobre linguagens de scripts
-21. __25/05__ : Entrega dos resultados
+1. ~~_23/03_~~ : Apresentação da disciplina
+2. ~~_25/03_~~ : **Sábado** : Trabalho sobre linguagens de scripts __Meta 1__
+3. ~~_27/03_~~ : Trabalho sobre linguagens de scripts __Meta 2__
+4. ~~_30/03_~~ : Trabalho sobre linguagens de scripts __Meta 3__
+5. ~~_03/04_~~ : Trabalho sobre linguagens de scripts __Meta 4__
+6. ~~_06/04_~~ : Introdução a js (JavaScript) com Node.js
+7. ~~_10/04_~~ : (4 aulas) Introdução a POO em js com Node.js
+8. ~~_17/04_~~ : (4 aulas) DOJO POO com Node.js [crime](http://dojopuzzles.com/problemas/exibe/descubra-o-assassino/)
+9. _19/04_ : DOJO POO com Node.js
+10. _20/04_ : (4 aulas) DOJO POO com Node.js
+11. _24/04_ : DOJO POO com Node.js
+12. _27/04_ : Manipulando arquivos texto (CSV, XML e JSON) em js com Node.js
+13. _04/05_ DOJO CSV/XML/JSON com Node.js
+14. _06/05_ : **Sábado** : Trabalho sobre linguagens de scripts __Meta 5__
+15. _08/05_ : DOJO CSV/XML/JSON com Node.js
+16. _11/05_ : DOJO CSV/XML/JSON com Node.js
+17. _15/05_ : Prova escrita e individual
+18. _18/05_ : Apresentação sobre linguagens de scripts
+19. _20/05_ : **Sábado** : Trabalho sobre linguagens de scripts __Meta 6__
+20. _22/05_ : Apresentação sobre linguagens de scripts
+21. _25/05_ : Entrega dos resultados
 
 **Avaliações**
 1. 30% [Seminário sobre linguagens de scripts que compilam para js](2017.1.1oBim.Trabalho.Linguagens_de_script)
-2. 30% DOJO __em breve__
+2. 30% [DOJO](2017.dojo)
 3. 40% Prova escrita
 
 ## [](#header-2) 2o Bimestre
@@ -75,3 +75,9 @@ layout: default
 
 
 ## [](#header-2) 4o Bimestre
+
+# [](#header-1) Links interessantes
+
+- [WebSchool.io](http://webschool.io/) **PT-BR** Site contendo diversos cursos gratuitos e outros materiais sobre Node.js
+- [UWD Quer aprender Node.js?](https://udgwebdev.com/quer-aprender-node-js-atualizado/) **PT-BR** Site com links interessantes para quem deseja aprender mais sobre Node.js
+- [Coding DOJO](https://pt.wikipedia.org/wiki/Coding_Dojo) Wikipedia
