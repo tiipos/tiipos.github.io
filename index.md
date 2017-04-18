@@ -78,7 +78,12 @@ layout: default
 
 # [](#header-1) Links interessantes
 
-- [NodeSchool](https://nodeschool.io/) Comunidade com tutoriais ensinando NodeJs em diversas línguas
-- [WebSchool.io](http://webschool.io/) **PT-BR** Site contendo diversos cursos gratuitos e outros materiais sobre Node.js
-- [UWD Quer aprender Node.js?](https://udgwebdev.com/quer-aprender-node-js-atualizado/) **PT-BR** Site com links interessantes para quem deseja aprender mais sobre Node.js
-- [Coding DOJO](https://pt.wikipedia.org/wiki/Coding_Dojo) Wikipedia
+- [braziljs](https://github.com/braziljs) Comunidade brasileira
+- Livros e tutorias
+  - Livro Eloquent JavaScript [en](http://eloquentjavascript.net) e [pt-br](http://braziljs.github.io/eloquente-javascript/)
+  - [NodeSchool](https://nodeschool.io/) Comunidade com tutoriais ensinando NodeJs em diversas línguas
+- Cursos
+  - [WebSchool.io](http://webschool.io/) **PT-BR** Site contendo diversos cursos gratuitos e outros materiais sobre Node.js
+- Outros
+  - [Coding DOJO](https://pt.wikipedia.org/wiki/Coding_Dojo) Wikipedia
+  - [UWD Quer aprender Node.js?](https://udgwebdev.com/quer-aprender-node-js-atualizado/) **PT-BR** Site com links interessantes para quem deseja aprender mais sobre Node.js
