@@ -22,7 +22,7 @@ layout: default
 4. ~~_30/03_~~ : Trabalho sobre linguagens de scripts __Meta 3__
 5. ~~_03/04_~~ : Trabalho sobre linguagens de scripts __Meta 4__
 6. ~~_06/04_~~ : Introdução a js (JavaScript) com Node.js
-7. ~~_10/04_~~ : (4 aulas) Introdução a POO em js com Node.js
+7. ~~_10/04_~~ : (4 aulas) [Introdução a POO em js com Node.js](2017.js.introducao)
 8. ~~_17/04_~~ : (4 aulas) DOJO POO com Node.js [crime](http://dojopuzzles.com/problemas/exibe/descubra-o-assassino/)
 9. _19/04_ : DOJO POO com Node.js [calculadora](http://dojopuzzles.com/problemas/exibe/avaliando-expressoes-matematicas/)
 10. _20/04_ : (4 aulas) DOJO POO com Node.js
