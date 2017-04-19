@@ -24,7 +24,7 @@ layout: default
 6. ~~_06/04_~~ : [Introdução a POO em js com Node.js](2017.js.introducao)
 7. ~~_10/04_~~ : (4 aulas) [Introdução a POO em js com Node.js](2017.js.introducao)
 8. ~~_17/04_~~ : (4 aulas) DOJO POO com Node.js [crime](http://dojopuzzles.com/problemas/exibe/descubra-o-assassino/)
-9. _19/04_ : DOJO POO com Node.js [calculadora](http://dojopuzzles.com/problemas/exibe/avaliando-expressoes-matematicas/)
+9. ~~_19/04_~~ : DOJO POO com Node.js [calculadora](http://dojopuzzles.com/problemas/exibe/avaliando-expressoes-matematicas/)
 10. _20/04_ : (4 aulas) DOJO POO com Node.js
 11. _24/04_ : DOJO POO com Node.js
 12. _27/04_ : Manipulando arquivos texto (CSV, XML e JSON) em js com Node.js
@@ -82,6 +82,7 @@ layout: default
 - Livros e tutorias
   - Livro Eloquent JavaScript [en](http://eloquentjavascript.net) e [pt-br](http://braziljs.github.io/eloquente-javascript/)
   - [NodeSchool](https://nodeschool.io/) Comunidade com tutoriais ensinando NodeJs em diversas línguas
+  - [Mozilla Foundatoin JavaScript page](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - Cursos
   - [WebSchool.io](http://webschool.io/) **PT-BR** Site contendo diversos cursos gratuitos e outros materiais sobre Node.js
 - Outros
