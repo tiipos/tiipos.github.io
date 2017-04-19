@@ -88,3 +88,4 @@ layout: default
 - Outros
   - [Coding DOJO](https://pt.wikipedia.org/wiki/Coding_Dojo) Wikipedia
   - [UWD Quer aprender Node.js?](https://udgwebdev.com/quer-aprender-node-js-atualizado/) **PT-BR** Site com links interessantes para quem deseja aprender mais sobre Node.js
+  - [Markdown quick reference](https://en.support.wordpress.com/markdown-quick-reference/) by [WordPress](http://wordpress.com/)
