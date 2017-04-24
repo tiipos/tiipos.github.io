@@ -26,7 +26,7 @@ layout: default
 8. ~~_17/04_~~ : (4 aulas) DOJO POO com Node.js [crime](http://dojopuzzles.com/problemas/exibe/descubra-o-assassino/)
 9. ~~_19/04_~~ : DOJO POO com Node.js [calculadora](http://dojopuzzles.com/problemas/exibe/avaliando-expressoes-matematicas/)
 10. ~~_20/04_~~ : (4 aulas) DOJO POO com Node.js [números romanos](http://dojopuzzles.com/problemas/exibe/numeros-romanos/)
-11. _24/04_ : Manipulando arquivos texto (CSV, XML e JSON) em js com Node.js
+11. _24/04_ : [Manipulando arquivos texto (CSV, XML e JSON) em js com Node.js](2017.js.arquivos_texto.md)
 12. _27/04_ : DOJO CSV/XML/JSON com Node.js
 13. _04/05_ : DOJO CSV/XML/JSON com Node.js
 14. _06/05_ : **Sábado** : Trabalho sobre linguagens de scripts __Meta 5__
