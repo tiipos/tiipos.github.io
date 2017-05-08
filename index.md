@@ -30,7 +30,7 @@ layout: default
 12. ~~_27/04_~~ : [Manipulando arquivos texto (CSV, XML e JSON) em js com Node.js](2017.js.arquivos_texto.md)
 13. ~~_04/05_~~ : _Não houve aula_
 14. _06/05_ : **Sábado** : Trabalho sobre linguagens de scripts __Meta 5__
-15. ~~_08/05_~~ : DOJO CSV/XML/JSON com Node.js
+15. ~~_08/05_~~ : [Prova prática em dupla](2017.1.prova_pratica.md)
 16. _11/05_ : DOJO CSV/XML/JSON com Node.js
 17. _15/05_ : Apresentação sobre linguagens de scripts
 18. _18/05_ : Apresentação sobre linguagens de scripts
@@ -41,7 +41,7 @@ layout: default
 **Avaliações**
 1. 30% [Seminário sobre linguagens de scripts que compilam para js](2017.1.1oBim.Trabalho.Linguagens_de_script)
 2. 30% [DOJO](2017.dojo)
-3. 40% Prova escrita
+3. 40% Prova prática e escrita
 
 ## [](#header-2) 2o Bimestre
 
