@@ -28,7 +28,7 @@ layout: default
 10. ~~_20/04_~~ : (4 aulas) DOJO POO com Node.js [números romanos](http://dojopuzzles.com/problemas/exibe/numeros-romanos/)
 11. ~~_24/04_~~ : [Manipulando arquivos texto (CSV, XML e JSON) em js com Node.js](2017.js.arquivos_texto.md)
 12. ~~_27/04_~~ : [Manipulando arquivos texto (CSV, XML e JSON) em js com Node.js](2017.js.arquivos_texto.md)
-13. ~~_04/05_~~ : _Não houve aula_
+13. ~~_04/05_~~ : _Não houve aula_ / Trabalho sobre linguagens de scripts __Meta 7__
 14. _06/05_ : **Sábado** : Trabalho sobre linguagens de scripts __Meta 5__
 15. ~~_08/05_~~ : [Prova prática em dupla](2017.1.prova_pratica.md)
 16. _11/05_ : DOJO CSV/XML/JSON com Node.js
