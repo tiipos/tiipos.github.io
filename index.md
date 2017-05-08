@@ -27,15 +27,15 @@ layout: default
 9. ~~_19/04_~~ : DOJO POO com Node.js [calculadora](http://dojopuzzles.com/problemas/exibe/avaliando-expressoes-matematicas/)
 10. ~~_20/04_~~ : (4 aulas) DOJO POO com Node.js [números romanos](http://dojopuzzles.com/problemas/exibe/numeros-romanos/)
 11. ~~_24/04_~~ : [Manipulando arquivos texto (CSV, XML e JSON) em js com Node.js](2017.js.arquivos_texto.md)
-12. _27/04_ : [Manipulando arquivos texto (CSV, XML e JSON) em js com Node.js](2017.js.arquivos_texto.md)
-13. _04/05_ : DOJO CSV/XML/JSON com Node.js
+12. ~~_27/04_~~ : [Manipulando arquivos texto (CSV, XML e JSON) em js com Node.js](2017.js.arquivos_texto.md)
+13. ~~_04/05_~~ : _Não houve aula_
 14. _06/05_ : **Sábado** : Trabalho sobre linguagens de scripts __Meta 5__
-15. _08/05_ : DOJO CSV/XML/JSON com Node.js
+15. ~~_08/05_~~ : DOJO CSV/XML/JSON com Node.js
 16. _11/05_ : DOJO CSV/XML/JSON com Node.js
-17. _15/05_ : Prova escrita e individual
+17. _15/05_ : Apresentação sobre linguagens de scripts
 18. _18/05_ : Apresentação sobre linguagens de scripts
 19. _20/05_ : **Sábado** : Trabalho sobre linguagens de scripts __Meta 6__
-20. _22/05_ : Apresentação sobre linguagens de scripts
+20. _22/05_ : Prova escrita e individual
 21. _25/05_ : Entrega dos resultados
 
 **Avaliações**
