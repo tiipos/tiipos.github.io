@@ -34,9 +34,9 @@ layout: default
 16. ~~_11/05_~~ : [Prova prática em dupla](2017.1.prova_pratica.md)
 17. ~~_15/05_~~ : _Não houve aula_
 18. ~~17/05~~ : Introdução a HTTP
-18. _18/05_ : Apresentação sobre linguagens de scripts
-19. _20/05_ : **Sábado** : Trabalho sobre linguagens de scripts __Meta 6__
-20. _22/05_ : Apresentação sobre linguagens de scripts
+18. ~~_18/05_~~ : Apresentação sobre linguagens de scripts
+19. ~~_20/05_~~ : **Sábado** : Trabalho sobre linguagens de scripts __Meta 6__
+20. ~~_22/05_~~ : Apresentação sobre linguagens de scripts
 21. _25/05_ : Prova escrita e individual
 
 **Avaliações**
