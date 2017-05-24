@@ -42,13 +42,13 @@ layout: default
 **Avaliações**
 1. 30% [Seminário sobre linguagens de scripts que compilam para js](2017.1.1oBim.Trabalho.Linguagens_de_script)
 2. 30% [DOJO](2017.dojo)
-3. 40% Prova prática e escrita
+3. 40% Prova [prática](2017.1.prova_pratica.md) e escrita
 
 ## [](#header-2) 2o Bimestre
 
 **Aulas**
 
-1. __29/05__ :
+1. __29/05__ : Última chance de apresentação do seminário; Uso do app Postman
 2. __01/06__ :
 3. __03/06__ **Sábado** : Trabalho
 4. __05/06__ :
