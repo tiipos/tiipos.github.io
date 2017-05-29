@@ -37,7 +37,7 @@ layout: default
 18. ~~_18/05_~~ : Apresentação sobre linguagens de scripts
 19. ~~_20/05_~~ : **Sábado** : Trabalho sobre linguagens de scripts __Meta 6__
 20. ~~_22/05_~~ : Apresentação sobre linguagens de scripts
-21. _25/05_ : Prova escrita e individual
+21. ~~_25/05_~~ : Prova escrita e individual
 
 **Avaliações**
 1. 30% [Seminário sobre linguagens de scripts que compilam para js](2017.1.1oBim.Trabalho.Linguagens_de_script)
@@ -48,7 +48,7 @@ layout: default
 
 **Aulas**
 
-1. __29/05__ : Última chance de apresentação do seminário; Uso do app Postman
+1. __29/05__ : Última chance de apresentação do seminário
 2. __01/06__ :
 3. __03/06__ **Sábado** : Trabalho
 4. __05/06__ :
