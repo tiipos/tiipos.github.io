@@ -37,7 +37,10 @@ layout: default
 18. ~~_18/05_~~ : Apresentação sobre linguagens de scripts
 19. ~~_20/05_~~ : **Sábado** : Trabalho sobre linguagens de scripts __Meta 6__
 20. ~~_22/05_~~ : Apresentação sobre linguagens de scripts
-21. ~~_25/05_~~ : Prova escrita e individual
+21. ~~_25/05_~~ : Prova individual
+22. ~~__29/05__~~ : Prova individual (continuação)
+23. ~~__01/06__~~ : Prova individual (continuação)
+24. ~~__05/06__~~ (2) : Última sessão para apresentar o trabalho sobre linguagens de script
 
 **Avaliações**
 1. 30% [Seminário sobre linguagens de scripts que compilam para js](2017.1.1oBim.Trabalho.Linguagens_de_script)
@@ -48,12 +51,10 @@ layout: default
 
 **Aulas**
 
-1. __29/05__ : Última chance de apresentação do seminário
-2. __01/06__ :
-3. __03/06__ **Sábado** : Trabalho
-4. __05/06__ :
-5. __08/06__ :
-6. __10/06__ **Sábado** : Trabalho
+1. __03/06__ **Sábado** : **Meta 1** Desenvolvimento de App Facebook.
+2. ~~__05/06__ (2)~~ : Introdução a API do facebook e a frameworks JS de desenvolvimento de UI.
+2. __08/06__ : Apresentação da Meta 1 do Desenvolvimento do App Facebook. Usando API com Postman.
+6. __10/06__ **Sábado** : **Meta 2** Desenvolvimento de App Facebook.
 7. __12/06__ :
 8. __19/06__ :
 9. __22/06__ :
@@ -61,7 +62,7 @@ layout: default
 11. __29/06__ :
 12. __03/07__ :
 13. __06/07__ :
-14. __08/07__ **Sábado** : Trabalho
+14. __08/07__ **Sábado** : **Meta 3** Desenvolvimento de App Facebook.
 15. __10/07__ :
 16. __13/07__ :
 17. __17/07__ :
@@ -69,6 +70,9 @@ layout: default
 19. __24/07__ :
 20. __27/07__ :
 21. __31/07__ :
+
+**Avaliações**
+1. [Desenvolvimento de app para uso do Facebook](2017.2.facebook)
 
 
 ## [](#header-2) 3o Bimestre
