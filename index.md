@@ -53,7 +53,7 @@ layout: default
 
 1. __03/06__ **Sábado** : **Meta 1** Desenvolvimento de App Facebook.
 2. ~~__05/06__ (2)~~ : Introdução a API do facebook e a frameworks JS de desenvolvimento de UI.
-2. __08/06__ : Apresentação da Meta 1 do Desenvolvimento do App Facebook. Usando API com Postman.
+2. __08/06__ : Apresentação da Meta 1 do Desenvolvimento do App Facebook. [Usando API com Postman e Node](2017.1.ws.introducao.md).
 6. __10/06__ **Sábado** : **Meta 2** Desenvolvimento de App Facebook.
 7. __12/06__ :
 8. __19/06__ :
