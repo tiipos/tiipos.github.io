@@ -57,9 +57,9 @@ layout: default
 6. __10/06__ **Sábado** : **Meta 2** Desenvolvimento de App Facebook.
 7. ~~__12/06__~~ : [Exercício introdutório a ws](2017.1.ws.introducao.md)
 8. ~~__19/06__~~ : [Exercício introdutório a ws](2017.1.ws.introducao.md)
-9. __22/06__ :
-10. __26/06__ :
-11. __29/06__ :
+9. ~~__22/06__~~ : [Introdução ao Angular](2017.2.ws.angular.md)
+10. __26/06__ : [Introdução ao Angular](2017.2.ws.angular.md)
+11. __29/06__ : [Introdução ao Angular](2017.2.ws.angular.md)
 12. __03/07__ :
 13. __06/07__ :
 14. __08/07__ **Sábado** : **Meta 3** Desenvolvimento de App Facebook.
