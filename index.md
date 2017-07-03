@@ -60,10 +60,10 @@ layout: default
 9. ~~__22/06__~~ : [Introdução ao Angular](2017.2.ws.angular.md)
 10. __26/06__ : [Introdução ao Angular](2017.2.ws.angular.md)
 11. __29/06__ : [Introdução ao Angular](2017.2.ws.angular.md)
-12. __03/07__ :
-13. __06/07__ :
+12. __03/07__ : [Introdução ao Angular](2017.2.ws.angular.md)
+13. __06/07__ : [Introdução ao Angular](2017.2.ws.angular.md)
 14. __08/07__ **Sábado** : **Meta 3** Desenvolvimento de App Facebook.
-15. __10/07__ :
+15. __10/07__ : Avaliação
 16. __13/07__ :
 17. __17/07__ :
 18. __20/07__ :
