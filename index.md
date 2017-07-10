@@ -63,7 +63,7 @@ layout: default
 12. __03/07__ : [Introdução ao Angular](2017.2.ws.angular.md)
 13. __06/07__ : [Introdução ao Angular](2017.2.ws.angular.md)
 14. __08/07__ **Sábado** : **Meta 3** Desenvolvimento de App Facebook.
-15. __10/07__ : Avaliação
+15. __10/07__ : [Avaliação](https://github.com/leonardo-minora/samu)
 16. __13/07__ :
 17. __17/07__ :
 18. __20/07__ :
