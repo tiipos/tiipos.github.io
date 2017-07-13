@@ -58,13 +58,13 @@ layout: default
 7. ~~__12/06__~~ : [Exercício introdutório a ws](2017.1.ws.introducao.md)
 8. ~~__19/06__~~ : [Exercício introdutório a ws](2017.1.ws.introducao.md)
 9. ~~__22/06__~~ : [Introdução ao Angular](2017.2.ws.angular.md)
-10. __26/06__ : [Introdução ao Angular](2017.2.ws.angular.md)
-11. __29/06__ : [Introdução ao Angular](2017.2.ws.angular.md)
-12. __03/07__ : [Introdução ao Angular](2017.2.ws.angular.md)
-13. __06/07__ : [Introdução ao Angular](2017.2.ws.angular.md)
+10. ~~__26/06__~~ : [Introdução ao Angular](2017.2.ws.angular.md)
+11. ~~__29/06__~~ : [Introdução ao Angular](2017.2.ws.angular.md)
+12. ~~__03/07__~~ : [Introdução ao Angular](2017.2.ws.angular.md)
+13. ~~__06/07__~~ : [Introdução ao Angular](2017.2.ws.angular.md)
 14. __08/07__ **Sábado** : **Meta 3** Desenvolvimento de App Facebook.
-15. __10/07__ : [Avaliação](https://github.com/leonardo-minora/samu)
-16. __13/07__ :
+15. ~~__10/07__~~ : [Avaliação](https://github.com/leonardo-minora/samu)
+16. __13/07__ : [Avaliação](2017.2.samu.md)
 17. __17/07__ :
 18. __20/07__ :
 19. __24/07__ :
