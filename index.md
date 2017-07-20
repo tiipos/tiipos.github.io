@@ -65,8 +65,8 @@ layout: default
 14. __08/07__ **Sábado** : **Meta 3** Desenvolvimento de App Facebook.
 15. ~~__10/07__~~ : [Avaliação](2017.2.samu.md)
 16. ~~__13/07__~~ : [Avaliação](2017.2.samu.md)
-17. __17/07__ : [Avaliação](2017.2.samu.md)
-18. __20/07__ :
+17. ~~__17/07__~~ : [Avaliação](2017.2.samu.md)
+18. ~~__20/07__~~ : WTADS
 19. __24/07__ :
 20. __27/07__ :
 21. __31/07__ :
