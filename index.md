@@ -67,12 +67,13 @@ layout: default
 16. ~~__13/07__~~ : [Avaliação](2017.2.samu.md)
 17. ~~__17/07__~~ : [Avaliação](2017.2.samu.md)
 18. ~~__20/07__~~ : WTADS
-19. __24/07__ :
-20. __27/07__ :
-21. __31/07__ :
+19. __24/07__ : [Avaliação](2017.2.samu.md)
+20. __27/07__ : [Avaliação](2017.2.samu.md)
+21. __31/07__ : Git e Programação funcional
 
 **Avaliações**
-1. [Desenvolvimento de app para uso do Facebook](2017.2.facebook)
+1. [Desenvolvimento de app para uso do Facebook](2017.2.facebook) Montagem dos grupos e temas
+2. Projeto samu no github
 
 
 ## [](#header-2) 3o Bimestre
