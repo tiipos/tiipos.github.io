@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# [](#header-1) Avaliações
+# [](#header-1) Avaliações da disciplina
 
 ## [](#header-2) 1o Bimestre
 
