@@ -4,32 +4,32 @@ layout: default
 
 # [](#header-1) Cronograma da disciplina
 
-## [](#header-2) 1o Bimestre
+## [](#header-2) 1o Bimestre UI
 
 | \# | dia | conteúdo |
 | :--- | :--- | :--- |
 | 01 | quinta-feira 15-02  | Aula inicial |
-| 02 | segunda-feira 19-02 | |
-| 03 | quinta-feira 22-02  | |
-| 04 | segunda-feira 26-02 | |
-| 05 | quinta-feira 01-03  | |
-| 06 | segunda-feira 05-03 | |
-| 07 | quinta-feira 08-03  | |
-| 08 | segunda-feira 12-03 | |
-| 09 | quinta-feira 15-03  | |
-| 10 | segunda-feira 19-03 | |
-| 11 | quinta-feira 22-03  | |
-| 12 | segunda-feira 26-03 | |
-| 13 | segunda-feira 02-04 | |
-| 14 | quinta-feira 05-04  | |
-| 15 | segunda-feira 09-04 | |
-| 16 | quinta-feira 12-04  | |
-| 17 | segunda-feira 16-04 | |
-| 18 | quinta-feira 19-04  | |
+| 02 | segunda-feira 19-02 | Ambiente de desenvolvimento |
+| 03 | quinta-feira 22-02  | Prática |
+| 04 | segunda-feira 26-02 | Interface do usuário |
+| 05 | quinta-feira 01-03  | Prática |
+| 06 | segunda-feira 05-03 | Navegação entre telas |
+| 07 | quinta-feira 08-03  | Prática |
+| 08 | segunda-feira 12-03 | Navegação entre telas |
+| 09 | quinta-feira 15-03  | Prática |
+| 10 | segunda-feira 19-03 | Gerenciando o estado da aplicação |
+| 11 | quinta-feira 22-03  | Prática |
+| 12 | segunda-feira 26-03 | Gerenciando o estado da aplicação |
+| 13 | segunda-feira 02-04 | Usando API / Webservices|
+| 14 | quinta-feira 05-04  | Prática |
+| 15 | segunda-feira 09-04 | Usando API |
+| 16 | quinta-feira 12-04  | Prática |
+| 17 | segunda-feira 16-04 | ?? |
+| 18 | quinta-feira 19-04  | ?? |
 | 19 | segunda-feira 23-04 | Entrega de resultados |
 
 
-## [](#header-2) 2o Bimestre
+## [](#header-2) 2o Bimestre API
 
 | \# | dia | conteúdo |
 | :--- | :--- | :--- |
