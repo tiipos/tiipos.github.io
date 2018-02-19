@@ -8,7 +8,7 @@
 
 Assim como no React, você precisa entender alguns dos conceitos básicos do React Native, tais como JSX, [componentes](components), estado e adereço.
 
-Programação é com JavaScript, Linguagem de marcação (pseudo html) e [JSON](https://www.w3schools.com/js/js_json_intro.asp) (__J__ava__S__cript __O__bject __N__otation)
+Programação é com JavaScript, Linguagem de marcação (pseudo html) e [JSON](https://www.w3schools.com/js/js_json_intro.asp) (JavaScript Object Notation)
 
 A página oficial diz:
 
