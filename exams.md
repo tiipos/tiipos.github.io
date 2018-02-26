@@ -6,6 +6,14 @@ layout: default
 
 ## [](#header-2) 1o Bimestre
 
+1. [Configurando e usando o ambiente de desenvolvimento](reactnative/environment_exams)
+2. Entendendo a interface do usuário
+3. Navegando entre telas
+4. Gerenciando o estado da aplicação
+5. Acessando APIs
+
+
+
 ## [](#header-2) 2o Bimestre
 
 ## [](#header-2) 3o Bimestre
