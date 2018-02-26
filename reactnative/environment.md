@@ -19,7 +19,7 @@ npm i -g create-react-native-app yarn
 
 ## [](#header-2) Criar um app React Native
 
-1. instale o react native ```yarn global add create-react-native-app```
+1. instale o react native ```npm i -g create-react-native-app```
 2. crie projeto inicial ```create-react-native-app CurrencyConverter```
 3. acesse diretório do projeto inicial ```cd CurrencyConverter```
 4. inicie a aplicação ```yarn start```
@@ -115,7 +115,7 @@ npm i -g create-react-native-app yarn
 1. crie um branch ```git checkout -b 01-eslint```
 
 **eslint** configurando
-1. adicione o aplicativo _eslint_ ```yarn global add eslint```
+1. adicione o aplicativo _eslint_ ```npm i -g eslint```
 2. execute ```eslint --init```, respondendo as perguntas da seguinte forma:
   - __Use a popular style guide__
   - __Airbnb__
