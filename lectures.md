@@ -11,7 +11,7 @@ layout: default
 
 1. [Introdução](reactnative/intro)
 2. [Configurando e usando o ambiente de desenvolvimento](reactnative/environment)
-3. Entendendo a interface do usuário
+3. [Entendendo a interface do usuário](reactnative/ui)
 4. Navegando entre telas
 5. Gerenciando o estado da aplicação
 6. Acessando APIs

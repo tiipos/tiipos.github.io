@@ -10,11 +10,11 @@ layout: default
 | :--- | :--- | :--- |
 | 01 | quinta-feira 15-02  | Aula inicial |
 | 02 | segunda-feira 19-02 | [Introdução](reactnative/intro) e [Ambiente de desenvolvimento](reactnative/environment) |
-| 03 | quinta-feira 22-02  | Prática |
-| 04 | segunda-feira 26-02 | Interface do usuário |
-| 05 | quinta-feira 01-03  | Prática |
-| 06 | segunda-feira 05-03 | Navegação entre telas |
-| 07 | quinta-feira 08-03  | Prática |
+| 03 | quinta-feira 22-02  | Prática ambiente |
+| 04 | segunda-feira 26-02 | Prática ambiente |
+| 05 | quinta-feira 01-03  | [Git](git/index) |
+| 06 | segunda-feira 05-03 | Git Prática |
+| 07 | quinta-feira 08-03  | Interface do usuário |
 | 08 | segunda-feira 12-03 | Navegação entre telas |
 | 09 | quinta-feira 15-03  | Prática |
 | 10 | segunda-feira 19-03 | Gerenciando o estado da aplicação |

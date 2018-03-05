@@ -7,10 +7,11 @@ layout: default
 ## [](#header-2) 1o Bimestre
 
 1. [Configurando e usando o ambiente de desenvolvimento](reactnative/environment_exams)
-2. Entendendo a interface do usuário
-3. Navegando entre telas
-4. Gerenciando o estado da aplicação
-5. Acessando APIs
+2. [try git](https://try.github.io/)
+3. Entendendo a interface do usuário
+4. Navegando entre telas
+5. Gerenciando o estado da aplicação
+6. Acessando APIs
 
 
 
