@@ -14,18 +14,18 @@ layout: default
 | 04 | segunda-feira 26-02 | Prática ambiente |
 | 05 | quinta-feira 01-03  | [Git](git/index) |
 | 06 | segunda-feira 05-03 | Git Prática |
-| 07 | quinta-feira 08-03  | Interface do usuário |
-| 08 | segunda-feira 12-03 | Navegação entre telas |
-| 09 | quinta-feira 15-03  | Prática |
-| 10 | segunda-feira 19-03 | Gerenciando o estado da aplicação |
-| 11 | quinta-feira 22-03  | Prática |
-| 12 | segunda-feira 26-03 | Gerenciando o estado da aplicação |
-| 13 | segunda-feira 02-04 | Usando API / Webservices|
-| 14 | quinta-feira 05-04  | Prática |
-| 15 | segunda-feira 09-04 | Usando API |
-| 16 | quinta-feira 12-04  | Prática |
-| 17 | segunda-feira 16-04 | ?? |
-| 18 | quinta-feira 19-04  | ?? |
+| 07 | quinta-feira 08-03  | Git Prática |
+| 08 | segunda-feira 12-03 | [Interface do usuário](reactnative/ui) |
+| 09 | quinta-feira 15-03  | Prática: Interface do usuário de CurrencyConverter |
+| 10 | segunda-feira 19-03 | [Interface do usuário](reactnative/ui) |
+| 11 | quinta-feira 22-03  | Prática: Interface do usuário de BulletJournal |
+| 12 | segunda-feira 26-03 | Navegação entre telas |
+| 13 | segunda-feira 02-04 | Gerenciando o estado da aplicação |
+| 14 | quinta-feira 05-04  | Prática: navegação e estado de CurrencyConverter |
+| 15 | segunda-feira 09-04 | Gerenciando o estado da aplicação |
+| 16 | quinta-feira 12-04  | Prática: navegação e estado de BulletJournal |
+| 17 | segunda-feira 16-04 | Usando API / Webservices |
+| 18 | quinta-feira 19-04  | Prática: usando API de CurrencyConcerter |
 | 19 | segunda-feira 23-04 | Entrega de resultados |
 
 
