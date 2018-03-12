@@ -22,7 +22,7 @@ yarn add react-native-extended-stylesheet color moment @expo/vector-icons
 
 ### [](#header-3) Container
 
-[snack expo](https://snack.expo.io/@leonardo-minora/handlelabs-ui-container)
+[snack expo](https://snack.expo.io/@leonardo-minora/handlebar-labs---ui-container)
 
 **app/components/Container/Container.js**
 ```javascript
@@ -107,7 +107,7 @@ export default App;
 
 ### [](#header-3) Logo
 
-[snack expo](https://snack.expo.io/@leonardo-minora/handlelabs-ui-logo)
+[snack expo](https://snack.expo.io/@leonardo-minora/handlebar-labs---ui-logo)
 
 **app/components/Logo/Logo.js**
 ```javascript
