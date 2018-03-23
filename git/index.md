@@ -10,6 +10,12 @@ by [wikipedia](https://pt.wikipedia.org/wiki/Git) é um sistema de controle de v
 
 1. [try git](https://try.github.io/)
 
+## [](#header-2) Guias
+
+1. [criar um repositório local](local-init)
+2. [adicionar um repositório remoto](remote-add)
+3. [trabalhando diariamente nos labs da DIATINF](labs)
+
 ## [](#header-2) Links
 
 - aplicativos
