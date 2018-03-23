@@ -78,9 +78,8 @@ export default EStyleSheet.create({
 **app/index.js**
 ```javascript
 EStyleSheet.build({
-   $primaryBlue: '#4F6D7A',
-
-  $white: '#FFFFFF',
+    $primaryBlue: '#4F6D7A',
+    $white: '#FFFFFF'
 });
  
 export default () => <Home />;
