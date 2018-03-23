@@ -6,7 +6,7 @@
 **lista de comandos**
 ```sh
 ## Remova o diretório existente
-rm CurrencyConverter
+rm -rf CurrencyConverter
 
 ## clone o repositório remoto
 ## LEMBRE DE MUDAR o nome do usuário
@@ -38,6 +38,7 @@ git push origin master
 
 ## [](#header-2) Lista de comandos
 
+- ```rm -rf```: remover arquivos e diretórios recursivamente e sem perguntar
 - ```cd```: acessar diretórios
 - ```git```: controlar o versionamento de arquivos de um diretório
    - ```git clone```: copia o repositório remoto para o diretório local
