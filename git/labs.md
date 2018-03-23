@@ -36,6 +36,18 @@ git push origin master
 ## Abra o diretório com o VS Code
 ```
 
+## [](#header-2) Executando o app
+
+
+**lista de comandos**
+```sh
+## adiciona bibliotecas
+yarn
+
+## executa app
+yarn start
+```
+
 ## [](#header-2) Lista de comandos
 
 - ```rm -rf```: remover arquivos e diretórios recursivamente e sem perguntar
