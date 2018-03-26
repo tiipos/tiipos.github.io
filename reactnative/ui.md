@@ -11,8 +11,7 @@
 1. [Tela inicial e componente Container](./ui-container)
 2. [Componente Logo](./ui-logo)
 3. [Text input](./ui-text)
-4. Teclado
-5. Botão
+4. [Botão](./ui-button)
 6. Estilo
 
 
