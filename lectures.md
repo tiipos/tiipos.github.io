@@ -6,6 +6,11 @@ layout: default
 
 ## [](#header-2) Introdução
 
+## [](#header-2) Git
+
+1. [criar um repositório local](git/local-init)
+2. [adicionar um repositório remoto](git/remote-add)
+3. [trabalhando diariamente nos labs da DIATINF](git/labs)
 
 ## [](#header-2) React Native
 
