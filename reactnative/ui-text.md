@@ -8,6 +8,17 @@
 **Objetivos**:
 - criar um novo componente TextInput;
 
+### [](#header-3) componentes react native
+
+1. [TouchableHighlight](https://facebook.github.io/react-native/docs/touchablehighlight.html): é um wrapper para que as visualizações respondam adequadamente aos toques.
+2. [TextInput](https://facebook.github.io/react-native/docs/textinput.html): é um componente para entrada de texto.
+3. [Text](https://facebook.github.io/react-native/docs/text.html): é um componente para mostrar textos.
+4. [View](https://facebook.github.io/react-native/docs/view.html): é um container para outros componentes.
+
+**observação**
+[TouchableHighlight vs TouchableOpacity](https://facebook.github.io/react-native/docs/handling-touches.html#touchables)
+
+
 ## [](#header-2) Códigos-fonte
 
 snack expo

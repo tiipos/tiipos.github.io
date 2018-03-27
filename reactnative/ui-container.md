@@ -10,6 +10,10 @@
 - Criar uma tela inicial do aplicativo;
 - Criar um componente Container.
 
+### [](#header-3) componentes react native
+
+1. [StatusBar](https://facebook.github.io/react-native/docs/statusbar.html): é um componente que controla a barra de status do aplicativo.
+2. [View](https://facebook.github.io/react-native/docs/view.html): é um container para outros componentes.
 
 ## [](#header-2) Códigos-fonte
 
