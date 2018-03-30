@@ -4,104 +4,101 @@ layout: default
 
 # [](#header-1) Cronograma da disciplina
 
-## [](#header-2) 1o Bimestre UI
+## [](#header-2) 1° Bimestre UI
 
 | \# | dia | conteúdo |
 | :--- | :--- | :--- |
 | 01 | quinta-feira 15-02  | Aula inicial |
 | 02 | segunda-feira 19-02 | [Introdução](reactnative/intro) e [Ambiente de desenvolvimento](reactnative/environment) |
-| 03 | quinta-feira 22-02  | Prática ambiente |
+| 03 | sexta-feira 23-02   | Prática ambiente |
 | 04 | segunda-feira 26-02 | Prática ambiente |
-| 05 | quinta-feira 01-03  | [Git](git/index) |
+| 05 | sexta-feira 02-03   | [Git](git/index) |
 | 06 | segunda-feira 05-03 | Git Prática |
-| 07 | quinta-feira 08-03  | Git Prática |
+| 07 | sexta-feira 09-03   | Git Prática |
 | 08 | segunda-feira 12-03 | [Interface do usuário](reactnative/ui) |
-| 09 | quinta-feira 15-03  | Prática: Interface do usuário de CurrencyConverter |
+| 09 | sexta-feira 16-03   | Prática: Interface do usuário de CurrencyConverter |
 | 10 | segunda-feira 19-03 | [Interface do usuário](reactnative/ui) |
-| 11 | quinta-feira 22-03  | Prática: Interface do usuário de BulletJournal |
+| 11 | sexta-feira 23-03   | Prática: Interface do usuário de BulletJournal |
 | 12 | segunda-feira 26-03 | Navegação entre telas |
 | 13 | segunda-feira 02-04 | Gerenciando o estado da aplicação |
-| 14 | quinta-feira 05-04  | Prática: navegação e estado de CurrencyConverter |
+| 14 | sexta-feira 06-04   | Prática: navegação e estado de CurrencyConverter |
 | 15 | segunda-feira 09-04 | Gerenciando o estado da aplicação |
-| 16 | quinta-feira 12-04  | Prática: navegação e estado de BulletJournal |
+| 16 | sexta-feira 13-04   | Prática: navegação e estado de BulletJournal |
 | 17 | segunda-feira 16-04 | Usando API / Webservices |
-| 18 | quinta-feira 19-04  | Prática: usando API de CurrencyConcerter |
+| 18 | sexta-feira 20-04   | Prática: usando API de CurrencyConcerter |
 | 19 | segunda-feira 23-04 | Entrega de resultados |
 
 
-## [](#header-2) 2o Bimestre API
+## [](#header-2) 2° Bimestre API
 
 | \# | dia | conteúdo |
 | :--- | :--- | :--- |
-| 01 | quinta-feira 26-04  |  |
+| 01 | sexta-feira 27-04   |  |
 | 02 | segunda-feira 30-04 |  |
-| 03 | quinta-feira 03-05  |  |
+| 03 | sexta-feira 04-05   |  |
 | 04 | segunda-feira 07-05 |  |
-| 05 | quinta-feira 10-05  |  |
+| 05 | sexta-feira 11-05   |  |
 | 06 | segunda-feira 14-05 |  |
-| 07 | quinta-feira 17-05  |  |
+| 07 | sexta-feira 18-05   |  |
 | 08 | segunda-feira 21-05 |  |
-| 09 | quinta-feira 24-05  |  |
+| 09 | sexta-feira 25-05   |  |
 | 10 | segunda-feira 28-05 |  |
 | 11 | segunda-feira 04-06 |  |
-| 12 | quinta-feira 07-06  |  |
+| 12 | sexta-feira 08-06   |  |
 | 13 | segunda-feira 11-06 |  |
-| 14 | quinta-feira 14-06  |  |
+| 14 | sexta-feira 15-06   |  |
 | 15 | segunda-feira 18-06 |  |
-| 16 | quinta-feira 21-06  |  |
+| 16 | sexta-feira 22-06   |  |
 | 17 | segunda-feira 25-06 |  |
-| 18 | quinta-feira 28-06  |  |
+| 18 | sexta-feira 29-06   |  |
 | 19 | segunda-feira 02-07 |  |
 
 
-## [](#header-2) 3o Bimestre
+## [](#header-2) 3° Bimestre
 
 | \# | dia | conteúdo |
 | :--- | :--- | :--- |
-| 01 | quinta-feira 26-07  |  |
+| 01 | sexta-feira 27-07   |  |
 | 02 | segunda-feira 30-07 |  |
-| 03 | quinta-feira 02-08  |  |
+| 03 | sexta-feira 03-08   |  |
 | 04 | segunda-feira 06-08 |  |
-| 05 | quinta-feira 09-08  |  |
+| 05 | sexta-feira 10-08   |  |
 | 06 | segunda-feira 13-08 |  |
-| 07 | quinta-feira 16-08  |  |
+| 07 | sexta-feira 17-08   |  |
 | 08 | segunda-feira 20-08 |  |
-| 09 | quinta-feira 23-08  |  |
+| 09 | sexta-feira 24-08   |  |
 | 10 | segunda-feira 27-08 |  |
-| 11 | quinta-feira 30-08  |  |
+| 11 | sexta-feira 31-08   |  |
 | 12 | segunda-feira 03-09 |  |
-| 13 | quinta-feira 06-09  |  |
-| 14 | segunda-feira 10-09 |  |
-| 15 | quinta-feira 13-09  |  |
-| 16 | segunda-feira 17-09 |  |
-| 17 | quinta-feira 20-09  |  |
-| 18 | segunda-feira 24-09 |  |
-| 19 | quinta-feira 27-09  |  |
-| 20 | segunda-feira 01-10 |  |
+| 13 | segunda-feira 10-09 |  |
+| 14 | sexta-feira 14-09   |  |
+| 15 | segunda-feira 17-09 |  |
+| 16 | sexta-feira 21-09   |  |
+| 17 | segunda-feira 24-09 |  |
+| 18 | sexta-feira 28-09   |  |
+| 19 | segunda-feira 01-10 |  |
 
 
-## [](#header-2) 4o Bimestre
+## [](#header-2) 4° Bimestre
 
 | \# | dia | conteúdo |
 | :--- | :--- | :--- |
-| 01 | quinta-feira 04-10  |  |
+| 01 | sexta-feira 05-10   |  |
 | 02 | segunda-feira 08-10 |  |
-| 03 | quinta-feira 11-10  |  |
-| 04 | segunda-feira 15-10 |  |
-| 05 | quinta-feira 18-10  |  |
-| 06 | segunda-feira 22-10 |  |
-| 07 | quinta-feira 25-10  |  |
-| 08 | segunda-feira 29-10 |  |
-| 09 | quinta-feira 01-11  |  |
-| 10 | segunda-feira 05-11 |  |
-| 11 | quinta-feira 08-11  |  |
-| 12 | segunda-feira 12-11 |  |
-| 13 | segunda-feira 19-11 |  |
-| 14 | quinta-feira 22-11  |  |
-| 15 | segunda-feira 26-11 |  |
-| 16 | quinta-feira 29-11  |  |
-| 17 | segunda-feira 03-12 |  |
-| 18 | quinta-feira 06-12  |  |
-| 19 | segunda-feira 10-12 |  |
-| 20 | quinta-feira 13-12  |  |
-| 21 | segunda-feira 17-12 | Entrega do resultado final |
+| 03 | segunda-feira 15-10 |  |
+| 04 | sexta-feira 19-10   |  |
+| 05 | segunda-feira 22-10 |  |
+| 06 | sexta-feira 26-10   |  |
+| 07 | segunda-feira 29-10 |  |
+| 08 | segunda-feira 05-11 |  |
+| 09 | sexta-feira 09-11   |  |
+| 10 | segunda-feira 12-11 |  |
+| 11 | segunda-feira 19-11 |  |
+| 12 | sexta-feira 23-11   |  |
+| 13 | segunda-feira 26-11 |  |
+| 14 | sexta-feira 30-11   |  |
+| 15 | segunda-feira 03-12 |  |
+| 16 | sexta-feira 07-12   |  |
+| 17 | segunda-feira 10-12 |  |
+| 18 | sexta-feira 14-12   |  |
+| 19 | segunda-feira 17-12 | Entrega do resultado final |
