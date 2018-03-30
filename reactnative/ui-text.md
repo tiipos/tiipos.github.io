@@ -21,7 +21,7 @@
 
 ## [](#header-2) Códigos-fonte
 
-snack expo
+[snack expo](https://snack.expo.io/@leonardo-minora/tiipos-2018-rn-04-app)
 
 **app/components/TextInput/index.js**
 ```javascript

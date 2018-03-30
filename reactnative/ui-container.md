@@ -17,7 +17,7 @@
 
 ## [](#header-2) Códigos-fonte
 
-[snack expo](https://snack.expo.io/@leonardo-minora/handlebar-labs---ui-container)
+[snack expo](https://snack.expo.io/@leonardo-minora/tiipos-2018-rn-02-app)
 
 
 **app/components/Container/Container.js**

@@ -12,7 +12,14 @@
 2. [Componente Logo](./ui-logo)
 3. [Text input](./ui-text)
 4. [Botão](./ui-button)
-6. Estilo
+6. [Texto estilizado](./ui-styled-text)
+7. Header
+8. Teclado
+9. Logo animado
+10. Lista flat
+11. Lista de item
+12. Tela de opções
+13. Temas
 
 
 ## [](#header-2) bibliotecas e links

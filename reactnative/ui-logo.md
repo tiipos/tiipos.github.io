@@ -11,15 +11,16 @@
 
 ### [](#header-3) componentes react native
 
-1. [ImageBackground](https://facebook.github.io/react-native/docs/images.html#background-image-via-nesting): é o mesmo que Image mas pode ser adicionado componentes filhos.
+1. [Dimensions](https://facebook.github.io/react-native/docs/dimensions.html)
 2. [Image](https://facebook.github.io/react-native/docs/image.html): é um componente para mostrar imagens.
+3. [ImageBackground](https://facebook.github.io/react-native/docs/images.html#background-image-via-nesting): é o mesmo que Image mas pode ser adicionado componentes filhos.
 3. [Text](https://facebook.github.io/react-native/docs/text.html): é um componente para mostrar textos.
 4. [View](https://facebook.github.io/react-native/docs/view.html): é um container para outros componentes.
 
 
 ## [](#header-2) Códigos-fonte
 
-[snack expo](https://snack.expo.io/@leonardo-minora/handlebar-labs---ui-logo)
+[snack expo]()
 
 **app/components/Logo/Logo.js**
 ```javascript
