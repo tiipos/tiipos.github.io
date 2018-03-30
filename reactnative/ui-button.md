@@ -5,6 +5,7 @@
 
 **Objetivos**:
 - criar um novo componente Button/ClearButton;
+- Usar o componente React Native TouchableOpacity;
 
 ### [](#header-3) componentes react native
 
@@ -19,7 +20,7 @@
 
 ## [](#header-2) Códigos-fonte
 
-snack expo
+[snack expo](https://snack.expo.io/@leonardo-minora/tiipos-2018-rn-06-app)
 
 [imagens](https://www.filepicker.io/api/file/S2JgcFzJSDyItFfv3sSi)
 

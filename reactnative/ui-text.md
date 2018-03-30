@@ -1,6 +1,6 @@
 
 
-# [](#header-1) Logo : UI : ReactNative
+# [](#header-1) Entrada de texto : UI : ReactNative
 
 
 ## [](#header-2) Introdução
