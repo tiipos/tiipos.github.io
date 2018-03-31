@@ -13,7 +13,7 @@
 3. [Text input](./ui-text)
 4. [Botão](./ui-button)
 6. [Texto estilizado](./ui-styled-text)
-7. Header
+7. [Header](ui-header)
 8. Teclado
 9. Logo animado
 10. Lista flat
