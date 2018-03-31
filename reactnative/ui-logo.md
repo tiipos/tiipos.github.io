@@ -20,7 +20,9 @@
 
 ## [](#header-2) Códigos-fonte
 
-[snack expo]()
+[snack expo](https://snack.expo.io/@leonardo-minora/tiipos-2018-rn-03-app)
+
+[imagens](https://www.filepicker.io/api/file/zl3iLVbSRR6Kn1b5Gvr2)
 
 **app/components/Logo/Logo.js**
 ```javascript
