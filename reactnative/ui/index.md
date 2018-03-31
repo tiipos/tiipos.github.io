@@ -8,13 +8,13 @@
 
 ## [](#header-2) Sumário de aulas
 
-1. [Tela inicial e componente Container](./ui-container)
-2. [Componente Logo](./ui-logo)
-3. [Text input](./ui-text)
-4. [Botão](./ui-button)
-6. [Texto estilizado](./ui-styled-text)
+1. [Tela inicial e componente Container](ui-container)
+2. [Componente Logo](ui-logo)
+3. [Text input](ui-text)
+4. [Botão](ui-button)
+6. [Texto estilizado](ui-styled-text)
 7. [Header](ui-header)
-8. Teclado
+8. [Teclado](ui-keyboard-view)
 9. Logo animado
 10. Lista flat
 11. Lista de item
