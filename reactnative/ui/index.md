@@ -22,6 +22,11 @@
 13. Temas
 
 
+**observações**:
+1. Os códigos-fonte publicados no [snack.expo](https://snack.expo.io/) estão corretos.
+2. [snack.expo](https://snack.expo.io/) tem um _bug_ de renderização de imagem ```TypeError: undefined is not an object (evaluating 'r.width')```. Este erro ocorre porque o objeto ```r``` deveria ter sido instanciado como ```Imagem``` e responder ao método ```width```, contudo este objeto esta vazio, ```undefined``` em _javascript_.
+
+
 ## [](#header-2) bibliotecas e links
 
 
