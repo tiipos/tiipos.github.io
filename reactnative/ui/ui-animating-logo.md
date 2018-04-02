@@ -33,7 +33,7 @@
 5. Faça o código ```app/components/Logo/Logo.js``` portável;
 
 
-### [](#header-3) Passo 1. Crie diretório ```app/components/Header```
+### [](#header-3) Passo 1. Inicie o app e abra no dispositivo ```app/components/Header```
 
 ```sh
 cd CurrencyConverter
@@ -69,6 +69,12 @@ export default EStyleSheet.create({
   },
   text: {
     color: '$white',
+    fontSize: 28,
+    letterSpacing: -0.5,
+    marginTop: 15,
+    fontWeight: '600',
+  },
+});
 ```
 
 
@@ -693,9 +699,10 @@ export default Logo;
 
 **app/components/Logo/styles.js**
 ```javascript
- import EStyleSheet from 'react-native-extended-stylesheet';
+import { Dimensions } from 'react-native';
+import EStyleSheet from 'react-native-extended-stylesheet';
  
- const imageWidth = Dimensions.get('window').width / 2;
+const imageWidth = Dimensions.get('window').width / 2;
  
 export default EStyleSheet.create({
   $smallContainerSize: imageWidth / 2,
@@ -717,4 +724,10 @@ export default EStyleSheet.create({
   },
   text: {
     color: '$white',
+    fontSize: 28,
+    letterSpacing: -0.5,
+    marginTop: 15,
+    fontWeight: '600',
+  },
+});
 ```
