@@ -15,7 +15,7 @@
 6. [Texto estilizado](ui-styled-text)
 7. [Header](ui-header)
 8. [Teclado](ui-keyboard-view)
-9. Logo animado
+9. [Logo animado](ui-animating-logo)
 10. Lista flat
 11. Lista de item
 12. Tela de opções
