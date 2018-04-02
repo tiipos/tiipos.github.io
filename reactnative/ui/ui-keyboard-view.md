@@ -20,7 +20,7 @@
 2. Edite o arquivo ```app/screens/Home.js``` e teste os resultados;
 
 
-### [](#header-3) Passo 1. Crie diretório ```app/components/Header```
+### [](#header-3) Passo 1. Inicie o app e abra no dispositivo
 
 ```sh
 cd CurrencyConverter
@@ -37,7 +37,7 @@ yarn start
 
 ```javascript
 import React, { Component } from 'react';
-import { StatusBar } from 'react-native';
+import { StatusBar, KeyboardAvoidingView } from 'react-native';
 
 import { Container } from '../components/Container';
 import { Logo } from '../components/Logo';
