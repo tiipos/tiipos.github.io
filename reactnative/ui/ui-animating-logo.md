@@ -15,6 +15,7 @@
 - [Component React](https://reactjs.org/docs/react-component.html)
 - [Ciclo de vida de componentes React](https://reactjs.org/docs/react-component.html#the-component-lifecycle): construtor, componentDidMount, componentWillUnmount, render
 - [Animated](https://facebook.github.io/react-native/docs/animated.html): é uma biblioteca para fazer animações.
+- [Dimensions](https://facebook.github.io/react-native/docs/dimensions.html)
 - [Keyboard](https://facebook.github.io/react-native/docs/keyboard.html): é uma biblioteca para controlar eventos do teclado.
 - [Platform](https://facebook.github.io/react-native/docs/platform-specific-code.html): é uma biblioteca para detectar a plataforma na qual o app esta sendo executado.
 - [PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html): é uma biblioteca para checagem de tipos.
@@ -43,6 +44,7 @@ yarn start
 
 **app/components/Logo/styles.js** coloque dimensões (grande e pequeno) para o as imagens
 ```javascript
+import { Dimensions } from 'react-native';
 import EStyleSheet from 'react-native-extended-stylesheet';
  
 const imageWidth = Dimensions.get('window').width / 2;
@@ -270,10 +272,309 @@ export default Logo;
 
 ### [](#header-3) Passo 4. Faça as imagens de background e logo animarem em paralelo
 
+**app/components/Logo/Logo.js** _android_
+```javascript
+import PropTypes from 'prop-types';
+import React, { Component } from 'react';
+import { View, Text, Keyboard, Animated, Platform, StyleSheet } from 'react-native';
+ 
+import styles from './styles';
+
+const ANIMATION_DURATION = 250;
+
+class Logo extends Component {
+  static propTypes = {
+    tintColor: PropTypes.string,
+  };
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      containerImageWidth: new Animated.Value(styles.$largeContainerSize),
+      imageWidth: new Animated.Value(styles.$largeImageSize),
+    };
+  }
+
+  componentDidMount() {
+    this.keyboardDidShowListener = Keyboard.addListener(
+      `keyboardDidShow`,
+      this.keyboardWillShow,
+    );
+    this.keyboardDidHideListener = Keyboard.addListener(
+      `keyboardDidHide`,
+      this.keyboardWillHide,
+    );
+  }
+
+  componentWillUnmount() {
+    this.keyboardDidShowListener.remove();
+    this.keyboardDidHideListener.remove();
+  }
+
+  keyboardWillShow = () => {
+    Animated.parallel([
+      Animated.timing(this.state.containerImageWidth, {
+        toValue: styles.$smallContainerSize,
+        duration: ANIMATION_DURATION,
+      }),
+      Animated.timing(this.state.imageWidth, {
+        toValue: styles.$smallImageSize,
+        duration: ANIMATION_DURATION,
+      }),
+    ]).start();
+  };
+
+  keyboardWillHide = () => {
+    Animated.parallel([
+      Animated.timing(this.state.containerImageWidth, {
+        toValue: styles.$largeContainerSize,
+        duration: ANIMATION_DURATION,
+      }),
+      Animated.timing(this.state.imageWidth, {
+        toValue: styles.$largeImageSize,
+        duration: ANIMATION_DURATION,
+      }),
+    ]).start();
+  };
+
+  render() {
+    const containerImageStyles = [
+      styles.containerImage,
+      { width: this.state.containerImageWidth, height: this.state.containerImageWidth },
+    ];
+    const imageStyles = [
+      styles.logo,
+      { width: this.state.imageWidth },
+      this.props.tintColor ? { tintColor: this.props.tintColor } : null,
+    ];
+
+    return (
+      <View style={styles.container}>
+        <Animated.View style={containerImageStyles}>
+          <Animated.Image
+            resizeMode="contain"
+            style={[StyleSheet.absoluteFill, containerImageStyles]}
+            source={require('./images/background.png')}
+          />
+          <Animated.Image
+            resizeMode="contain"
+            style={imageStyles}
+            source={require('./images/logo.png')}
+          />
+        </Animated.View>
+        <Text style={styles.text}>Currency Converter</Text>
+      </View>
+    );
+  }
+}
+ 
+export default Logo;
+```
+
+ou
+
+
+**app/components/Logo/Logo.js** _iOS_
+```javascript
+import PropTypes from 'prop-types';
+import React, { Component } from 'react';
+import { View, Text, Keyboard, Animated, Platform, StyleSheet } from 'react-native';
+ 
+import styles from './styles';
+
+const ANIMATION_DURATION = 250;
+
+class Logo extends Component {
+  static propTypes = {
+    tintColor: PropTypes.string,
+  };
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      containerImageWidth: new Animated.Value(styles.$largeContainerSize),
+      imageWidth: new Animated.Value(styles.$largeImageSize),
+    };
+  }
+
+  componentDidMount() {
+    this.keyboardDidShowListener = Keyboard.addListener(
+      `keyboardWillShow`,
+      this.keyboardWillShow,
+    );
+    this.keyboardDidHideListener = Keyboard.addListener(
+      `keyboardWillHide`,
+      this.keyboardWillHide,
+    );
+  }
+
+  componentWillUnmount() {
+    this.keyboardDidShowListener.remove();
+    this.keyboardDidHideListener.remove();
+  }
+
+  keyboardWillShow = () => {
+    Animated.parallel([
+      Animated.timing(this.state.containerImageWidth, {
+        toValue: styles.$smallContainerSize,
+        duration: ANIMATION_DURATION,
+      }),
+      Animated.timing(this.state.imageWidth, {
+        toValue: styles.$smallImageSize,
+        duration: ANIMATION_DURATION,
+      }),
+    ]).start();
+  };
+
+  keyboardWillHide = () => {
+    Animated.parallel([
+      Animated.timing(this.state.containerImageWidth, {
+        toValue: styles.$largeContainerSize,
+        duration: ANIMATION_DURATION,
+      }),
+      Animated.timing(this.state.imageWidth, {
+        toValue: styles.$largeImageSize,
+        duration: ANIMATION_DURATION,
+      }),
+    ]).start();
+  };
+
+  render() {
+    const containerImageStyles = [
+      styles.containerImage,
+      { width: this.state.containerImageWidth, height: this.state.containerImageWidth },
+    ];
+    const imageStyles = [
+      styles.logo,
+      { width: this.state.imageWidth },
+      this.props.tintColor ? { tintColor: this.props.tintColor } : null,
+    ];
+
+    return (
+      <View style={styles.container}>
+        <Animated.View style={containerImageStyles}>
+          <Animated.Image
+            resizeMode="contain"
+            style={[StyleSheet.absoluteFill, containerImageStyles]}
+            source={require('./images/background.png')}
+          />
+          <Animated.Image
+            resizeMode="contain"
+            style={imageStyles}
+            source={require('./images/logo.png')}
+          />
+        </Animated.View>
+        <Text style={styles.text}>Currency Converter</Text>
+      </View>
+    );
+  }
+}
+ 
+export default Logo;
+```
+
 
 ### [](#header-3) Passo 5. Faça o código portável;
 
+**app/components/Logo/Logo.js**
+```javascript
+import PropTypes from 'prop-types';
+import React, { Component } from 'react';
+import { View, Text, Keyboard, Animated, Platform, StyleSheet } from 'react-native';
+ 
+import styles from './styles';
 
+const ANIMATION_DURATION = 250;
+
+class Logo extends Component {
+  static propTypes = {
+    tintColor: PropTypes.string,
+  };
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      containerImageWidth: new Animated.Value(styles.$largeContainerSize),
+      imageWidth: new Animated.Value(styles.$largeImageSize),
+    };
+  }
+
+  componentDidMount() {
+    const name = Platform.OS === 'ios' ? 'Will' : 'Did';
+    this.keyboardDidShowListener = Keyboard.addListener(
+      `keyboard${name}Show`,
+      this.keyboardWillShow,
+    );
+    this.keyboardDidHideListener = Keyboard.addListener(
+      `keyboard${name}Hide`,
+      this.keyboardWillHide,
+    );
+  }
+
+  componentWillUnmount() {
+    this.keyboardDidShowListener.remove();
+    this.keyboardDidHideListener.remove();
+  }
+
+  keyboardWillShow = () => {
+    Animated.parallel([
+      Animated.timing(this.state.containerImageWidth, {
+        toValue: styles.$smallContainerSize,
+        duration: ANIMATION_DURATION,
+      }),
+      Animated.timing(this.state.imageWidth, {
+        toValue: styles.$smallImageSize,
+        duration: ANIMATION_DURATION,
+      }),
+    ]).start();
+  };
+
+  keyboardWillHide = () => {
+    Animated.parallel([
+      Animated.timing(this.state.containerImageWidth, {
+        toValue: styles.$largeContainerSize,
+        duration: ANIMATION_DURATION,
+      }),
+      Animated.timing(this.state.imageWidth, {
+        toValue: styles.$largeImageSize,
+        duration: ANIMATION_DURATION,
+      }),
+    ]).start();
+  };
+
+  render() {
+    const containerImageStyles = [
+      styles.containerImage,
+      { width: this.state.containerImageWidth, height: this.state.containerImageWidth },
+    ];
+    const imageStyles = [
+      styles.logo,
+      { width: this.state.imageWidth },
+      this.props.tintColor ? { tintColor: this.props.tintColor } : null,
+    ];
+
+    return (
+      <View style={styles.container}>
+        <Animated.View style={containerImageStyles}>
+          <Animated.Image
+            resizeMode="contain"
+            style={[StyleSheet.absoluteFill, containerImageStyles]}
+            source={require('./images/background.png')}
+          />
+          <Animated.Image
+            resizeMode="contain"
+            style={imageStyles}
+            source={require('./images/logo.png')}
+          />
+        </Animated.View>
+        <Text style={styles.text}>Currency Converter</Text>
+      </View>
+    );
+  }
+}
+ 
+export default Logo;
+```
 
 
 
