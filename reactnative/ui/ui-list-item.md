@@ -12,6 +12,13 @@
 
 ### [](#header-3) componentes react native
 
+- [FlatList](https://facebook.github.io/react-native/docs/flatlist.html): compomente performático e multiplataforma para apresentar dados em lista.
+- [Image](https://facebook.github.io/react-native/docs/image.html): é um componente para mostrar imagens.
+- [PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html): é uma biblioteca para checagem de tipos.
+- [StatusBar](https://facebook.github.io/react-native/docs/statusbar.html): é um componente que controla a barra de status do aplicativo.
+- [Text](https://facebook.github.io/react-native/docs/text.html): é um componente para mostrar textos.
+- [TouchableHighlight](https://facebook.github.io/react-native/docs/touchablehighlight.html): é um wrapper para que as visualizações respondam adequadamente aos toques.
+- [View](https://facebook.github.io/react-native/docs/view.html): é um container para outros componentes.
 
 
 ## [](#header-2) Sumário
