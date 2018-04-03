@@ -18,8 +18,8 @@
 9. [Logo animado](ui-animating-logo)
 10. [Lista flat](ui-flat-list)
 11. [Lista de item](ui-list-item)
-12. Tela de opções
-13. Temas
+12. [Tela de opções](ui-options)
+13. [Tela de Temas](ui-themes)
 
 
 **observações**:
