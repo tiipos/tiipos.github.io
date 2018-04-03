@@ -6,7 +6,7 @@
 ## [](#header-2) Introdução
 
 **Objetivos**:
-- 
+- criar uma nova tela com a lista de moedas (_currencies_).
 
 ### [](#header-3) componentes react native
 
