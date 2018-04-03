@@ -113,7 +113,7 @@ Com editor copie o conteúdo do arquivo do final desta página.
 
 ## [](#header-2) Códigos-fonte
 
-[snack expo](https://snack.expo.io/@leonardo-minora/tiipos-2018-rn-11-app)
+[snack expo](https://snack.expo.io/@leonardo-minora/tiipos-2018-rn-12-app)
 
 [imagens](https://www.filepicker.io/api/file/aA2ThTDNSSGoZ3JjMTtks)
 
