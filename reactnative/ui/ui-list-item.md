@@ -36,7 +36,7 @@
 11. Veja o resultado final
 
 
-### [](#header-3) Passo 1. Inicie o app e abra no dispositivo ```app/components/Header```
+### [](#header-3) Passo 1. Inicie o app
 
 ```sh
 cd CurrencyConverter
@@ -115,7 +115,7 @@ Com editor copie o conteúdo do arquivo do final desta página.
 
 [snack expo](https://snack.expo.io/@leonardo-minora/tiipos-2018-rn-12-app)
 
-[imagens](https://www.filepicker.io/api/file/aA2ThTDNSSGoZ3JjMTtks)
+[imagens](https://www.filepicker.io/api/file/aA2ThTDNSSGoZ3JjMTtk)
 
 **app/components/List/index.js**
 ```javascript
