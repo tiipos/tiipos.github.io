@@ -21,7 +21,7 @@
 
 1. Inicie o app e abra no dispositivo;
 2. Edite o arquivo de tela ```app/components/List/ListItem.js```
-3. Crie e edite o arquivo de tela ```app/screens/CurrencyList.js```
+3. Crie e edite o arquivo de tela ```app/screens/Options.js```
 4. Edite o arquivo ```app/index.js```
 
 
@@ -38,10 +38,10 @@ yarn start
 com editor copie o conteúdo do arquivo do final desta página.
 
 
-### [](#header-3) Passo 3. Crie e edite o arquivo de tela ```app/screens/CurrencyList.js```
+### [](#header-3) Passo 3. Crie e edite o arquivo de tela ```app/screens/Options.js```
 
 ```sh
-touch app/screens/Themes.js
+touch app/screens/Options.js
 ```
 
 com editor copie o conteúdo do arquivo do final desta página.
@@ -168,6 +168,7 @@ EStyleSheet.build({
   $lightGray: '#F0F0F0',
   $border: '#979797',
   $inputText: '#797979',
+  $darkText: '#343434',
 });
 
 export default () => <Options />;
