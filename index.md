@@ -16,3 +16,4 @@ layout: default
     - sexta-feira, Laboratótio 06, 16:30 as 18:00 
   - __CAP no Laboratório 05__
     - sexta-feira, 8:50 as 10:20
+    - Responsáveis por abrir a sala: Andrey e Victor
