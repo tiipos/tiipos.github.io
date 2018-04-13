@@ -23,11 +23,11 @@
 1. Inicie o app e abra no dispositivo;
 2. Edite o arquivo de tela ```app/components/List/Icon.js```
 3. Edite o arquivo de tela ```app/components/List/ListItem.js```
-4. Crie e edite o arquivo de tela ```app/screens/CurrencyList.js```
+4. Crie e edite o arquivo de tela ```app/screens/Themes.js```
 5. Edite o arquivo ```app/index.js```
 
 
-### [](#header-3) Passo 1. Inicie o app e abra no dispositivo ```app/components/Header```
+### [](#header-3) Passo 1. Inicie o app e abra no dispositivo 
 
 ```sh
 cd CurrencyConverter
@@ -35,17 +35,17 @@ yarn start
 ```
 
 
-### [](#header-3) Passo 2. Edite o arquivo de tela ```app/components/List/Icon.js```
+### [](#header-3) Passo 2. Edite o arquivo ```app/components/List/Icon.js```
 
 com editor copie o conteúdo do arquivo do final desta página.
 
 
-### [](#header-3) Passo 3. Edite o arquivo de tela ```app/components/List/ListItem.js```
+### [](#header-3) Passo 3. Edite o arquivo ```app/components/List/ListItem.js```
 
 com editor copie o conteúdo do arquivo do final desta página.
 
 
-### [](#header-3) Passo 3. Crie e edite o arquivo de tela ```app/screens/Themes.js```
+### [](#header-3) Passo 4. Crie e edite o arquivo de tela ```app/screens/Themes.js```
 
 ```sh
 touch app/screens/Themes.js
@@ -57,7 +57,7 @@ com editor copie o conteúdo do arquivo do final desta página.
 ### [](#header-3) Passo 2. Edite o arquivo ```app/index.js```
 
 Com editor copie o conteúdo do arquivo do final desta página.
-Será substituído a apresentação da tela ```Home``` pela tela ```CurrencyList```
+Será substituído a apresentação da tela ```Options``` pela tela ```Themes```
 
 
 
@@ -242,6 +242,7 @@ EStyleSheet.build({
   $lightGray: '#F0F0F0',
   $border: '#979797',
   $inputText: '#797979',
+  $darkText: '#343434',
 });
 
 export default () => <Themes />;
