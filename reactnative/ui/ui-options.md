@@ -69,7 +69,7 @@ Será substituído a apresentação da tela ```CurrencyList``` pela tela ```Opti
 
 
 **app/components/List/ListItem.js**
-```javascript
+```jsx
 import PropTypes from 'prop-types';
 import React from 'react';
 import { View, Text, TouchableHighlight } from 'react-native';
@@ -109,7 +109,7 @@ ListItem.propTypes = {
 
 
 **app/screens/Options.js**
-```javascript
+```jsx
 import React, { Component } from 'react';
 import { ScrollView, StatusBar, Platform } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
@@ -156,7 +156,7 @@ export default Options;
 
 
 **app/index.js**
-```javascript
+```jsx
 import React from 'react';
 import EStyleSheet from 'react-native-extended-stylesheet';
 

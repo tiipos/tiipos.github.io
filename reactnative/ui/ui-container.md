@@ -21,7 +21,7 @@
 
 
 **app/components/Container/Container.js**
-```javascript
+```jsx
 import PropTypes from 'prop-types';
 import React from 'react';
 import { View } from 'react-native';
@@ -43,7 +43,7 @@ export default Container;
 
 
 **app/components/Container/index.js**
-```javascript
+```jsx
 import Container from './Container';
 import styles from './styles';
 
@@ -51,7 +51,7 @@ export { Container, styles };
 ```
 
 **app/components/Container/styles.js**
-```javascript
+```jsx
 import EStyleSheet from 'react-native-extended-stylesheet';
 
 export default EStyleSheet.create({
@@ -66,7 +66,7 @@ export default EStyleSheet.create({
 
 
 **app/screens/Home.js**
-```javascript
+```jsx
 import React from 'react';
 import { StatusBar } from 'react-native';
 
@@ -80,7 +80,7 @@ export default () => (
 ```
 
 **app/index.js**
-```javascript
+```jsx
 import React from 'react';
 import EStyleSheet from 'react-native-extended-stylesheet';
 
@@ -94,7 +94,7 @@ export default () => <Home />;
 ```
 
 **App.js**
-```javascript
+```jsx
 import App from './app/index';
  
 export default App;

@@ -25,7 +25,7 @@
 [imagens](https://www.filepicker.io/api/file/S2JgcFzJSDyItFfv3sSi)
 
 **app/components/Button/index.js**
-```javascript
+```jsx
 import ClearButton from './ClearButton';
 import styles from './styles';
 
@@ -33,7 +33,7 @@ export { ClearButton, styles };
 ```
 
 **app/components/Button/ClearButton.js**
-```javascript
+```jsx
 import PropTypes from 'prop-types';
 import React from 'react';
 import { Text, TouchableOpacity, Image, View } from 'react-native';
@@ -59,7 +59,7 @@ export default ClearButton
 
 
 **app/components/Button/styles.js**
-```javascript
+```jsx
 import EStyleSheet from 'react-native-extended-stylesheet';
 
 export default EStyleSheet.create({
@@ -84,11 +84,11 @@ export default EStyleSheet.create({
 ```
 
 **app/index.js**
-```javascript
+```jsx
 ```
 
 **app/screens/Home.js**
-```javascript
+```jsx
 import React, { Component } from 'react';
 import { StatusBar } from 'react-native';
 

@@ -24,7 +24,7 @@
 [snack expo](https://snack.expo.io/@leonardo-minora/tiipos-2018-rn-04-app)
 
 **app/components/TextInput/index.js**
-```javascript
+```jsx
 import InputWithButton from './InputWithButton';
 import styles from './styles';
 
@@ -32,7 +32,7 @@ export { InputWithButton, styles };
 ```
 
 **app/components/TextInput/InputWithButton.js**
-```javascript
+```jsx
 import PropTypes from 'prop-types';
 import React from 'react';
 import { View, TextInput, TouchableHighlight, Text } from 'react-native';
@@ -76,7 +76,7 @@ export default InputWithButton;
 
 
 **app/components/TextInput/styles.js**
-```javascript
+```jsx
 import { StyleSheet } from 'react-native';
 import EStyleSheet from 'react-native-extended-stylesheet';
 
@@ -129,7 +129,7 @@ export default EStyleSheet.create({
 ```
 
 **app/index.js**
-```javascript
+```jsx
 import React from 'react';
 import EStyleSheet from 'react-native-extended-stylesheet';
 
@@ -147,7 +147,7 @@ export default () => <Home />;
 ```
 
 **app/screens/Home.js**
-```javascript
+```jsx
 import React, { Component } from 'react';
 import { StatusBar, KeyboardAvoidingView } from 'react-native';
  
@@ -200,7 +200,7 @@ export default Home;
 ```
 
 **components/Container/Container.js**
-```javascript
+```jsx
 import PropTypes from 'prop-types';
 import React from 'react';
 import { View, TouchableWithoutFeedback, Keyboard } from 'react-native';

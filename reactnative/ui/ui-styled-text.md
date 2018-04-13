@@ -21,7 +21,7 @@
 [snack expo](https://snack.expo.io/@leonardo-minora/tiipos-2018-rn-07-app)
 
 **app/components/Text/index.js**
-```javascript
+```jsx
 import LastConverted from './LastConverted';
 import styles from './styles';
 
@@ -30,7 +30,7 @@ export { LastConverted, styles };
 
 
 **app/components/Text/LastConverted.js**
-```javascript
+```jsx
 import PropTypes from 'prop-types';
 import React from 'react';
 import { Text } from 'react-native';
@@ -56,7 +56,7 @@ export default LastConverted;
 
    
 **app/components/Text/styles.js**
-```javascript
+```jsx
 import EStyleSheet from 'react-native-extended-stylesheet';
 
 export default EStyleSheet.create({
@@ -70,7 +70,7 @@ export default EStyleSheet.create({
 
 
 **app/screens/Home.js**
-```javascript
+```jsx
 import React, { Component } from 'react';
 import { StatusBar, KeyboardAvoidingView } from 'react-native';
 

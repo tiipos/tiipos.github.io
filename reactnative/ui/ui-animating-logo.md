@@ -43,7 +43,7 @@ yarn start
 ### [](#header-3) Passo 2. Edite o arquivo ```app/components/Logo/styles.js```
 
 **app/components/Logo/styles.js** coloque dimensões (grande e pequeno) para o as imagens
-```javascript
+```jsx
 import { Dimensions } from 'react-native';
 import EStyleSheet from 'react-native-extended-stylesheet';
  
@@ -85,7 +85,7 @@ export default EStyleSheet.create({
 - O código-fonte difere das plataformas _Android_ (```keyboardDidShow``` e ```keyboardDidHide```) e _iOS_ (```keyboardWillShow``` e ```keyboardWillHide```).
 
 **app/components/Logo/Logo.js** _Android_
-```javascript
+```jsx
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import { View, Text, Keyboard, Animated, StyleSheet } from 'react-native';
@@ -182,7 +182,7 @@ export default Logo;
 ou
 
 **app/components/Logo/Logo.js** _iOS_
-```javascript
+```jsx
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import { View, Text, Keyboard, Animated, StyleSheet } from 'react-native';
@@ -279,7 +279,7 @@ export default Logo;
 ### [](#header-3) Passo 4. Faça as imagens de background e logo animarem em paralelo
 
 **app/components/Logo/Logo.js** _android_
-```javascript
+```jsx
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import { View, Text, Keyboard, Animated, Platform, StyleSheet } from 'react-native';
@@ -381,7 +381,7 @@ ou
 
 
 **app/components/Logo/Logo.js** _iOS_
-```javascript
+```jsx
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import { View, Text, Keyboard, Animated, Platform, StyleSheet } from 'react-native';
@@ -483,7 +483,7 @@ export default Logo;
 ### [](#header-3) Passo 5. Faça o código portável;
 
 **app/components/Logo/Logo.js**
-```javascript
+```jsx
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import { View, Text, Keyboard, Animated, Platform, StyleSheet } from 'react-native';
@@ -597,7 +597,7 @@ export default Logo;
 
 
 **app/components/Logo/Logo.js**
-```javascript
+```jsx
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import { View, Text, Keyboard, Animated, Platform, StyleSheet } from 'react-native';
@@ -698,7 +698,7 @@ export default Logo;
 
 
 **app/components/Logo/styles.js**
-```javascript
+```jsx
 import { Dimensions } from 'react-native';
 import EStyleSheet from 'react-native-extended-stylesheet';
  

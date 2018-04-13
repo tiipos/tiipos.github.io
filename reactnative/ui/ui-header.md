@@ -58,7 +58,7 @@ yarn start
 
 ### [](#header-3) Passo 4. Edite o arquivo ```app/components/Header/styles.js```
 
-```javascript
+```jsx
 import EStyleSheet from 'react-native-extended-stylesheet';
 
 export default EStyleSheet.create({});
@@ -67,7 +67,7 @@ export default EStyleSheet.create({});
 
 ### [](#header-3) Passo 5. Edite o arquivo ```app/components/Header/Header.js```
 
-```javascript
+```jsx
 import React from 'react';
 import { View } from 'react-native';
 
@@ -81,7 +81,7 @@ export default Header;
 
 ### [](#header-3) Passo 6. Edite o arquivo ```app/components/Header/index.js```
 
-```javascript
+```jsx
 import Header from './Header';
 import styles from './styles';
 
@@ -91,7 +91,7 @@ export { Header, styles };
 
 ### [](#header-3) Passo 7. Edite o arquivo ```app/screens/Home.js``` e veja o resultado
 
-```javascript
+```jsx
 import React, { Component } from 'react';
 import { StatusBar } from 'react-native';
 
@@ -187,7 +187,7 @@ ls -l images
 
 ### [](#header-3) Passo 10. Edite o arquivo ```app/components/Header/Header.js```
 
-```javascript
+```jsx
 import PropTypes from 'prop-types';
 import React from 'react';
 import { View, Image, TouchableOpacity } from 'react-native';
@@ -212,7 +212,7 @@ export default Header;
 
 ### [](#header-3) Passo 11. Edite o arquivo ```app/components/Header/styles.js```
 
-```javascript
+```jsx
 import EStyleSheet from 'react-native-extended-stylesheet';
 import { StatusBar } from 'react-native';
 
@@ -252,7 +252,7 @@ export default EStyleSheet.create({
 
 
 **app/components/Header/index.js**
-```javascript
+```jsx
 import Header from './Header';
 import styles from './styles';
 
@@ -261,7 +261,7 @@ export { Header, styles };
 
 
 **app/components/Header/Header.js**
-```javascript
+```jsx
 import PropTypes from 'prop-types';
 import React from 'react';
 import { View, Image, TouchableOpacity } from 'react-native';
@@ -284,7 +284,7 @@ export default Header;
 ```
 
 **app/components/Header/styles.js**
-```javascript
+```jsx
 import EStyleSheet from 'react-native-extended-stylesheet';
 import { StatusBar } from 'react-native';
 
@@ -313,7 +313,7 @@ export default EStyleSheet.create({
 ```
 
 **app/screens/Home.js**
-```javascript
+```jsx
 import React, { Component } from 'react';
 import { StatusBar } from 'react-native';
 

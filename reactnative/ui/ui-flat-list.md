@@ -110,7 +110,7 @@ export default [
 
 
 **app/screens/CurrencyList.js**
-```javascript
+```jsx
 import React, { Component } from 'react';
 import { FlatList, Text, StatusBar, View } from 'react-native';
 
@@ -141,11 +141,11 @@ export default CurrencyList;
 
 
 **app/index.js**
-```javascript
+```jsx
 import React from 'react';
 import EStyleSheet from 'react-native-extended-stylesheet';
 
-import Home from './screens/CurrencyList';
+import CurrencyList from './screens/CurrencyList';
 
 EStyleSheet.build({
   $primaryBlue: '#4F6D7A',

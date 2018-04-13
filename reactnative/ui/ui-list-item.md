@@ -118,7 +118,7 @@ Com editor copie o conteúdo do arquivo do final desta página.
 [imagens](https://www.filepicker.io/api/file/aA2ThTDNSSGoZ3JjMTtks)
 
 **app/components/List/index.js**
-```javascript
+```jsx
 import ListItem from './ListItem';
 import styles from './styles';
 import Separator from './Separator';
@@ -130,7 +130,7 @@ export { ListItem, styles, Separator, Icon };
 
 
 **app/components/List/Icon.js**
-```javascript
+```jsx
 import PropTypes from 'prop-types';
 import React from 'react';
 import { View, Image } from 'react-native';
@@ -171,7 +171,7 @@ export default Icon;
 
 
 **app/components/List/ListItem.js**
-```javascript
+```jsx
 import PropTypes from 'prop-types';
 import React from 'react';
 import { View, Text, TouchableHighlight } from 'react-native';
@@ -202,7 +202,7 @@ export default ListItem;
 
 
 **app/components/List/Separator.js**
-```javascript
+```jsx
 import React from 'react';
 import { View } from 'react-native';
 
@@ -216,7 +216,7 @@ export default Separator;
 
 
 **app/components/List/styles.js**
-```javascript
+```jsx
 import { StyleSheet } from 'react-native';
 import EStyleSheet from 'react-native-extended-stylesheet';
 
@@ -260,7 +260,7 @@ export default EStyleSheet.create({
 
 
 **app/screens/CurrencyList.js**
-```javascript
+```jsx
 import React, { Component } from 'react';
 import { FlatList, StatusBar, View } from 'react-native';
 
@@ -301,7 +301,7 @@ export default CurrencyList;
 
 
 **app/index.js**
-```javascript
+```jsx
 import React from 'react';
 import EStyleSheet from 'react-native-extended-stylesheet';
 

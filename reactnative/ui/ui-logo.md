@@ -25,7 +25,7 @@
 [imagens](https://www.filepicker.io/api/file/zl3iLVbSRR6Kn1b5Gvr2)
 
 **app/components/Logo/Logo.js**
-```javascript
+```jsx
 import React from 'react';
 import { View, Text, ImageBackground, Image } from 'react-native';
 
@@ -48,7 +48,7 @@ export default Logo;
 ```
 
 **app/components/Logo/index.js**
-```javascript
+```jsx
 import Logo from './Logo';
 import styles from './styles';
 
@@ -57,7 +57,7 @@ export { Logo, styles };
 
 
 **app/components/Logo/styles.js**
-```javascript
+```jsx
 import { Dimensions } from 'react-native';
 import EStyleSheet from 'react-native-extended-stylesheet';
 
@@ -87,7 +87,7 @@ export default EStyleSheet.create({
 ```
 
 **app/index.js**
-```javascript
+```jsx
 import React from 'react';
 import EStyleSheet from 'react-native-extended-stylesheet';
 
@@ -102,7 +102,7 @@ export default () => <Home />;
 ```
 
 **app/screens/Home.js**
-```javascript
+```jsx
 import { StatusBar } from 'react-native';
  
 import { Container } from '../components/Container';

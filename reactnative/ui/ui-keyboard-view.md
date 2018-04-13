@@ -35,7 +35,7 @@ yarn start
 3. ```behavior="padding"```
 
 
-```javascript
+```jsx
 import React, { Component } from 'react';
 import { StatusBar, KeyboardAvoidingView } from 'react-native';
 
@@ -120,7 +120,7 @@ export default Home;
 
 
 **app/screens/Home.js**
-```javascript
+```jsx
 import React, { Component } from 'react';
 import { StatusBar, KeyboardAvoidingView } from 'react-native';
 
