@@ -11,8 +11,8 @@ layout: default
   - Carga horária semanal: 4 horas/aula
   - Carga horária por bimestre: 10 semanas com carga-horária de 40 horas/aula
 - Horários e Laboratórios
-  - **Aulas no Laboratório 06**
-    - segunda-feira, 14:40 as 16:10 
-    - quinta-feira, 16:30 as 18:00 
+  - **Aulas**
+    - segunda-feira, Laboratótio 07, 14:40 as 16:10 
+    - sexta-feira, Laboratótio 06, 16:30 as 18:00 
   - __CAP no Laboratório 05__
     - sexta-feira, 8:50 as 10:20
