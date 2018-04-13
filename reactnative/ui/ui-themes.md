@@ -75,7 +75,7 @@ Será substituído a apresentação da tela ```Options``` pela tela ```Themes```
 [snack expo](https://snack.expo.io/@leonardo-minora/tiipos-2018-rn-14-app)
 
 **app/components/List/Icon.js**
-```javascript
+```jsx
 import PropTypes from 'prop-types';
 import React from 'react';
 import { View, Image } from 'react-native';
@@ -118,7 +118,7 @@ Icon.propTypes = {
 
 
 **app/components/List/ListItem.js**
-```javascript
+```jsx
 import PropTypes from 'prop-types';
 import React from 'react';
 import { View, Text, TouchableHighlight } from 'react-native';
@@ -162,7 +162,7 @@ ListItem.propTypes = {
 
 
 **app/screens/Themes.js**
-```javascript
+```jsx
 import React, { Component } from 'react';
 import { ScrollView, StatusBar } from 'react-native';
 import EStyleSheet from 'react-native-extended-stylesheet';
@@ -227,7 +227,7 @@ export default Themes;
 
 
 **app/index.js**
-```javascript
+```jsx
 import React from 'react';
 import EStyleSheet from 'react-native-extended-stylesheet';
 
