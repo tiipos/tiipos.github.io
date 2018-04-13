@@ -6,13 +6,8 @@ layout: default
 
 ## [](#header-2) 1o Bimestre
 
-1. [Configurando e usando o ambiente de desenvolvimento](reactnative/environment_exams)
-2. [try git](https://try.github.io/)
-3. Entendendo a interface do usuário
-4. Navegando entre telas
-5. Gerenciando o estado da aplicação
-6. Acessando APIs
-
+1. Clone do projeto CurrencyConverte funcionando, dia 23/04
+2. Protótipos de tela do BulletJournal, dia 27/04
 
 
 ## [](#header-2) 2o Bimestre
