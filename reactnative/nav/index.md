@@ -4,8 +4,11 @@
 ## [](#header-2) Introdução
 
 **Objetivo**: Programar navegabilidade entre telas (screen).
+
 **Componente**: React Navigation
+
 **Bibliotecas React (Native)**:  [react-navigation](https://github.com/react-navigation/react-navigation) [react-native-dropdownalert](https://github.com/testshallpass/react-native-dropdownalert) [hoist-non-react-statics](https://github.com/mridgway/hoist-non-react-statics)
+
 **Instalação**: 
 - ```yarn add react-navigation react-native-dropdownalert hoist-non-react-statics``` ou
 - ```npm i react-navigation react-native-dropdownalert hoist-non-react-statics```
