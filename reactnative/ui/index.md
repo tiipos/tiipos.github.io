@@ -1,6 +1,4 @@
-
-
-# [](#header-1) Interface do usuário ReactNative
+# [](#header-1) ReactNative: Interface do usuário
 
 
 ## [](#header-2) Introdução
