@@ -16,6 +16,6 @@
 ## [](#header-2) Sumário de aulas
 
 1. [List modal](nav-list-modal)
-2. Pilha de navegação
-3. Links externos
+2. [Pilha de navegação](nav-stack)
+3. [Links externos](nav-external-link)
 4. Tratando erros
