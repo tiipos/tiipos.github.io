@@ -394,18 +394,20 @@ import { StackNavigator } from 'react-navigation';
 import Home from '../screens/Home';
 import CurrencyList from '../screens/CurrencyList';
 
-export default StackNavigator({
-  Home: {
-    screen: Home,
-    navigationOptions: {
-      header: () => null,
+export default StackNavigator(
+  {
+    Home: {
+      screen: Home,
+      navigationOptions: {
+        header: () => null,
+      },
     },
-  },
-  CurrencyList: {
-    screen: CurrencyList,
-    navigationOptions: ({navigation}) => ({
-      headerTitle: navigation.state.params.title,
-    }),
+    CurrencyList: {
+      screen: CurrencyList,
+      navigationOptions: ({navigation}) => ({
+        headerTitle: navigation.state.params.title,
+      }),
+    }
   },
   {
     mode: 'modal',
@@ -413,7 +415,7 @@ export default StackNavigator({
       paddingTop: StatusBar.currentHeight,
     },
   },
-});
+);
 ```
 
 **app/components/Header/styles.js**
