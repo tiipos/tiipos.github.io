@@ -41,7 +41,7 @@ touch app/components/Alert/index.js
 
 **2. editar os códigos-fonte com os conteúdos abaixo**
 
-**app/components/Alert/AlertProvider.js** v4
+**app/components/Alert/AlertProvider.js**
 ```jsx
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
