@@ -71,7 +71,7 @@ class AlertProvider extends Component {
 
   render() {
     return (
-      <View style={{ flex: 1 }}>
+      <View style={{flex:1}}>
         {React.Children.only(this.props.children)}
         <DropdownAlert
           ref={(ref) => {
