@@ -41,12 +41,18 @@ touch app/components/Alert/index.js
 
 **2. editar os códigos-fonte com os conteúdos abaixo**
 
-**app/components/Alert/AlertProvider.js** v3
+**app/components/Alert/AlertProvider.js** v4
 ```jsx
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
-import { View } from 'react-native';
+import { View, StyleSheet } from 'react-native';
 import DropdownAlert from 'react-native-dropdownalert';
+
+const styles = StyleSheet.create({
+  view: { 
+    flex: 1,
+  },
+});
 
 class AlertProvider extends Component {
   static get childContextTypes() {
@@ -71,7 +77,7 @@ class AlertProvider extends Component {
 
   render() {
     return (
-      <View style={{ flex:1, }}>
+      <View style={styles.view}>
         {React.Children.only(this.props.children)}
         <DropdownAlert
           ref={(ref) => {
