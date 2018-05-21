@@ -383,7 +383,7 @@ export default Themes;
 
 ### [](#header-3) Passo 7. Programar a CurrencyList Stack
 
-**app/config/router.js**
+**app/config/routes.js**
 ```jsx
 import { StackNavigator } from 'react-navigation';
 import { StatusBar } from 'react-native';

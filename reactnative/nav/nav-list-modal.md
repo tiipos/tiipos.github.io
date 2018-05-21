@@ -44,11 +44,11 @@ mkdir app/config
 ### [](#header-3) Passo 3. Criar arquivo de configurações de rotas
 
 ```sh
-touch app/config/router.js
+touch app/config/routes.js
 ```
 
 
-**app/config/router.js**
+**app/config/routes.js**
 ```jsx
 import  { StackNavigator } from 'react-navigation';
 
@@ -93,7 +93,7 @@ export default () => <Navigator />;
 
 ### [](#header-3) Passo 5. Configurar header da tela Home
 
-**app/config/router.js**
+**app/config/routes.js**
 ```jsx
 import  { StackNavigator } from 'react-navigation';
 
@@ -200,7 +200,7 @@ export default Home;
 
 ### [](#header-3) Passo 7. Configurando o tipo de transição
 
-**app/config/router.js**
+**app/config/routes.js**
 ```jsx
 import  { StackNavigator } from 'react-navigation';
 
@@ -309,7 +309,7 @@ class Home extends Component {
 export default Home;
 ```
 
-**app/config/router.js**
+**app/config/routes.js**
 ```jsx
 import  { StackNavigator } from 'react-navigation';
 
@@ -386,7 +386,7 @@ export default CurrencyList;
 
 ### [](#header-3) Passo 10. Ajustando o Header para o Android
 
-**app/config/router.js**
+**app/config/routes.js**
 ```jsx
 import { StatusBar } from 'react-native';
 import { StackNavigator } from 'react-navigation';
@@ -469,7 +469,7 @@ export default () => <Navigator />;
 ```
 
 
-**app/config/router.js**
+**app/config/routes.js**
 ```jsx
 import { StatusBar } from 'react-native';
 import { StackNavigator } from 'react-navigation';
