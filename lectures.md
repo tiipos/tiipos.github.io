@@ -18,7 +18,7 @@ layout: default
 2. [Configurando e usando o ambiente de desenvolvimento](reactnative/environment)
 3. [Entendendo a interface do usuário](reactnative/ui)
 4. [Navegando entre telas](reactnative/nav)
-5. Gerenciando o estado da aplicação
+5. [Gerenciando o estado da aplicação](reactnative/redux)
 6. Acessando APIs
 
 ## [](#header-2) React
