@@ -1,10 +1,10 @@
-# [](#header-1) Introdução : Redux : ReactNative
+# [](#header-1) Tela de Lista de Moedas : Redux : ReactNative
 
 
 ## [](#header-2) Introdução
 
 **Objetivos**:
-- 
+- Armazenar e modificar o estado na tela de lista de moedas
 
 ## [](#header-2) Sumário
 
