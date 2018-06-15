@@ -40,14 +40,14 @@ layout: default
 | 05 | sexta-feira 11-05   |  |
 | 06 | segunda-feira 14-05 |  |
 | 07 | sexta-feira 18-05   |  |
-| 08 | segunda-feira 21-05 |  |
-| 09 | sexta-feira 25-05   |  |
-| 10 | segunda-feira 28-05 |  |
-| 11 | segunda-feira 04-06 |  |
-| 12 | sexta-feira 08-06   |  |
-| 13 | segunda-feira 11-06 |  |
-| 14 | sexta-feira 15-06   |  |
-| 15 | segunda-feira 18-06 |  |
+| 08 | segunda-feira 21-05 | [Redux](reactnative/redux) |
+| 09 | sexta-feira 25-05   | [Redux](reactnative/redux) |
+| 10 | segunda-feira 28-05 | Sem aula |
+| 11 | segunda-feira 04-06 | Sem aula |
+| 12 | sexta-feira 08-06   | Sem aula |
+| 13 | segunda-feira 11-06 | WTADS |
+| 14 | sexta-feira 15-06   | [Redux](reactnative/redux) |
+| 15 | segunda-feira 18-06 | [Redux](reactnative/redux) |
 | 16 | sexta-feira 22-06   |  |
 | 17 | segunda-feira 25-06 |  |
 | 18 | sexta-feira 29-06   |  |

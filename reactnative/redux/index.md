@@ -20,5 +20,5 @@
 ## [](#header-2) Sumário de aulas
 
 1. [Introdução](redux-intro)
-2. Modificando o estado da tela de Home a partir da tela CurrencyList
+2. [Modificando o estado da tela de Home a partir da tela CurrencyList](redux-currencies)
 3. Modificando o estado da aplicação a partir da tela de Theme
