@@ -48,7 +48,7 @@ layout: default
 | 13 | segunda-feira 11-06 | WTADS |
 | 14 | sexta-feira 15-06   | [Redux](reactnative/redux) |
 | 15 | segunda-feira 18-06 | [Redux](reactnative/redux) |
-| 16 | sexta-feira 22-06   |  |
+| 16 | sexta-feira 22-06   | [Redux](reactnative/redux) |
 | 17 | segunda-feira 25-06 |  |
 | 18 | sexta-feira 29-06   |  |
 | 19 | segunda-feira 02-07 |  |

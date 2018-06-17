@@ -21,4 +21,4 @@
 
 1. [Introdução](redux-intro)
 2. [Modificando o estado da tela de Home a partir da tela CurrencyList](redux-currencies)
-3. Modificando o estado da aplicação a partir da tela de Theme
+3. [Modificando o estado da aplicação a partir da tela de Theme](redux-themes)
