@@ -134,10 +134,10 @@ content-type: application/json
   - [Senado](https://www12.senado.leg.br/dados-abertos)
   - [Câmara dos Deputados Federais](https://dadosabertos.camara.leg.br/swagger/api.html)
   - [Educação brasileira](http://educacao.dadosabertosbr.com/api)
-  - 
+
+
 
 # [](#header-2) Links
-
 
 - API
   - [Fixer](https://fixer.io) : Foreign exchange rates and currency conversion JSON API
