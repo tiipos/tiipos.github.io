@@ -49,9 +49,9 @@ layout: default
 | 14 | sexta-feira 15-06   | [Redux](reactnative/redux) |
 | 15 | segunda-feira 18-06 | [Redux](reactnative/redux) |
 | 16 | sexta-feira 22-06   | [Redux](reactnative/redux) |
-| 17 | segunda-feira 25-06 |  |
-| 18 | sexta-feira 29-06   |  |
-| 19 | segunda-feira 02-07 |  |
+| 17 | segunda-feira 25-06 | [Redux Saga](reactnative/redux-saga) |
+| 18 | sexta-feira 29-06   | [Redux Saga](reactnative/redux-saga) |
+| 19 | segunda-feira 02-07 | [Redux Saga](reactnative/redux-saga) |
 
 
 ## [](#header-2) 3° Bimestre

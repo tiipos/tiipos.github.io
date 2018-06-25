@@ -9,3 +9,4 @@
 3. [Interface do usuário](reactnative/ui/)
 4. [Navigation](nav)
 5. [Estado da aplicação](redux)
+6. [Acessando APIs](redux-saga)
