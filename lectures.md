@@ -19,7 +19,7 @@ layout: default
 3. [Entendendo a interface do usuário](reactnative/ui)
 4. [Navegando entre telas](reactnative/nav)
 5. [Gerenciando o estado da aplicação](reactnative/redux)
-6. [Acessando APIs](redux-saga)
+6. [Acessando APIs](reactnative/redux-saga)
 
 ## [](#header-2) React
 
