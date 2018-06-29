@@ -30,8 +30,8 @@ yarn start
 
 ### [](#header-3) Passo 2. Preparando o app para chamadas assíncronas
 
-**app/screens/Home.js**
-: verificar se o resultado da requisição a API já está completa (```isFetching```)
+**app/screens/Home.js** : 
+verificar se o resultado da requisição a API já está completa (```isFetching```)
 ```jsx
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
