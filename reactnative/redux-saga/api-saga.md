@@ -289,8 +289,8 @@ Etapa 3. Enumerar e programar os eventos que precisam de atualização de dados
 3.1. **app/config/sagas.js**
 ```jsx
 // 1. Swap currency
-// 1. Change base currency
-// 1. Initial app load
+// 2. Change base currency
+// 3. Initial app load
 
 export default function* rootSaga() {
   yield;
@@ -508,8 +508,8 @@ export default rootSaga;
 Etapa 5. Programar a atualização dos dados
 
 Etapa 5.1.
-**app/actions/currencies.js**
-: adicionar constantes das ações de acesso a API
+**app/actions/currencies.js** : 
+adicionar constantes das ações de acesso a API
 ```jsx
 export const CHANGE_CURRENCY_AMOUNT = 'CHANGE_CURRENCY_AMOUNT';
 export const SWAP_CURRENCY = 'SWAP_CURRENCY';
@@ -546,8 +546,8 @@ export const getInitialConversion = () => ({
 ```
 
 Etapa 5.2.
-**app/config/sagas.js**
-: Adionar ações de acesso a API com sucesso e com erro
+**app/config/sagas.js** :
+Adionar ações de acesso a API com sucesso e com erro
 ```jsx
 import { takeEvery, select, call, put } from 'redux-saga/effects';
 
@@ -594,8 +594,8 @@ export default rootSaga;
 ```
 
 Etapa 5.3.
-**app/reducers/currencies.js**
-: programar o redutor para mapear dos dados coletados para os dados do app
+**app/reducers/currencies.js** : 
+programar o redutor para mapear dos dados coletados para os dados do app
 ```jsx
 import {
   CHANGE_CURRENCY_AMOUNT,
