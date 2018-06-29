@@ -17,4 +17,4 @@
 ## [](#header-2) Sumário de aulas
 
 1. [Introdução ao uso de API](api-introduction)
-2. 
+2. [Acessando taxas de conversão da API](api-saga)
