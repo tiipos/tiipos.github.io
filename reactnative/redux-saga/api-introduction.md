@@ -142,7 +142,7 @@ content-type: application/json
 - API
   - [Fixer](https://fixer.io) : Foreign exchange rates and currency conversion JSON API
     - [API Documentation](https://fixer.io/documentation) : documentação explicando o uso da API
-  - 
+  - [Frankfurter](https://frankfurter.app) : Frankfurter is a lightweight API for querying current and historical forex rates published by the European Central Bank.
 - Ferramentas
   - Rest client Visual Code Extension [github](https://github.com/Huachao/vscode-restclient/) [VSC Marketplace](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
   - [Postman](https://www.getpostman.com) : Postman’s API Development Environment (ADE) -
