@@ -58,24 +58,24 @@ layout: default
 
 | \# | dia | conteúdo |
 | :--- | :--- | :--- |
-| 01 | sexta-feira 27-07   |  |
+| 01 | sexta-feira   27-07 | React Native: recapitulando; React introdução |
 | 02 | segunda-feira 30-07 |  |
-| 03 | sexta-feira 03-08   |  |
+| 03 | sexta-feira   03-08 |  |
 | 04 | segunda-feira 06-08 |  |
-| 05 | sexta-feira 10-08   |  |
+| 05 | sexta-feira   10-08 |  |
 | 06 | segunda-feira 13-08 |  |
-| 07 | sexta-feira 17-08   |  |
+| 07 | sexta-feira   17-08 |  |
 | 08 | segunda-feira 20-08 |  |
-| 09 | sexta-feira 24-08   |  |
+| 09 | sexta-feira   24-08 |  |
 | 10 | segunda-feira 27-08 |  |
-| 11 | sexta-feira 31-08   |  |
+| 11 | sexta-feira   31-08 |  |
 | 12 | segunda-feira 03-09 |  |
 | 13 | segunda-feira 10-09 |  |
-| 14 | sexta-feira 14-09   |  |
+| 14 | sexta-feira   14-09 |  |
 | 15 | segunda-feira 17-09 |  |
-| 16 | sexta-feira 21-09   |  |
+| 16 | sexta-feira   21-09 |  |
 | 17 | segunda-feira 24-09 |  |
-| 18 | sexta-feira 28-09   |  |
+| 18 | sexta-feira   28-09 |  |
 | 19 | segunda-feira 01-10 |  |
 
 
@@ -83,22 +83,22 @@ layout: default
 
 | \# | dia | conteúdo |
 | :--- | :--- | :--- |
-| 01 | sexta-feira 05-10   |  |
+| 01 | sexta-feira   05-10 |  |
 | 02 | segunda-feira 08-10 |  |
 | 03 | segunda-feira 15-10 |  |
-| 04 | sexta-feira 19-10   |  |
+| 04 | sexta-feira   19-10 |  |
 | 05 | segunda-feira 22-10 |  |
-| 06 | sexta-feira 26-10   |  |
+| 06 | sexta-feira   26-10 |  |
 | 07 | segunda-feira 29-10 |  |
 | 08 | segunda-feira 05-11 |  |
-| 09 | sexta-feira 09-11   |  |
+| 09 | sexta-feira   09-11 |  |
 | 10 | segunda-feira 12-11 |  |
 | 11 | segunda-feira 19-11 |  |
-| 12 | sexta-feira 23-11   |  |
+| 12 | sexta-feira   23-11 |  |
 | 13 | segunda-feira 26-11 |  |
-| 14 | sexta-feira 30-11   |  |
+| 14 | sexta-feira   30-11 |  |
 | 15 | segunda-feira 03-12 |  |
-| 16 | sexta-feira 07-12   |  |
+| 16 | sexta-feira   07-12 |  |
 | 17 | segunda-feira 10-12 |  |
-| 18 | sexta-feira 14-12   |  |
+| 18 | sexta-feira   14-12 |  |
 | 19 | segunda-feira 17-12 | Entrega do resultado final |
