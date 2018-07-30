@@ -23,6 +23,12 @@ layout: default
 - Editores de código-fontes
   - [Microsoft Visual Studio Code](https://code.visualstudio.com)
   - [Atom](https://atom.io)
+  - online
+    - https://codepen.io/
+    - https://jsfiddle.net/
+    - https://stackblitz.com/
+    - https://codesandbox.io/
+    - https://repl.it/
 - Mockups/wireframes
   - [Skecth App](https://www.sketchapp.com) e [Invision App](https://www.invisionapp.com)
   - [rapidUI](https://rapidui.io/studio/)
