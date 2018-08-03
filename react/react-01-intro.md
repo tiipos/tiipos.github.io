@@ -23,6 +23,7 @@ npm i -g pnpm
 mkdir behappywith.me
 cd behappywith.me
 pnpx create-react-app front-end
+cd front-end
 pnpm start
 ```
 
@@ -39,10 +40,10 @@ git commit -m "Aplicativo React inicial"
 
 git remote add origin https://github.com/leonardo-minora/behappy-frontend.git
 git branch --set-upstream-to=origin/master master
-git pull --allow-unrelated-histories
+git pull
 git push
 ```
-
+Obs: se ocorrer ERRO no comando ```git pull```, tentar ```git pull --allow-unrelated-histories```
 
 ### [](#header-3) Entendento um App React
 
