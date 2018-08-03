@@ -63,12 +63,12 @@ Obs: se ocorrer ERRO no comando ```git pull```, tentar ```git pull --allow-unrel
 
 ![Funcionamento de um App React](img/react-dom.png)
 
-1. Noprimeiroacessoàpágina,oReactcriaoscomponentes;
-2. OscomponentessãorenderizadosnoVirtualDOM(antigo);
+1. No primeiro acesso à página,o React cria os componentes;
+2. Os componentes são renderizados no VirtualDOM (antigo);
 3. Como se trata da primeira renderização, o DOM real é
 atualizado na íntegra;
 4. Os dados ( this.state ) dos componentes são alterados;
-5. OscomponentessãorenderizadosnoVirtualDOM(novo);
+5. Os componentes são renderizados no VirtualDOM (novo);
 6. O React calcula a diferença entre o Virtual DOM antigo e o
 novo;
 7. Por fim, o React atualiza o DOM real apenas com as
