@@ -33,10 +33,10 @@ layout: default
 
 | \# | dia | conteúdo |
 | :--- | :--- | :--- |
-| 01 | sexta-feira 27-04   |  |
-| 02 | segunda-feira 30-04 |  |
-| 03 | sexta-feira 04-05   |  |
-| 04 | segunda-feira 07-05 |  |
+| 01 | sexta-feira 27-04   | - |
+| 02 | segunda-feira 30-04 | - |
+| 03 | sexta-feira 04-05   | - |
+| 04 | segunda-feira 07-05 | - |
 | 05 | sexta-feira 11-05   |  |
 | 06 | segunda-feira 14-05 |  |
 | 07 | sexta-feira 18-05   |  |
@@ -59,9 +59,9 @@ layout: default
 | \# | dia | conteúdo |
 | :--- | :--- | :--- |
 | 01 | sexta-feira   27-07 | React Native: recapitulando; React introdução |
-| 02 | segunda-feira 30-07 |  |
-| 03 | sexta-feira   03-08 |  |
-| 04 | segunda-feira 06-08 |  |
+| 02 | segunda-feira 30-07 | PWA |
+| 03 | sexta-feira   03-08 | Introdução ao React |
+| 04 | segunda-feira 06-08 | Componentes React |
 | 05 | sexta-feira   10-08 |  |
 | 06 | segunda-feira 13-08 |  |
 | 07 | sexta-feira   17-08 |  |
