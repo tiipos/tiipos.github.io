@@ -28,6 +28,7 @@ npm i -g pnpm
 mkdir behappywith.me
 cd behappywith.me
 pnpx create-react-app front-end
+cd front-end
 pnpm start
 ```
 
@@ -44,10 +45,10 @@ git commit -m "Aplicativo React inicial"
 
 git remote add origin https://github.com/leonardo-minora/behappy-frontend.git
 git branch --set-upstream-to=origin/master master
-git pull --allow-unrelated-histories
+git pull
 git push
 ```
-
+Obs: se ocorrer ERRO no comando ```git pull```, tentar ```git pull --allow-unrelated-histories```
 
 ## [](#header-2) Entendento um App React
 
@@ -67,12 +68,12 @@ git push
 
 ![Funcionamento de um App React](img/react-dom.png)
 
-1. Noprimeiroacessoàpágina,oReactcriaoscomponentes;
-2. OscomponentessãorenderizadosnoVirtualDOM(antigo);
+1. No primeiro acesso à página,o React cria os componentes;
+2. Os componentes são renderizados no VirtualDOM (antigo);
 3. Como se trata da primeira renderização, o DOM real é
 atualizado na íntegra;
 4. Os dados ( this.state ) dos componentes são alterados;
-5. OscomponentessãorenderizadosnoVirtualDOM(novo);
+5. Os componentes são renderizados no VirtualDOM (novo);
 6. O React calcula a diferença entre o Virtual DOM antigo e o
 novo;
 7. Por fim, o React atualiza o DOM real apenas com as
