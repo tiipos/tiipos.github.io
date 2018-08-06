@@ -24,5 +24,6 @@ layout: default
 ## [](#header-2) [React](react)
 
 1. [Introdução](react/react-01-intro)
+2. [Build and deploy](react/react-02-build)
 
 ## [](#header-2) API Node

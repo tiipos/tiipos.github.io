@@ -3,10 +3,15 @@
 
 ## [](#header-2) Sumário
 
+1. Instalando e configurando as ferramentas
+2. Testando do ambiente
+3. Conectando ao GitHub
+4. Entendento um App React
 
-### [](#header-3) Instalando e configurando as ferramentas
 
-#### [](#header-4) javascript: nvm, Node, npm, pnpm
+## [](#header-2) Instalando e configurando as ferramentas
+
+### [](#header-3) javascript: nvm, Node, npm, pnpm
 
 [CADES-IFRN](https://cades.natal.br) [Curso introdutório de Rect Native](https://github.com/cades-ifrn/minicurso-react-native-wtads/blob/master/install.md)
 
@@ -17,7 +22,7 @@ npm i -g pnpm
 [pnpm](https://pnpm.js.org)
 
 
-### [](#header-3) Testando do ambiente
+## [](#header-2) Testando do ambiente
 
 ```
 mkdir behappywith.me
@@ -27,7 +32,7 @@ pnpm start
 ```
 
 
-### [](#header-3) Conectando ao GitHub
+## [](#header-2) Conectando ao GitHub
 
 - **Fork**  no repositório ```https://github.com/tiipos/behappy-frontend.git``` para sua conta!
 - **Substituir** nos comandos abaixo o endereço ```https://github.com/leonardo-minora/behappy-frontend.git``` pelo seu repositório
@@ -44,21 +49,21 @@ git push
 ```
 
 
-### [](#header-3) Entendento um App React
+## [](#header-2) Entendento um App React
 
-#### [](#header-4) Navegador Web: HTML, CSS e js
+### [](#header-3) Navegador Web: HTML, CSS e js
 
 ![Navegador Web](img/browser.jpeg)
 
 
-#### [](#header-4) App React
+### [](#header-3) App React
 
 ![App React](img/react-app.jpeg)
 
 ![Estrutura de diretórios](img/react-dir.png)
 
 
-#### [](#header-4) Funcionamento de um App React
+### [](#header-3) Funcionamento de um App React
 
 ![Funcionamento de um App React](img/react-dom.png)
 
@@ -75,7 +80,7 @@ diferenças.
 
 ![virtual dom](img/react-virtualdom.png)
 
-#### [](#header-4) Anatomia do package.json
+### [](#header-3) Anatomia do package.json
 
 - name, version, author
 - ```dependencies``` vs ```devDependencies```
@@ -104,7 +109,7 @@ diferenças.
 }
 ```
 
-#### [](#header-4) Anatomia JSX
+### [](#header-3) Anatomia JSX
 
 ```jsx
 import React, { Component } from 'react';
@@ -130,7 +135,7 @@ class App extends Component {
 export default App;
 ```
 
-#### [](#header-4) Como chega no Componente App?
+### [](#header-3) Como chega no Componente App?
 
 **index.html**
 ```html
