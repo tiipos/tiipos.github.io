@@ -5,7 +5,12 @@
 
 1. [Introdução](react-01-intro)
 2. [Build and Deploy](react-02-build)
+3. [JSX and Components](react-03-components)
 
+
+## [](#header-2) Fluxo de trabalho
+
+![Fluxo de trabalho com o React e Heroku](img/react-flow.jpg)
 
 ## [](#header-2) Ferramentas
 

@@ -4,6 +4,9 @@
 ## [](#header-2) Sumário
 
 1. Introdução
+2. Fazendo o build
+3. Realizando deploy
+4. Tarefa de "_casa_"
 
 
 ## [](#header-2) 1. Introdução
@@ -55,3 +58,11 @@ adicionar
 
 
 ![behappiest.herokuapp.com](img/react-deploy-heroku.png)
+
+
+## [](#header-2) 4. Tarefa final
+
+1. Acessar no seu repositório do App React no GitHub
+2. Copiar endereço (URL) da App React no Heroku para o repositório GitHub
+
+![URL Heroku do App React](img/react-heroku-url.png)
