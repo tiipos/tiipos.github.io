@@ -62,9 +62,9 @@ layout: default
 | 02 | segunda-feira 30-07 | PWA |
 | 03 | sexta-feira   03-08 | Introdução ao React |
 | 04 | segunda-feira 06-08 | Componentes React |
-| 05 | sexta-feira   10-08 |  |
-| 06 | segunda-feira 13-08 |  |
-| 07 | sexta-feira   17-08 |  |
+| 05 | sexta-feira   10-08 | Fazendo build e deploy |
+| 06 | segunda-feira 13-08 | Desenvolvendo componentes React |
+| 07 | sexta-feira   17-08 | Estado de componentes react |
 | 08 | segunda-feira 20-08 |  |
 | 09 | sexta-feira   24-08 |  |
 | 10 | segunda-feira 27-08 |  |

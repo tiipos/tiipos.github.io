@@ -6,6 +6,7 @@
 1. [Introdução](react-01-intro)
 2. [Build and Deploy](react-02-build)
 3. [JSX and Components](react-03-components)
+4. [State](react-04-state)
 
 
 ## [](#header-2) Fluxo de trabalho
