@@ -216,6 +216,7 @@ console.log(`auto ${2 * 3 * (-1)}px`);
 5. Lançar a aplicação web ```pnpm start``` 
 
 - Executar no _Terminal 1_
+
 ```sh
 ### Tudo que iniciar com $ deverá ser substituído
 ### pelo valor correspondente
