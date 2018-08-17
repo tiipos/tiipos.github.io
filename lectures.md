@@ -25,5 +25,7 @@ layout: default
 
 1. [Introdução](react/react-01-intro)
 2. [Build and deploy](react/react-02-build)
+3. [Components](react/react-03-components)
+
 
 ## [](#header-2) API Node
