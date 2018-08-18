@@ -33,6 +33,7 @@
 ### [](#header-3) Exemplo
 
 **src/App.js**
+
 ```jsx
 class App extends React.Component {
   constructor(props) {
@@ -67,6 +68,7 @@ class App extends React.Component {
 ```
 
 **src/index.js**
+
 ```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -86,6 +88,7 @@ registerServiceWorker();
 
 ### [](#header-3) **IO não bloqueante** (programação assíncrona e callback)
 **primeiro exemplo**
+
 ```js
 function funcaoNaoBloqueante(par, callback) {
   // API assíncrona de consulta ao servidor
@@ -99,6 +102,7 @@ funcaoBloqueante(texto2);
 ```
 
 **segundo exemplo**
+
 ```js
 const fs = require('fs');
 var fileContent = '';
@@ -158,6 +162,7 @@ const c = (par) => {
 ```
 
 ### [](#header-3) **Spread Operator** ```...```
+
 ```jsx
 export default function Input(props) {
   return (
@@ -180,7 +185,9 @@ export default function Input(props) {
 }
 ```
 
+
 ### [](#header-3) **Object.assign()**
+
 ```jsx
 let aluno = {
   nome: 'Leonardo Minora',
@@ -197,7 +204,9 @@ console.log(novoAluno);
 //   email: 'leonardo.minora@ifrn.edu.br' }
 ```
 
+
 ### [](#header-3) **template string**
+
 ```js
 console.log('auto ' + 2 * 3 * (-1) + 'px');
 // auto -6px
@@ -215,7 +224,9 @@ console.log(`auto ${2 * 3 * (-1)}px`);
 4. Download da figura que será utilizada pelos componentes
 5. Lançar a aplicação web ```pnpm start``` 
 
+
 - Executar no _Terminal 1_
+
 ```sh
 ### Tudo que iniciar com $ deverá ser substituído
 ### pelo valor correspondente
@@ -257,20 +268,25 @@ pnpm start
 ![Fluxo de eventos do componente Input](img/behappy-ui-input-flow.png)
 
 - executar no _terminal 2_
+
 ```sh
 mkdir src/components/Input
 touch src/components/Input/index.js
 touch src/components/Input/Input.js
 ```
 
+
 - editar com o VS Code **src/components/Input/index.js**
+
 ```jsx
 import Input from './Input';
 
 export default Input;
 ```
 
+
 - editar com o VS Code **src/components/Input/Input.js**
+
 ```jsx
 import React, {Component} from 'react';
 
@@ -293,6 +309,7 @@ export default function Input(props) {
 ```
 
 - editar com o VS Code **src/components/NewUser.js**
+
 ```jsx
 import React, {Component} from 'react';
 
@@ -362,6 +379,7 @@ export default NewUser;
 ![Imagem em Sprites utilizada](img/behappy/avatars.png)
 
 **Sprites**
+
 - Referências
   - [W3C CSS Image Sprites](https://www.w3schools.com/css/css_image_sprites.asp)
   - [Utilizando CSS sprites para otimizar o carregamento de imagens em seu site](https://www.hostgator.com.br/blog/css-sprites-para-otimizar-imagens-em-seu-site/)
@@ -373,21 +391,27 @@ export default NewUser;
 
 
 ### [](#header-3) Image
+
 - executar no _terminal 2_
+
 ```sh
 mkdir src/components/Image
 touch src/components/Image/index.js
 touch src/components/Image/Image.js
 ```
 
+
 - editar com o VS Code **src/components/Image/index.js**
+
 ```jsx
 import Image from './Image';
 
 export default Image;
 ```
 
+
 - editar com o VS Code **src/components/Image/Image.js**
+
 ```jsx
 import React, {Component} from 'react';
 
@@ -430,21 +454,27 @@ export default Image;
 
 
 ### [](#header-3) GenderImage
+
 - executar no _terminal 2_
+
 ```sh
 mkdir src/components/GenderImage
 touch src/components/GenderImage/index.js
 touch src/components/GenderImage/GenderImage.js
 ```
 
+
 - editar com o VS Code **src/components/GenderImage/index.js**
+
 ```jsx
 import GenderImage from './GenderImage';
 
 export default GenderImage;
 ```
 
+
 - editar com o VS Code **src/components/GenderImage/GenderImage.js**
+
 ```jsx
 import React from 'react';
 
@@ -466,7 +496,9 @@ export default function GenderImage(props) {
 
 
 ### [](#header-3) Visualizando o resultado
+
 - editar com o VS Code **src/components/NewUser/NewUser.js**
+
 ```jsx
 import React, {Component} from 'react';
 
@@ -530,7 +562,9 @@ export default NewUser;
 ## [](#header-2) 6. BeHappy.Me Component GenderButton e GenderSelector
 
 ### [](#header-3) GenderButton
+
 - executar no _terminal 2_
+
 ```sh
 mkdir src/components/GenderButton
 touch src/components/GenderButton/index.js
@@ -538,7 +572,9 @@ touch src/components/GenderButton/index.css
 touch src/components/GenderButton/GenderButton.js
 ```
 
+
 - editar com o VS Code **src/components/GenderButton/index.js**
+
 ```jsx
 import GenderButton from './GenderButton';
 
@@ -546,6 +582,7 @@ export default GenderButton;
 ```
 
 - editar com o VS Code **src/components/GenderButton/index.css**
+
 ```css
 a.gender-button {
   box-sizing: border-box;
@@ -570,7 +607,9 @@ a.selected-gender-button:hover {
 }
 ```
 
+
 - editar com o VS Code **src/components/GenderButton/GenderButton.js**
+
 ```jsx
 import React from 'react';
 
@@ -595,21 +634,27 @@ export default function GenderButton(props) {
 
 
 ### [](#header-3) GenderSelector
+
 - executar no _terminal 2_
+
 ```sh
 mkdir src/components/GenderSelector
 touch src/components/GenderSelector/index.js
 touch src/components/GenderSelector/GenderSelector.js
 ```
 
+
 - editar com o VS Code **src/components/GenderSelector/index.js**
+
 ```jsx
 import GenderSelector from './GenderSelector';
 
 export default GenderSelector;
 ```
 
+
 - editar com o VS Code **src/components/GenderSelector/GenderSelector.js**
+
 ```jsx
 import React from 'react';
 
@@ -648,6 +693,7 @@ export default function GenderSelector(props) {
 ### [](#header-3) Visualizar o resultado
 
 - editar com o VS Code **src/components/NewUser/NewUser.js**
+
 ```jsx
 import React, {Component} from 'react';
 
@@ -732,7 +778,9 @@ export default NewUser;
 3. Registrar mudanças (```git commit```) no repositório local
 4. Publicar mudanças no repositório remoto (```git pull``` e ```git push```)
 
+
 - Executar no _Terminal 1_
+
 ```sh
 ### 1. Pressionar CTRL+C para fechar o servidor 
 ### 
