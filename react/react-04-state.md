@@ -308,7 +308,7 @@ export default function Input(props) {
 }
 ```
 
-- editar com o VS Code **src/components/NewUser.js**
+- editar com o VS Code **src/components/NewUser/NewUser.js**
 
 ```jsx
 import React, {Component} from 'react';
