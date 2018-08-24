@@ -350,7 +350,7 @@ export default NewUser;
 
 ## [](#header-2) 5. BeHappy.Me Component Image e GenderImage
 
-![Estrutura dos componentes gender](react/img/behappy-ui-gender-structure.png)
+![Estrutura dos componentes gender](img/behappy-ui-gender-structure.png)
 
 ![Fluxo de eventos dos componentes Gender*](img/behappy-ui-gender-flow.png)
 
