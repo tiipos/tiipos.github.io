@@ -1043,7 +1043,7 @@ export default Avatar;
 ```
 
 
-**src/models/Avatar.js**
+**src/models/User.js**
 
 ```js
 import Avatar from './Avatar';
