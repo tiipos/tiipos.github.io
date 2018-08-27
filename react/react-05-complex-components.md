@@ -23,6 +23,14 @@
 5. Publicar no Heroku
 
 
+**para quem não tem o pnpm, npm, node**
+```sh
+nvm install node
+npm -v
+node -v
+npm i -g pnpm
+```
+
 ```sh
 ### Tudo que iniciar com $ deverá ser substituído
 ### pelo valor correspondente
