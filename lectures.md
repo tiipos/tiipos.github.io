@@ -27,6 +27,6 @@ layout: default
 2. [Build and deploy](react/react-02-build)
 3. [Components](react/react-03-components)
 4. [State](react/react-04-state)
-
+5. [Complex components](react/react-05-complex-components)
 
 ## [](#header-2) API Node

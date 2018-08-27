@@ -7,6 +7,7 @@
 2. [Build and Deploy](react-02-build)
 3. [JSX and Components](react-03-components)
 4. [State](react-04-state)
+5. [Complex components](react-05-complex-components)
 
 
 ## [](#header-2) Fluxo de trabalho
