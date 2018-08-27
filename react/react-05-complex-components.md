@@ -432,7 +432,7 @@ export default Toast;
 ```
 
 
-**src/components/Toast/index.js**
+**src/components/Toast/Toast.js**
 
 ```jsx
 import React, { Component } from 'react';
