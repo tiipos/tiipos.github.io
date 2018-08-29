@@ -1143,18 +1143,18 @@ class ImageScroller extends React.Component {
     }
 
     renderSelected() {
+        let style = {
+            float: 'left',
+            width: '140px',
+            height: '160px',
+            marginLeft: '42px',
+            backgroundColor: '#00C853',
+            position: 'relative',
+            zIndex: -2
+        };
+
         return (
-            <span
-                style={{
-                    float: 'left',
-                    width: '140px',
-                    height: '160px',
-                    marginLeft: '42px',
-                    backgroundColor: '#00C853',
-                    position: 'relative',
-                    zIndex: -2
-                }}
-            ></span>
+            <span style={style}></span>
         );
     }
 
@@ -1188,7 +1188,7 @@ class ImageScroller extends React.Component {
         const ms = this.state.eventHandler.toqueEmExecucao
             ? '100ms' : '800ms';
 
-        const estilo = {
+        const style = {
             WebkitTransitionDuration: ms, /* Safari e Chrome */
             MsTransitionDuration: ms, /* IE */
             MozTransitionDuration: ms, /* Firefox */
@@ -1208,14 +1208,14 @@ class ImageScroller extends React.Component {
         );
 
         return (
-            <ul style={estilo}>                
+            <ul style={style}>                
                 {lista}
             </ul>            
         )
     }
 
     renderImageScroller() {
-        const estilo = {
+        const style = {
             boxSizing: 'border-box',
             borderWidth: '1px',
             borderBottomWidth: '0',
@@ -1231,7 +1231,7 @@ class ImageScroller extends React.Component {
                 
         return (
             <div
-                style={estilo}
+                style={style}
                 onTouchStart={this.onTouchStart.bind(this)}
                 onTouchMove={this.onTouchMove.bind(this)}
                 onTouchEnd={this.onTouchEnd.bind(this)}
@@ -1245,7 +1245,7 @@ class ImageScroller extends React.Component {
     }
 
     renderLabel() {
-        const estilo = {
+        const style = {
             boxSizing: 'border-box',            
             borderWidth: '1px',
             borderStyle: 'solid',
@@ -1263,7 +1263,7 @@ class ImageScroller extends React.Component {
         };
 
         return (
-            <div style={estilo}>
+            <div style={style}>
                 {this.getAll().toString()}
             </div>
         )
