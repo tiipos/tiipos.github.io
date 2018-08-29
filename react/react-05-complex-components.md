@@ -845,7 +845,7 @@ import Image from '../Image';
 export default function ButtonImage(props) {
   let style = {};
   let index = 0;
-  const size = 30;
+  const size = 48;
 
   if (props.position === 'right') {
     style.float = 'right';
@@ -1159,22 +1159,26 @@ class ImageScroller extends React.Component {
     }
 
     renderImage(entry,index) {
-        let eixoY = this.props.eixoY ? this.props.eixoY : 0;
+        let y = this.props.y ? this.props.y : 0;
+        let style = {
+          paddingTop: '8px',
+          position: 'absolute',
+          zIndex: '-1',
+          marginLeft: `${index * 140}px`
+        };
 
         return (
-            <li style={{
-                paddingTop: '8px',
-                position: 'absolute',
-                zIndex: '-1',
-                marginLeft: `${index * 140}px`
-            }} key={index + entry.toString()}>
+            <li 
+              style={style}
+              key={index + entry.toString()}
+            >
                 <Image
-                    eixoX={entry.index}
-                    eixoY={eixoY}
-                    width={140}
-                    height={140}
+                    x={entry.index}
+                    y={y}
+                    width={170}
+                    height={170}
                     backgroundHeight={280}
-                    arquivo={this.props.arquivo}
+                    file={this.props.file}
                 />
             </li>
         );
@@ -1195,7 +1199,7 @@ class ImageScroller extends React.Component {
             margin: '0',
             padding: '0',
             position: 'relative',
-            width: `${this.props.images.length * 140}px`,
+            width: `${this.props.images.length * 170}px`,
             left: `${this.state.eventHandler.left}px`
         }
         
