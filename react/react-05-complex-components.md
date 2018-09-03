@@ -1312,7 +1312,7 @@ import Input from '../Input';
 import GenderSelector from '../GenderSelector';
 import Button from '../Button';
 import Toast from '../Toast';
-import ImageScroller from '../ImageScoller';
+import ImageScroller from '../ImageScroller';
 
 import User from '../../models/User';
 import Avatar from '../../models/Avatar';
