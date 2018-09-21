@@ -33,6 +33,9 @@ layout: default
 4. [State](react/react-04-state)
 5. [Complex components](react/react-05-complex-components)
 6. [local storage](react/react-06-localstorage)
+7. [offline](react/react-07-offline)
+8. [UI Frameworks](react/react-08-ui)
+
 
 
 

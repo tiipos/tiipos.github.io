@@ -9,6 +9,8 @@
 4. [State](react-04-state)
 5. [Complex components](react-05-complex-components)
 6. [local storage](react-06-localstorage)
+7. [offline](react-07-offline)
+8. [UI Frameworks](react-08-ui)
 
 
 ## [](#header-2) Fluxo de trabalho
