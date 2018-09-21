@@ -786,7 +786,7 @@ export default NewUser;
 ## Pressione CTRL+C
 
 # copiar imagem para o diretório public/img
-curl https://raw.githubusercontent.com/tiipos/tiipos.github.io/masr/react/img/behappy/botoes.png -o public/img/buttons.png
+curl https://raw.githubusercontent.com/tiipos/tiipos.github.io/master/react/img/behappy/botoes.png -o public/img/buttons.png
 
 # Criar diretório do componetne ButtonImage e os arquivos
 mkdir src/components/ButtonImage
@@ -1312,7 +1312,7 @@ import Input from '../Input';
 import GenderSelector from '../GenderSelector';
 import Button from '../Button';
 import Toast from '../Toast';
-import ImageScroller from '../ImageScoller';
+import ImageScroller from '../ImageScroller';
 
 import User from '../../models/User';
 import Avatar from '../../models/Avatar';
