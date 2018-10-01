@@ -44,8 +44,16 @@
 2. Nível 1 : Resources
    - Introdução a recursos
 3. Nível 2 : HTTP Verbs
-   - Início do uso de verbos HTTP
+   - Início do uso de verbos HTTP e códigos de resposta HTTP
 4. Nível 3 : Hypermedia controls
    - HATEOAS : _Hypertext As The Engine Of Application State_
 
 ## Node e Frameworks
+
+- [hapi](https://hapijs.com/)
+- [strapi](https://strapi.io/)
+
+## Links
+
+- [MDN Mozilla Developer Network](https://developer.mozilla.org/) [Hypertext Transfer Protocol (HTTP)](https://developer.mozilla.org/en-US/docs/Web/HTTP)
+- [Número de portas TCP e UDP](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)
