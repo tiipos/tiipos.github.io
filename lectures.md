@@ -12,8 +12,6 @@ layout: default
 2. [adicionar um repositório remoto](git/remote-add)
 3. [trabalhando diariamente nos labs da DIATINF](git/labs)
 
-
-
 ## [](#header-2) React Native
 
 1. [Introdução](reactnative/intro)
@@ -22,8 +20,6 @@ layout: default
 4. [Navegando entre telas](reactnative/nav)
 5. [Gerenciando o estado da aplicação](reactnative/redux)
 6. [Acessando APIs](reactnative/redux-saga)
-
-
 
 ## [](#header-2) [React](react)
 
@@ -36,7 +32,6 @@ layout: default
 7. [offline](react/react-07-offline)
 8. [UI Frameworks](react/react-08-ui)
 
+## [](#header-2) [API Node](api)
 
-
-
-## [](#header-2) API Node
+1. [Introdução](api/introduction)
