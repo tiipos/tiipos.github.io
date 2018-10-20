@@ -4,7 +4,6 @@ layout: default
 
 # [](#header-1) Bibliografia e links
 
-
 - Cursos
   - CADES [mini curso de React Native](https://github.com/cades-ifrn/minicurso-react-native)
   - [Handlebar Labs](https://learn.handlebarlabs.com/p/react-native-basics-build-a-currency-converter)
@@ -13,6 +12,8 @@ layout: default
   - [node](https://nodejs.org/)
   - [npm](https://www.npmjs.com)
   - [yarn](https://yarnpkg.com/pt-BR/)
+  - [pnpm](https://pnpm.js.org)
+  - [Mozilla Developer Network :: JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - React e React Native
   - [React](https://reactjs.org)
   - [React Native](http://facebook.github.io/react-native/)
