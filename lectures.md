@@ -35,3 +35,6 @@ layout: default
 ## [](#header-2) [API Node](api)
 
 1. [Introdução](api/introduction)
+2. [Estrutura inicial da API](api/api)
+3. [CRUD](api/crud)
+4. [Autenticação e autorização](api/auth)

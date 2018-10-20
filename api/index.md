@@ -2,8 +2,10 @@
 
 ## Sumário
 
-1. Introdução
-2.
+1. [Introdução](introduction)
+2. [Estrutura inicial da API](api)
+3. [CRUD](crud)
+4. [Autenticação e autorização](auth)
 
 ## [](#header-2) Wikipedia
 
