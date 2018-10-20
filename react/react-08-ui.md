@@ -81,6 +81,11 @@
     - [material-ui](https://material-ui.com)
     - [react-md](https://react-md.mlaursen.com)
     - [react-toolbox](https://github.com/react-toolbox/react-toolbox/)
+  - Tutoriais
+    - [Elegant UX in React with Material-UI](https://alligator.io/react/material-ui/)
+    - [Getting Started With Material-UI For React (Material Design For React)](https://medium.com/codingthesmartway-com-blog/getting-started-with-material-ui-for-react-material-design-for-react-364b2688b555)
+    - [Meet Material-UI — your new favorite user interface library](https://medium.freecodecamp.org/meet-your-material-ui-your-new-favorite-user-interface-library-6349a1c88a8c)
+    - [The definitive guide to React Material](https://blog.logrocket.com/the-definitive-guide-to-react-material-d730c8a3e8ba)
 
 ## [](#header-2) 8.9. Materialize
 
