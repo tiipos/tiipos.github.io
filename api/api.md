@@ -2,7 +2,7 @@
 
 ## Sumário
 
-1. [Objetivos](./#goals)
+1. [Objetivos](#goals)
 2. Tecnologias usadas
 3. Estrutura inicial
 4. Prática desta aula
