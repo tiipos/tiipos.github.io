@@ -62,7 +62,7 @@
    2. Modifique o branch `git checkout --track origin/rotas`
    3. Configure o git para fazer push com o branch `git branch --set-upstream-to origin/rotas`
 3. Preparando para programar
-   1. Instale o pnpm `npm i -g pnpm knex`
+   1. Instale o pnpm `npm i -g pnpm knex nodemon`
    2. Instale as bibliotecas `pnpm install`
 4. Cria no repositório de dados a tabela `Users` com o `Knex`
    1. Edite o arquivo `migrations/*_Datastructure.js`
