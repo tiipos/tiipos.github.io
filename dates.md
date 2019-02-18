@@ -4,7 +4,8 @@ layout: default
 
 # [](#header-1) Cronograma da disciplina
 
-## [](#header-2) 1° Bimestre UI 
+## [](#header-2) 1° Bimestre UI
+
 | \#   | dia                 | conteúdo                    |
 | :--- | :------------------ | :-------------------------- |
 | 01   | segunda-feira 11-02 | Sem aula                    |
@@ -25,6 +26,7 @@ layout: default
 | 16   | segunda-feira 08-04 |                             |
 | 17   | quinta-feira  11-04 |                             |
 | 18   | segunda-feira 15-04 | Entrega de resultados       |
+
 
 ## [](#header-2) 2° Bimestre API
 
@@ -52,6 +54,7 @@ layout: default
 | 20   | quinta-feira  27-06 |                       |
 | 21   | segunda-feira 01-07 | Entrega de resultados |
 
+
 ## [](#header-2) 3° Bimestre
 
 | \#   | dia                 | conteúdo              |
@@ -74,7 +77,6 @@ layout: default
 | 16   | quinta-feira  19-09 |                       |
 | 17   | segunda-feira 23-09 |                       |
 | 18   | quinta-feira  26-09 | Entrega de resultados |
-
 
 
 ## [](#header-2) 4° Bimestre
