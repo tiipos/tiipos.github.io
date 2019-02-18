@@ -4,101 +4,100 @@ layout: default
 
 # [](#header-1) Cronograma da disciplina
 
-## [](#header-2) 1° Bimestre UI
-
-| \# | dia | conteúdo |
-| :--- | :--- | :--- |
-| 01 | quinta-feira 15-02  | Aula inicial |
-| 02 | segunda-feira 19-02 | [Introdução](reactnative/intro) e [Ambiente de desenvolvimento](reactnative/environment) |
-| 03 | sexta-feira 23-02   | Prática ambiente |
-| 04 | segunda-feira 26-02 | Prática ambiente |
-| 05 | sexta-feira 02-03   | [Git](git/index) |
-| 06 | segunda-feira 05-03 | Git Prática |
-| 07 | sexta-feira 09-03   | Git Prática |
-| 08 | segunda-feira 12-03 | [Interface do usuário](reactnative/ui) |
-| 09 | sexta-feira 16-03   | Prática: Interface do usuário de CurrencyConverter |
-| 10 | segunda-feira 19-03 | [Interface do usuário](reactnative/ui) |
-| 11 | sexta-feira 23-03   | Prática: Interface do usuário de BulletJournal |
-| 12 | segunda-feira 26-03 | Navegação entre telas |
-| 13 | segunda-feira 02-04 | Gerenciando o estado da aplicação |
-| 14 | sexta-feira 06-04   | Prática: navegação e estado de CurrencyConverter |
-| 15 | segunda-feira 09-04 | Gerenciando o estado da aplicação |
-| 16 | sexta-feira 13-04   | Prática: navegação e estado de BulletJournal |
-| 17 | segunda-feira 16-04 | Usando API / Webservices |
-| 18 | sexta-feira 20-04   | Prática: usando API de CurrencyConcerter |
-| 19 | segunda-feira 23-04 | Entrega de resultados |
-
+## [](#header-2) 1° Bimestre UI 
+| \#   | dia                 | conteúdo                    |
+| :--- | :------------------ | :-------------------------- |
+| 01   | segunda-feira 11-02 | Sem aula                    |
+| 02   | quinta-feira  14-02 | Aula inicial                |
+| 03   | segunda-feira 18-02 | PWA                         |
+| 04   | quinta-feira  21-02 | Introdução a React e Heroku |
+| 05   | segunda-feira 25-02 |                             |
+| 06   | quinta-feira  28-08 |                             |
+| 07   | quinta-feira  07-03 |                             |
+| 08   | segunda-feira 11-03 |                             |
+| 09   | quinta-feira  14-03 |                             |
+| 10   | segunda-feira 18-03 |                             |
+| 11   | quinta-feira  21-03 |                             |
+| 12   | segunda-feira 25-03 |                             |
+| 13   | quinta-feira  28-03 |                             |
+| 14   | segunda-feira 01-04 |                             |
+| 15   | quinta-feira  04-04 |                             |
+| 16   | segunda-feira 08-04 |                             |
+| 17   | quinta-feira  11-04 |                             |
+| 18   | segunda-feira 15-04 | Entrega de resultados       |
 
 ## [](#header-2) 2° Bimestre API
 
-| \# | dia | conteúdo |
-| :--- | :--- | :--- |
-| 01 | sexta-feira 27-04   | - |
-| 02 | segunda-feira 30-04 | - |
-| 03 | sexta-feira 04-05   | - |
-| 04 | segunda-feira 07-05 | - |
-| 05 | sexta-feira 11-05   |  |
-| 06 | segunda-feira 14-05 |  |
-| 07 | sexta-feira 18-05   |  |
-| 08 | segunda-feira 21-05 | [Redux](reactnative/redux) |
-| 09 | sexta-feira 25-05   | [Redux](reactnative/redux) |
-| 10 | segunda-feira 28-05 | Sem aula |
-| 11 | segunda-feira 04-06 | Sem aula |
-| 12 | sexta-feira 08-06   | Sem aula |
-| 13 | segunda-feira 11-06 | WTADS |
-| 14 | sexta-feira 15-06   | [Redux](reactnative/redux) |
-| 15 | segunda-feira 18-06 | [Redux](reactnative/redux) |
-| 16 | sexta-feira 22-06   | [Redux](reactnative/redux) |
-| 17 | segunda-feira 25-06 | [Redux Saga](reactnative/redux-saga) |
-| 18 | sexta-feira 29-06   | [Redux Saga](reactnative/redux-saga) |
-| 19 | segunda-feira 02-07 | [Redux Saga](reactnative/redux-saga) |
-
+| \#   | dia                 | conteúdo              |
+| :--- | :------------------ | :-------------------- |
+| 01   | quinta-feira  18-04 |                       |
+| 02   | segunda-feira 22-04 |                       |
+| 03   | quinta-feira  25-04 |                       |
+| 04   | segunda-feira 29-04 |                       |
+| 05   | quinta-feira  02-05 |                       |
+| 06   | segunda-feira 06-05 |                       |
+| 07   | quinta-feira  09-05 |                       |
+| 08   | segunda-feira 13-05 |                       |
+| 09   | quinta-feira  16-05 |                       |
+| 10   | segunda-feira 20-05 |                       |
+| 11   | quinta-feira  23-05 |                       |
+| 12   | segunda-feira 27-05 |                       |
+| 13   | quinta-feira  30-05 |                       |
+| 14   | segunda-feira 03-06 |                       |
+| 15   | quinta-feira  06-06 |                       |
+| 16   | segunda-feira 10-06 |                       |
+| 17   | quinta-feira  13-06 |                       |
+| 18   | segunda-feira 17-06 |                       |
+| 19   | segunda-feira 24-06 |                       |
+| 20   | quinta-feira  27-06 |                       |
+| 21   | segunda-feira 01-07 | Entrega de resultados |
 
 ## [](#header-2) 3° Bimestre
 
-| \# | dia | conteúdo |
-| :--- | :--- | :--- |
-| 01 | sexta-feira   27-07 | React Native: recapitulando; React introdução |
-| 02 | segunda-feira 30-07 | PWA |
-| 03 | sexta-feira   03-08 | Introdução ao React |
-| 04 | segunda-feira 06-08 | Componentes React |
-| 05 | sexta-feira   10-08 | Fazendo build e deploy |
-| 06 | segunda-feira 13-08 | Desenvolvendo componentes React |
-| 07 | sexta-feira   17-08 | Estado de componentes react |
-| 08 | segunda-feira 20-08 |  |
-| 09 | sexta-feira   24-08 |  |
-| 10 | segunda-feira 27-08 |  |
-| 11 | sexta-feira   31-08 |  |
-| 12 | segunda-feira 03-09 |  |
-| 13 | segunda-feira 10-09 |  |
-| 14 | sexta-feira   14-09 |  |
-| 15 | segunda-feira 17-09 |  |
-| 16 | sexta-feira   21-09 |  |
-| 17 | segunda-feira 24-09 |  |
-| 18 | sexta-feira   28-09 |  |
-| 19 | segunda-feira 01-10 |  |
+| \#   | dia                 | conteúdo              |
+| :--- | :------------------ | :-------------------- |
+| 01   | segunda-feira 29-07 |                       |
+| 02   | quinta-feira  01-08 |                       |
+| 03   | segunda-feira 05-08 |                       |
+| 04   | quinta-feira  08-08 |                       |
+| 05   | segunda-feira 12-08 |                       |
+| 06   | quinta-feira  15-08 |                       |
+| 07   | segunda-feira 19-08 |                       |
+| 08   | quinta-feira  22-08 |                       |
+| 09   | segunda-feira 26-08 |                       |
+| 10   | quinta-feira  29-08 |                       |
+| 11   | segunda-feira 02-09 |                       |
+| 12   | quinta-feira  05-09 |                       |
+| 13   | segunda-feira 09-09 |                       |
+| 14   | quinta-feira  12-09 |                       |
+| 15   | segunda-feira 16-09 |                       |
+| 16   | quinta-feira  19-09 |                       |
+| 17   | segunda-feira 23-09 |                       |
+| 18   | quinta-feira  26-09 | Entrega de resultados |
+
 
 
 ## [](#header-2) 4° Bimestre
 
-| \# | dia | conteúdo |
-| :--- | :--- | :--- |
-| 01 | sexta-feira   05-10 |  |
-| 02 | segunda-feira 08-10 |  |
-| 03 | segunda-feira 15-10 |  |
-| 04 | sexta-feira   19-10 |  |
-| 05 | segunda-feira 22-10 |  |
-| 06 | sexta-feira   26-10 |  |
-| 07 | segunda-feira 29-10 |  |
-| 08 | segunda-feira 05-11 |  |
-| 09 | sexta-feira   09-11 |  |
-| 10 | segunda-feira 12-11 |  |
-| 11 | segunda-feira 19-11 |  |
-| 12 | sexta-feira   23-11 |  |
-| 13 | segunda-feira 26-11 |  |
-| 14 | sexta-feira   30-11 |  |
-| 15 | segunda-feira 03-12 |  |
-| 16 | sexta-feira   07-12 |  |
-| 17 | segunda-feira 10-12 |  |
-| 18 | sexta-feira   14-12 |  |
-| 19 | segunda-feira 17-12 | Entrega do resultado final |
+| \#   | dia                 | conteúdo                   |
+| :--- | :------------------ | :------------------------- |
+| 01   | segunda-feira 30-09 |                            |
+| 02   | segunda-feira 07-10 |                            |
+| 03   | quinta-feira  10-10 |                            |
+| 04   | segunda-feira 14-10 |                            |
+| 05   | quinta-feira  17-10 |                            |
+| 06   | segunda-feira 21-10 |                            |
+| 07   | quinta-feira  24-10 |                            |
+| 08   | segunda-feira 28-10 |                            |
+| 09   | quinta-feira  31-10 |                            |
+| 10   | segunda-feira 04-11 |                            |
+| 11   | quinta-feira  07-11 |                            |
+| 12   | segunda-feira 11-11 |                            |
+| 13   | quinta-feira  14-11 |                            |
+| 14   | segunda-feira 18-11 |                            |
+| 15   | segunda-feira 25-12 |                            |
+| 16   | quinta-feira  28-12 |                            |
+| 17   | segunda-feira 02-12 |                            |
+| 18   | quinta-feira  05-12 |                            |
+| 19   | segunda-feira 09-12 |                            |
+| 20   | quinta-feira  12-12 | Entrega do resultado final |
