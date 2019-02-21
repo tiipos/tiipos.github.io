@@ -12,7 +12,7 @@ layout: default
 | 02   | quinta-feira  14-02 | Aula inicial                               |
 | 03   | segunda-feira 18-02 | PWA                                        |
 | 04   | quinta-feira  21-02 | [Introdução a React](react/react-01-intro) |
-| 05   | segunda-feira 25-02 |                                            |
+| 05   | segunda-feira 25-02 | [Deploy](react/react-02-build)             |
 | 06   | quinta-feira  28-08 |                                            |
 | 07   | quinta-feira  07-03 |                                            |
 | 08   | segunda-feira 11-03 |                                            |
