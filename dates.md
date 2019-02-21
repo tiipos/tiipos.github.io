@@ -6,26 +6,26 @@ layout: default
 
 ## [](#header-2) 1° Bimestre UI
 
-| \#   | dia                 | conteúdo                    |
-| :--- | :------------------ | :-------------------------- |
-| 01   | segunda-feira 11-02 | Sem aula                    |
-| 02   | quinta-feira  14-02 | Aula inicial                |
-| 03   | segunda-feira 18-02 | PWA                         |
-| 04   | quinta-feira  21-02 | Introdução a React e Heroku |
-| 05   | segunda-feira 25-02 |                             |
-| 06   | quinta-feira  28-08 |                             |
-| 07   | quinta-feira  07-03 |                             |
-| 08   | segunda-feira 11-03 |                             |
-| 09   | quinta-feira  14-03 |                             |
-| 10   | segunda-feira 18-03 |                             |
-| 11   | quinta-feira  21-03 |                             |
-| 12   | segunda-feira 25-03 |                             |
-| 13   | quinta-feira  28-03 |                             |
-| 14   | segunda-feira 01-04 |                             |
-| 15   | quinta-feira  04-04 |                             |
-| 16   | segunda-feira 08-04 |                             |
-| 17   | quinta-feira  11-04 |                             |
-| 18   | segunda-feira 15-04 | Entrega de resultados       |
+| \#   | dia                 | conteúdo                                   |
+| :--- | :------------------ | :----------------------------------------- |
+| 01   | segunda-feira 11-02 | Sem aula                                   |
+| 02   | quinta-feira  14-02 | Aula inicial                               |
+| 03   | segunda-feira 18-02 | PWA                                        |
+| 04   | quinta-feira  21-02 | [Introdução a React](react/react-01-intro) |
+| 05   | segunda-feira 25-02 |                                            |
+| 06   | quinta-feira  28-08 |                                            |
+| 07   | quinta-feira  07-03 |                                            |
+| 08   | segunda-feira 11-03 |                                            |
+| 09   | quinta-feira  14-03 |                                            |
+| 10   | segunda-feira 18-03 |                                            |
+| 11   | quinta-feira  21-03 |                                            |
+| 12   | segunda-feira 25-03 |                                            |
+| 13   | quinta-feira  28-03 |                                            |
+| 14   | segunda-feira 01-04 |                                            |
+| 15   | quinta-feira  04-04 |                                            |
+| 16   | segunda-feira 08-04 |                                            |
+| 17   | quinta-feira  11-04 |                                            |
+| 18   | segunda-feira 15-04 | Entrega de resultados                      |
 
 
 ## [](#header-2) 2° Bimestre API
