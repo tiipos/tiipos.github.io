@@ -13,11 +13,11 @@ layout: default
 | 03   | segunda-feira 18-02 | PWA                                        |
 | 04   | quinta-feira  21-02 | [Introdução a React](react/react-01-intro) |
 | 05   | segunda-feira 25-02 | [Deploy](react/react-02-build)             |
-| 06   | quinta-feira  28-08 |                                            |
-| 07   | quinta-feira  07-03 |                                            |
-| 08   | segunda-feira 11-03 |                                            |
-| 09   | quinta-feira  14-03 |                                            |
-| 10   | segunda-feira 18-03 |                                            |
+| 06   | quinta-feira  28-08 | Componentes React                          |
+| 07   | quinta-feira  07-03 | Estado de um App React                     |
+| 08   | segunda-feira 11-03 | Componentes complexos                      |
+| 09   | quinta-feira  14-03 | Armazenamento no navegador                 |
+| 10   | segunda-feira 18-03 | App React offline                          |
 | 11   | quinta-feira  21-03 |                                            |
 | 12   | segunda-feira 25-03 |                                            |
 | 13   | quinta-feira  28-03 |                                            |
