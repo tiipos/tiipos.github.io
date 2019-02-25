@@ -41,6 +41,10 @@ pnpm start        # start the new react app named behappywith.me
 - **Substituir** nos comandos abaixo o endereço `https://github.com/leonardo-minora/behappy-frontend.git` pelo seu repositório
 
 ```sh
+git init
+git add README.md package.json pnpm-debug.log public src .gitignore
+git commit -m "2019 Aplicativo React inicial"
+
 git remote add origin https://github.com/leonardo-minora/behappy-frontend.git
  ## Adiciona repositório remoto do GitHub
  ## Lembrar de mudar leonardo-minora pelo seu login
