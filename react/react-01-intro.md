@@ -6,8 +6,9 @@
 2. Testando do ambiente
 3. Conectando ao GitHub
 4. Entendento um App React
+5. Tarefa
 
-## [](#header-2) Instalando e configurando as ferramentas
+## [](#header-2) 1. Instalando e configurando as ferramentas
 
 ### [](#header-3) javascript: nvm, Node, npm, pnpm
 
@@ -24,7 +25,7 @@ npm i -g pnpm # instal pnpm
 
 [pnpm](https://pnpm.js.org)
 
-## [](#header-2) Criando do ambiente
+## [](#header-2) 2. Testando do ambiente
 
 ```sh
 mkdir [nickname] # make your directory
@@ -34,24 +35,25 @@ cd behappywith.me # change the working directory
 pnpm start        # start the new react app named behappywith.me
 ```
 
-## [](#header-2) Conectando ao GitHub
+## [](#header-2) 3. Conectando ao GitHub
 
 - **Fork** no repositório `https://github.com/tiipos/behappy-frontend.git` para sua conta!
 - **Substituir** nos comandos abaixo o endereço `https://github.com/leonardo-minora/behappy-frontend.git` pelo seu repositório
 
 ```sh
-git init
-git add README.md package.json pnpm-debug.log public src .gitignore
-git commit -m "2019 Aplicativo React inicial"
-
 git remote add origin https://github.com/leonardo-minora/behappy-frontend.git
+ ## Adiciona repositório remoto do GitHub
+ ## Lembrar de mudar leonardo-minora pelo seu login
 git pull --allow-unrelated-histories
 git branch --set-upstream-to=origin/master master
 git pull --allow-unrelated-histories
-git push
+ ## sincroniza
+ ##   do repositório remoto (GitHub)
+ ##   para repositório local (computador)
+git push ## publica no repositório remoto o código do App React
 ```
 
-## [](#header-2) Entendento um App React
+## [](#header-2) 4. Entendento um App React
 
 ### [](#header-3) Navegador Web: HTML, CSS e js
 
@@ -174,3 +176,7 @@ import registerServiceWorker from "./registerServiceWorker";
 ReactDOM.render(<App />, document.getElementById("root"));
 registerServiceWorker();
 ```
+
+## [](#header-2) 5. Tarefa
+
+1. Fazer o fork do repositório [behappy]()

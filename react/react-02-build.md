@@ -5,7 +5,7 @@
 1. Introdução
 2. Fazendo o build
 3. Realizando deploy
-4. Tarefa de "_casa_"
+4. Tarefa
 
 ## [](#header-2) 1. Introdução
 
@@ -32,22 +32,9 @@ pnpm run build
 
 ### [](#header-3) 3.1. configurar o app
 
-**PASSO 1.** _adicionar_ a `package.json`
-
-```json
-  "author": {
-    "name": "Leonardo MINORA",
-    "email": "leonardo.minora@ifrn.edu.br"
-  },
-  "engines": {
-    "npm": "6.7.0",
-    "node": "11.10.0"
-  },
-```
+**PASSO 1.** _modificar_ a `package.json`
 
 _obs_: lembre de modificar seu nome e email!!!
-
-**arquivo final**
 
 ```json
 {
@@ -71,13 +58,21 @@ _obs_: lembre de modificar seu nome e email!!!
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "echo Skip build on Heroku"
   },
   "eslintConfig": {
     "extends": "react-app"
   },
-  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"],
+  "heroku-run-build-script": true
 }
+```
+
+```sh
+git add package.json # mark file
+git commit -m "2019 Atualizando package.json para publicar App no Heroku"
+ ### registra mudanças
 ```
 
 **PASSO 2.** _Remover_ o arquivo `yarn.lock`
@@ -85,10 +80,9 @@ _obs_: lembre de modificar seu nome e email!!!
 ```sh
 git rm yarn.lock                                   # mark file to remove
 git commit -m "2019 Removendo o arquivo yarn.lock" # remove file
-git push # publish
 ```
 
-**PASSO 3.** _Ignorando_ o arquivo `yarn.lock`
+**PASSO 3.** _Ignorando_ alguns arquivos
 
 _modificar_ o arquivo `.gitignore`
 
@@ -124,18 +118,16 @@ package-lock.json
 ```sh
 git add .gitignore
 git commit -m "2019 Update gitignore file list"
-git push
 ```
 
 ### [](#header-3) 3.2. Publicar modificação no GitHub
 
 ```sh
-git add package.json
-git commit -m "2019 Add info do dev e das engines"
+git pull
 git push
 ```
 
-### [](#header-3) 3.3. Publicando o projeto
+### [](#header-3) 3.3. Publicando o app no Heroku
 
 **Herokuu**
 
