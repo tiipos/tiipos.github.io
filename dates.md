@@ -6,15 +6,15 @@ layout: default
 
 ## [](#header-2) 1° Bimestre UI
 
-| \#   | dia                 | conteúdo                                   |
-| :--- | :------------------ | :----------------------------------------- |
-| 01   | segunda-feira 11-02 | Sem aula                                   |
-| 02   | quinta-feira  14-02 | Aula inicial                               |
-| 03   | segunda-feira 18-02 | PWA                                        |
-| 04   | quinta-feira  21-02 | [Introdução a React](react/react-01-intro) |
-| 05   | segunda-feira 25-02 | [Deploy](react/react-02-build)             |
-| 06   | quinta-feira  28-08 | Componentes React                          |
-| 07   | quinta-feira  07-03 | Estado de um App React                     |
+| \#   | dia                 | conteúdo                                       |
+| :--- | :------------------ | :--------------------------------------------- |
+| 01   | segunda-feira 11-02 | Sem aula                                       |
+| 02   | quinta-feira  14-02 | Aula inicial                                   |
+| 03   | segunda-feira 18-02 | PWA                                            |
+| 04   | quinta-feira  21-02 | [Introdução a React](react/react-01-intro)     |
+| 05   | segunda-feira 25-02 | [Deploy](react/react-02-build)                 |
+| 06   | quinta-feira  28-08 | [Componentes React](react/react-03-components) |
+| 07   | quinta-feira  07-03 | Estado de um App React                         |
 | 08   | segunda-feira 11-03 | Componentes complexos                      |
 | 09   | quinta-feira  14-03 | Armazenamento no navegador                 |
 | 10   | segunda-feira 18-03 | App React offline                          |
