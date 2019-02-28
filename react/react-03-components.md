@@ -62,12 +62,15 @@ export default App;
 
 
 ```sh
-cd behappy.me/front-end
+cd [nickname]/behappywith.me
 
 git pull
 
-git config --global user.name "Leonardo MINORA"
-git config --global user.email "leonardo.minora@gmail.com"
+git config --global --unset user.name
+git config --global --unset user.email
+
+git config user.name "Leonardo MINORA"
+git config user.email "leonardo.minora@gmail.com"
 
 mkdir src/css
 git mv src/index.css src/css
