@@ -8,14 +8,12 @@
 4. Colocando projeto no ar
 5. Tarefa :P
 
-
-
 ## [](#header-2) 1. JSX (relembrando)
 
 ```jsx
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 class App extends Component {
   render() {
@@ -36,8 +34,6 @@ class App extends Component {
 export default App;
 ```
 
-
-
 ## [](#header-2) 2. React Components (relembrando)
 
 ![Component React internals](img/react-components.png)
@@ -48,18 +44,16 @@ export default App;
 
 ![Component React hierarchy state upadates](img/react-components-hierarchy.png)
 
-
-
 ## [](#header-2) 3. BeHappy Components - colocando a mão na massa
 
 **sumário** :
+
 1. Goal
 2. Protótipos de componentes
 3. Componente App
 4. Componente Header
 5. Componente Novo Usuário
 6. Componente Label
-
 
 ```sh
 cd [nickname]/behappywith.me
@@ -82,13 +76,9 @@ pnpm start
 
 [pure.css](http://purecss.io/)
 
-
-
 ### [](#header-3) 3.1. Goal
 
 ![Protótipo de UI](./img/behappy-ui-prototype.png)
-
-
 
 ### [](#header-3) 3.2.Planning components
 
@@ -96,53 +86,72 @@ pnpm start
 
 [Tamanho de telas](http://viewportsizes.com)
 
-
-
 ### [](#header-3) 3.3. App Component
 
-1. ```./src/App.js```
-2. ```./src/index.js```
+1. `./src/App.js`
+2. `./src/index.js`
 
+**arquivo**: `./src/index.js`
 
+```jsx
+import React from "react";
+import ReactDOM from "react-dom";
+import "./css/index.css";
+import "./css/pure.css";
+import App from "./App";
+import * as serviceWorker from "./serviceWorker";
+
+ReactDOM.render(<App />, document.getElementById("root"));
+
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: http://bit.ly/CRA-PWA
+serviceWorker.unregister();
+```
 
 ### [](#header-3) 3.4. Head Component
 
 ![Componentes sem estado e com estado](./img/behappy-component-types.png)
 
-- **diretório** : ```./src/components/Header```
-- **arquivos** : ```index.js```, ```Header.js```, ```index.css```, e ```img/logo.png```
+- **diretório** : `./src/components/Header`
+- **arquivos** : `index.js`, `Header.js`, `index.css`, e `img/logo.png`
 
-**arquivo** : ```img/logo.png```
+**arquivo** : `./src/components/Header/img/logo.png`
 ![logo behappy.me](img/behappy/logo.png)
 
-**arquivo** : ```index.js```
+**arquivo** : `./src/components/Header/index.js`
+
 ```jsx
-import Header from './Header';
+import Header from "./Header";
 
 export default Header;
 ```
 
-**arquivo** : ```Header.js```
-```jsx
-import React from 'react';
+**arquivo** : `./src/components/Header/Header.js`
 
-import './index.css';
+```jsx
+import React from "react";
+
+import "./index.css";
 
 export default function Header() {
   return (
     <div className="header pure-menu pure-menu-horizontal pure-menu-fixed">
-      <a href="/"><img className="logo" src={require("./img/logo.png")} /></a>
+      <a href="/">
+        <img className="logo" src={require("./img/logo.png")} />
+      </a>
       <h4 className="label">Agenda de gentileza</h4>
     </div>
-  )
+  );
 }
 ```
 
-**arquivo** : ```index.css```
+**arquivo** : `./src/components/Header/index.css`
+
 ```css
 div.header {
   background-color: #2c80b9;
-  min-width: 320px;    
+  min-width: 320px;
 }
 
 div.header img {
@@ -166,33 +175,33 @@ div.header h4.label {
 
 @media (max-width: 992px) {
   div.header img.logo {
-      height: 78px;
-      width: 139px;
+    height: 78px;
+    width: 139px;
   }
   div.header h4.label {
-      line-height: 78px;
+    line-height: 78px;
   }
 }
 
 @media (max-width: 600px) {
   div.header img.logo {
-      height: 62px;
-      width: 110px;
+    height: 62px;
+    width: 110px;
   }
   div.header h4.label {
-      line-height: 62px;
+    line-height: 62px;
   }
 }
 ```
 
-**arquivo** : ```./src/App.js```
-```jsx
-import React, { Component } from 'react';
-import logo from './logo.svg';
+**arquivo** : `./src/App.js`
 
-import './App.css';
-import Header from './components/Header';
-import NewUser from './components/NewUser';
+```jsx
+import React, { Component } from "react";
+import logo from "./logo.svg";
+
+import "./App.css";
+import Header from "./components/Header";
 
 class App extends Component {
   render() {
@@ -207,25 +216,25 @@ class App extends Component {
 export default App;
 ```
 
-
-
 ### [](#header-3) 3.5. NewUser Component
 
-- **diretório** : ```./src/components/NewUser```
-- **arquivos** : ```index.js```, e ```NewUser.js```
+- **diretório** : `./src/components/NewUser`
+- **arquivos** : `index.js`, e `NewUser.js`
 
-**arquivo** : ```index.js```
+**arquivo** : `./src/components/NewUser/index.js`
+
 ```jsx
-import NewUser from './NewUser';
+import NewUser from "./NewUser";
 
 export default NewUser;
 ```
 
-**arquivo** : ```NewUser.js```
-```jsx
-import React, {Component} from 'react';
+**arquivo** : `./src/components/NewUser/NewUser.js`
 
-import Label from '../Label';
+```jsx
+import React, { Component } from "react";
+
+import Label from "../Label";
 
 class NewUser extends Component {
   render() {
@@ -242,14 +251,15 @@ class NewUser extends Component {
 export default NewUser;
 ```
 
-**arquivo** : ```./src/App.js```
-```jsx
-import React, { Component } from 'react';
-import logo from './logo.svg';
+**arquivo** : `./src/App.js`
 
-import './App.css';
-import Header from './components/Header';
-import NewUser from './components/NewUser';
+```jsx
+import React, { Component } from "react";
+import logo from "./logo.svg";
+
+import "./App.css";
+import Header from "./components/Header";
+import NewUser from "./components/NewUser";
 
 class App extends Component {
   render() {
@@ -265,7 +275,8 @@ class App extends Component {
 export default App;
 ```
 
-**arquivo** : ```./src/css/index.css```
+**arquivo** : `./src/css/index.css`
+
 ```css
 body {
   margin: 0;
@@ -294,40 +305,43 @@ div.center {
 }
 ```
 
-
-
 ### [](#header-3) 3.6. Label Component
 
-**diretório** : ```./src/components/Label```
-**arquivos** : ```index.js```, e ```Label.js```
+**diretório** : `./src/components/Label`
+**arquivos** : `index.js`, e `Label.js`
 
-**arquivo** : ```index.js```
+**arquivo** : `./src/components/Label/index.js`
+
 ```jsx
-import Label from './Label';
+import Label from "./Label";
 
 export default Label;
 ```
 
-**arquivo** : ```Label.js```
+**arquivo** : `./src/components/Label/Label.js`
+
 ```jsx
-import React from 'react';
+import React from "react";
 
 export default function Label(props) {
   const style = {
-    color: props.invalidValue ? '#d50000' : '#444444', 
+    color: props.invalidValue ? "#d50000" : "#444444"
   };
 
   return (
-    <label style={style} htmlFor={props.htmlFor}>{props.text}</label>
+    <label style={style} htmlFor={props.htmlFor}>
+      {props.text}
+    </label>
   );
 }
 ```
 
-**arquivo** : ```./src/components/NewUser.js```
-```jsx
-import React, {Component} from 'react';
+**arquivo** : `./src/components/NewUser.js`
 
-import Label from '../Label';
+```jsx
+import React, { Component } from "react";
+
+import Label from "../Label";
 
 class NewUser extends Component {
   render() {
@@ -344,21 +358,18 @@ class NewUser extends Component {
 export default NewUser;
 ```
 
-
 ## [](#header-2) 4. Heroku
 
 1. Publicar no GitHub
 2. Instalar no Heroku
 
 ```sh
-git add src/App.js src/css src/img src/components
+git add src
 git commit -m "Aula sobre componentes Reat"
 git push
 ```
 
 [heroku app](http://heroku.com/)
-
-
 
 ## [](#header-2) 5. Homework
 
