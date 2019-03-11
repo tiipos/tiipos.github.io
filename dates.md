@@ -14,18 +14,18 @@ layout: default
 | 04   | quinta-feira  21-02 | [Introdução a React](react/react-01-intro)     |
 | 05   | segunda-feira 25-02 | [Deploy](react/react-02-build)                 |
 | 06   | quinta-feira  28-08 | [Componentes React](react/react-03-components) |
-| 07   | quinta-feira  07-03 | Estado de um App React                         |
-| 08   | segunda-feira 11-03 | Componentes complexos                      |
-| 09   | quinta-feira  14-03 | Armazenamento no navegador                 |
-| 10   | segunda-feira 18-03 | App React offline                          |
-| 11   | quinta-feira  21-03 |                                            |
-| 12   | segunda-feira 25-03 |                                            |
-| 13   | quinta-feira  28-03 |                                            |
-| 14   | segunda-feira 01-04 |                                            |
-| 15   | quinta-feira  04-04 |                                            |
-| 16   | segunda-feira 08-04 |                                            |
-| 17   | quinta-feira  11-04 |                                            |
-| 18   | segunda-feira 15-04 | Entrega de resultados                      |
+| 07   | quinta-feira  07-03 | Lab                                            |
+| 08   | segunda-feira 11-03 | [Estado de um App React](react/react-04-state) |
+| 09   | quinta-feira  14-03 | Lab                                            |
+| 10   | segunda-feira 18-03 | Componentes complexos                          |
+| 11   | quinta-feira  21-03 | Lab                                            |
+| 12   | segunda-feira 25-03 | App React offline                              |
+| 13   | quinta-feira  28-03 | Lab                                            |
+| 14   | segunda-feira 01-04 |                                                |
+| 15   | quinta-feira  04-04 |                                                |
+| 16   | segunda-feira 08-04 |                                                |
+| 17   | quinta-feira  11-04 |                                                |
+| 18   | segunda-feira 15-04 | Entrega de resultados                          |
 
 
 ## [](#header-2) 2° Bimestre API
