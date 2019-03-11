@@ -2,16 +2,16 @@
 
 ## [](#sumario) Sumário
 
-1. [Objetivos](#goals)
-2. [Estado de Componentes React](#react-state)
-3. [Um pouco de javascript](#js)
-4. [Preparando para programar](#before)
-5. [Programando os componentes](#dev)
-6. [Registrando as mudanças](#github)
-7. [Publicando no Heroku](#heroku)
-8. [Homework](#homework)
+1. [Objetivos](#-1-objetivos)
+2. [Estado de Componentes React](#-2-estado-de-componentes-react)
+3. [Um pouco de javascript](#-3-um-pouco-de-javascript)
+4. [Preparando para programar](#4-preparando-para-programar)
+5. [Programando os componentes](#-5-programando-os-componentes)
+6. [Registrando as mudanças](#-6-registrando-as-mudanças)
+7. [Publicando no Heroku](#-7-publicando-no-heroku)
+8. [Homework](#-8-homework)
 
-## [](#goals) 1. Objetivos
+## [](#header-2) 1. Objetivos
 
 - React
   - Entender o funcionamento de estado de um componente
@@ -19,7 +19,7 @@
   - Criar os componentes: Input, GenderButton, GenderImage, GenderSelector
   - Modificar os componentes: App, NewUser
 
-## [](#react-state) 2. Estado de Componentes React
+## [](#header-2) 2. Estado de Componentes React
 
 ![Component React internals](img/react-components.png)
 
@@ -82,7 +82,7 @@ ReactDOM.render(
 registerServiceWorker();
 ```
 
-## [](#js) 3. Um pouco de javascript
+## [](#header-2) 3. Um pouco de javascript
 
 1. IO não bloqueante (programação assíncrona e callback)
 2. Arrow functions
@@ -219,7 +219,7 @@ console.log(`auto ${2 * 3 * -1}px`);
 // auto -6px
 ```
 
-## [](#before) 4. Preparando para programar
+## [](#header-2) 4. Preparando para programar
 
 ### [](#header-3) 4.1. App no computador
 
@@ -272,15 +272,15 @@ pnpm start
 
 ![Componentes dessa aula: Input, Image, GenderImage, GenderButton, GenderSelector](img/behappy-04-components.png)
 
-## [](#dev) 5. Programando os componentes
+## [](#header-2) 5. Programando os componentes
 
-1. [Comoponente Input](#behappywithme-input)
-2. [Componente Image](#behappywithme-image)
-3. [Compnente GenderImage](#behappywithme-genderimage)
-4. [Componente GenderButton](#behappywithme-genderbutton)
-5. [Componente GenderSelector](#behappywithme-genderselector)
+1. [Comoponente Input](#-51-comoponente-input)
+2. [Componente Image](#-52-compnente-image)
+3. [Compnente GenderImage](#-53-compnente-genderimage)
+4. [Componente GenderButton](#-54-componente-genderbutton)
+5. [Componente GenderSelector](#-55-componente-genderselector)
 
-### [](#behappywithme-input) 5.1. Comoponente Input
+### [](#header-3) 5.1. Comoponente Input
 
 **Características**
 
@@ -409,7 +409,7 @@ export default NewUser;
   - [CSS Sprite Generator](https://spritegen.website-performance.org)
   - [CSS Sprite tool](http://cssspritestool.com)
 
-#### [](#behappywithme-image) 5.2. Compnente Image
+#### [](#header-3) 5.2. Compnente Image
 
 **executar no terminal**
 
@@ -467,7 +467,7 @@ class Image extends Component {
 export default Image;
 ```
 
-#### [](#behappywithme-genderimage) 5.4. Compnente GenderImage
+#### [](#header-3) 5.3. Compnente GenderImage
 
 **executar no terminal**
 
@@ -567,7 +567,7 @@ class NewUser extends Component {
 export default NewUser;
 ```
 
-### [](#behappywithme-genderbutton) 5.6. Componente GenderButton
+### [](#header-3) 5.4. Componente GenderButton
 
 **executar no terminal**
 
@@ -637,7 +637,7 @@ export default function GenderButton(props) {
 }
 ```
 
-### [](#behappywithme-genderselector) Componente GenderSelector
+### [](#header-3) 5.5. Componente GenderSelector
 
 **executar no terminal**
 
@@ -770,7 +770,7 @@ class NewUser extends Component {
 export default NewUser;
 ```
 
-## [](#github) 6. Registrando as mudanças
+## [](#header-2) 6. Registrando as mudanças
 
 1. Fechar servidor web `CTRL + C`
 2. Adicioanar novos e modificados arquivos (`git add`) no repositório local
@@ -794,7 +794,7 @@ git pull
 git push
 ```
 
-## [](#heroku) 7. Publicando no Heroku
+## [](#header-2) 7. Publicando no Heroku
 
 1. Acessar o [Heroku](https://www.heroku.com) e se autenticar
 2. Acessar o link do seu _App_ no Heroku
@@ -805,6 +805,6 @@ git push
 7. Aguardar um tempo, olhando o log
 8. No topo da página, clicar em _Open App_
 
-## [](#homework) Homework
+## [](#header-2) 8. Homework
 
 **Do it!!!**
