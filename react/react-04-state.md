@@ -60,9 +60,12 @@ class App extends Component {
       background: this.state.cor
     };
     return (
-      <h1 style={estilo} onClick={this.trocarCor}>
-        {this.props.texto}
-      </h1>
+      <div>
+        <h1 style={estilo} onClick={this.trocarCor}>
+          {this.props.texto}
+        </h1>
+        <h2> Contador {this.state.contador} </h2>
+      </div>
     );
   }
 }
@@ -245,7 +248,7 @@ git config user.email "$EMAIL"
 
 ### download da imagem a ser utilizada nos componentes
 mkdir public/img
-curl https://github.com/tiipos/tiipos.github.io/raw/master/react/img/behappy/avatars.png --output public/img/avatars.png
+curl https://raw.githubusercontent.com/tiipos/tiipos.github.io/master/react/img/behappy/avatars.png --output public/img/avatars.png
 
 ### Instala as bibliotecas e executa o app
 pnpm install
