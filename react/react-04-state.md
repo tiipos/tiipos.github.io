@@ -34,11 +34,13 @@
 **src/App.js**
 
 ```jsx
-class App extends React.Component {
+import React, { Component } from 'react';
+
+class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      cor: white,
+      cor: "white",
       contador: 0
     };
   }
@@ -64,6 +66,8 @@ class App extends React.Component {
     );
   }
 }
+
+export default App;
 ```
 
 **src/index.js**
@@ -79,7 +83,11 @@ ReactDOM.render(
   <App texto="Olá mundo!" />,
   document.querySelector("root");
 );
-registerServiceWorker();
+
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister();
 ```
 
 ## [](#header-2) 3. Um pouco de javascript
