@@ -14,13 +14,13 @@
 
 ## [](#header-2) Sumário
 
-1. [Preparando o ambiente]()
-2. [Adicionar domínio da aplicação]()
-3. [Criar e testar o componente Button]()
-4. [Criar e testar o componente ImageScroller]()
-5. [Registrar as mudanças no repositório do github]()
-6. [Publicar no Heroku]()
-7. [Homework]()
+1. [Preparando o ambiente](#-1-preparando-o-ambiente)
+2. [Adicionar domínio da aplicação](#-2-adicionar-o-domínio-da-aplicação)
+3. [Criar e testar o componente Button](#-3-criar-o-componente-button)
+4. [Criar e testar o componente ImageScroller](#-4-criar-e-testar-o-componente-imagescroller)
+5. [Registrar as mudanças no repositório do github](#-5-registrando-as-mudanças)
+6. [Publicar no Heroku](#-6-publicando-no-heroku)
+7. [Homework](#-7-homework)
 
 ### [](#header-3) 1. Preparando o ambiente
 
@@ -79,9 +79,20 @@ pnpm start
 
 ### [](#header-3) 2. Adicionar o domínio da aplicação
 
+**Sub-tarefas**
+
 1. Criar diretório para o domínio
 2. Criar e editar a classe Usuário do domínio
 3. Modificar o componente React/BeHappyWith.Me NewUser
+
+#### [](#header-4) 2.1. Criar diretório para o domínio
+
+```sh
+mkdir src/models
+touch src/models/User.js
+```
+
+#### [](#header-4) 2.2. Criar e editar a classe Usuário do domínio
 
 **src/models/User.js**
 
@@ -106,6 +117,8 @@ export default class User {
     });
   }
 ```
+
+#### [](#header-4) 2.3. Modificar o componente React/BeHappyWith.Me NewUser
 
 **src/components/NewUser/NewUser.js**
 
