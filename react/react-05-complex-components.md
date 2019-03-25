@@ -427,14 +427,20 @@ export default NewUser;
 #### [](#header-4) 3.3 Apresentar mensagens de erro
 
 1. Instalar o component react-toastify
-2. Criar o componente React/BeHappyWith.Me de mensgagens (Toast)
+2. Criar o componente React/BeHappyWith.Me de mensgagens (`src/components/Toast`)
+3. Modificar o `src/App.js`
+4. Modificar o `src/components/NewUser/NewUser.js`
 
 ```sh
 # Parar o servidor web
 # pressiona as teclas CTRL + C
 
+mkdir src/components/Toast
+touch src/components/Toast/index.js
+touch src/components/Toast/Toast.js
+
 # Instalar o componente react-toastify
-pnpm install react-toastify
+pnpm install react-toastify @babel/runtime react-transition-group
 
 # Reiniciar o servidor web
 pnpm start
@@ -637,10 +643,10 @@ Sintetizando as **2 telas** de novo usuário:
 
 **Quais etapas** para preparar a 1a tela:
 
-1. Refatorar NewUser, encapsulando as entradas (jsx dentro de render) com métodos;
-1. `renderName`
-1. `renderGender`
-1. `renderButtons`
+1. Refatorar NewUser, encapsulando as entradas (jsx dentro de render) com métodos:
+   - `renderName`
+   - `renderGender`
+   - `renderButtons`
 
 **src/components/NewUser/NewUser.js**
 
@@ -800,11 +806,11 @@ export default NewUser;
 
 **Sub-tarefas**:
 
-1. Criar o componente `ButtonImage`
-2. Entender o funcionamento do `ImageScroller`
-3. Criar o arquivo `ManipularEvento.js`
-4. Criar a classe de domínio `Avatar.js`
-5. Criar o componente `ImageScroller`
+1. Criar o componente `src/components/ButtonImage`
+2. Entender o funcionamento do `src/components/ImageScroller`
+3. Criar o arquivo `src/components/ImageScroller/ManipularEvento.js`
+4. Criar a classe de domínio `src/models/Avatar.js`
+5. Modificar o componente `src/components/ImageScroller`
 
 ```sh
 # Fechar o servidor web
