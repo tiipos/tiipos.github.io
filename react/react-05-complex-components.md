@@ -803,7 +803,7 @@ export default NewUser;
 1. Criar o componente `ButtonImage`
 2. Entender o funcionamento do `ImageScroller`
 3. Criar o arquivo `ManipularEvento.js`
-4. Criar a classe de domínio `Avajar.js`
+4. Criar a classe de domínio `Avatar.js`
 5. Criar o componente `ImageScroller`
 
 ```sh
