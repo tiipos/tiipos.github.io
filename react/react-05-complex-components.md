@@ -1530,7 +1530,7 @@ export default App;
 ### 1. Pressionar CTRL+C
 
 ### 2. Adicionar arquivos novos e modificados no repositório local
-git add src public/img
+git add src public/img package.json
 
 ### 3. Registrar mudanças no repositório local
 git commit -m "$MSG"
