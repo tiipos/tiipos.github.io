@@ -99,23 +99,24 @@ touch src/models/User.js
 ```js
 export default class User {
   constructor() {
-    this.name = '';
-    this.gender = '';
+    this.name = "";
+    this.gender = "";
   }
 
   validName = () => {
     return (
-      typeof this.name === 'string' &&
+      typeof this.name === "string" &&
       this.name.length !== 0 &&
       this.name.length <= 40
     );
-  }
+  };
 
   validGender = () => {
-    return ['m', 'f'].some(param => {
+    return ["m", "f"].some(param => {
       return this.gender === param;
     });
-  }
+  };
+}
 ```
 
 #### [](#header-4) 2.3. Modificar o componente React/BeHappyWith.Me NewUser
