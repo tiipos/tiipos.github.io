@@ -1,84 +1,79 @@
-# [](#header-1) React App - Funcionando o aplicativo offline no browser
+# [](#header-1) React App - Funcionando o aplicativo offline no browser <!-- omit in toc -->
 
-## [](#header-2) Objetivos
+## [](#header-2) Objetivos <!-- omit in toc -->
 
 - PWA
   - Discutir alternativas de implementação do recurso _offline_
 - BeHappy.Me
-  - Implementar o arquivo ```public/behappy.appcache```
-  - Entender o arquivo ```src/registerServiceWorker.js```
+  - Implementar o arquivo `public/behappy.appcache`
+  - Entender o arquivo `src/registerServiceWorker.js`
 
+## [](#header-2) Sumário <!-- omit in toc -->
 
+- [1. Preparando o ambiente](#1-preparando-o-ambiente)
+- [2. PWA Requisito funcionar o app offline](#2-pwa-requisito-funcionar-o-app-offline)
+- [3. Implementar o arquivo appcache](#3-implementar-o-arquivo-appcache)
+- [4. Entender o arquivo registerServiceWorker.js](#4-entender-o-arquivo-registerserviceworkerjs)
+- [5. Registrando as mudanças no GitHub](#5-registrando-as-mudan%C3%A7as-no-github)
+- [6. Publicando no Heroku](#6-publicando-no-heroku)
+- [7. Homework](#7-homework)
 
-## [](#header-2) Sumário
-
-1. PWA Requito funcionar o app offline
-2. Implementar o arquivo ```public/behappy.appcache```
-3. Entender o arquivo ```src/registerServiceWorker.js```
-4. Registrando as mudanças
-5. Publicar no Heroku
-
-
-
-## [](#header-2) Antes de iniciar
+### 1. Preparando o ambiente
 
 **para quem não tem o pnpm, npm, node**
 
 ```sh
-nvm install node
-npm -v
-node -v
-npm i -g pnpm
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash # install nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+nvm install node # install node lastest version
+npm i -g pnpm # instal pnpm
 ```
 
-**para quem irá clonar o código do GitHub**
+**para quem tem o código no computador**
 
 ```sh
-### Tudo que iniciar com $ deverá ser substituído
-### pelo valor correspondente
-mkdir $NICKNAME_ALUNO
-cd $NICKNAME_ALUNO
-git clone $URL_GITHUB
-cd behappy-frontend
-```
+### acessa diretório da aplicação
+cd [nickname]/behappywith.me
+git pull ### baixa o código-fonte
 
-**para quem tem o código no PC**
-
-```sh
-### Tudo que iniciar com $ deverá ser substituído
-### pelo valor correspondente
-cd $DIRETORIO_APP
-git pull
-```
-
-**Configurando usuário o git no PC**
-
-```sh
 ### Modifica informações do desenvolvedor
-git config --global --replace-all user.name "$NOME"
-git config --global --replace-all user.email "$EMAIL"
-```
+git config --global --unset user.name
+git config --global --unset user.email
+git config user.name "$NOME"
+git config user.email "$EMAIL"
 
+atom . ### abre o editor de código-fonte com o diretório atual
 
-**Instalando as bibliotecas, gerando o código final e testando**
-
-```sh
 ### Instala as bibliotecas do app
 pnpm install
-
-### Instala o pacote ```serve```
-pnpm i -g serve
-
-### Gera (transpiling) o código-fonte final do App
-pnpm run build
-
-### Executa servidor
-serve -s build
+pnpm start
 ```
 
+**para quem NÃO tem o código no computador**
 
+```sh
+### acessa diretório da aplicação
+mkdir [nickname] && cd $_
+### Mudar o [github-username] pelo seu nickname do GitHub
+git clone https://github.com/[github-username]/behappy-frontend.git
+mv behappy-frontend behappywith.me && cd $_
 
-## [](#header-2) 7.1. PWA Requito funcionar o app offline
+### Modifica informações do desenvolvedor
+git config --global --unset user.name
+git config --global --unset user.email
+git config user.name "$NOME"
+git config user.email "$EMAIL"
+
+atom . ### abre o editor de código-fonte com o diretório atual
+
+### Instala as bibliotecas do app
+pnpm install
+pnpm start
+```
+
+### 2. PWA Requisito funcionar o app offline
 
 **Requisito** : uma aplicação progressiva precisa fornecer a capacidade de funcionar _offline_
 
@@ -87,23 +82,22 @@ serve -s build
     - [portabilidade de ~94% dos navegadores](https://caniuse.com/#feat=offline-apps): Opera mini
     - API declarativa
     - relacionar quais arquivos ele precisa armazenar no arquivo _manifest_
-  - Service worker 
+  - Service worker
     - Cache storage do browser
     - "_Recurso mais poderoso e exigido em aplicações progressivas_"
     - [portabilidade](https://caniuse.com/#feat=serviceworkers): problemas com IE e Opera mini
 
+### 3. Implementar o arquivo appcache
 
-
-
-## [](#header-2) 7.2. Implementar o arquivo ```public/behappy.appcache```
+**arquivo**: `public/behappy.appcache`
 
 ```sh
 touch public/behappy.appcache
 ```
 
-**public/behappy.appcache** : edite e cole o conteúdo abaixo
+`public/behappy.appcache` : edite e cole o conteúdo abaixo
 
-```
+```manifaest
 CACHE MANIFEST
 # v0.0.1
 
@@ -127,19 +121,20 @@ NETWORK:
 *
 ```
 
-
-
-**public/index.html** : editar o arquivo e modificar a linha 2
+`public/index.html` : editar o arquivo e modificar a linha 2
 
 ```html
 <!DOCTYPE html>
 <html lang="en" manifest="%PUBLIC_URL%/behappy.appcache">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="theme-color" content="#000000">
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
     <title>BeHappy.Me</title>
   </head>
   <body>
@@ -151,11 +146,9 @@ NETWORK:
 </html>
 ```
 
+### 4. Entender o arquivo registerServiceWorker.js
 
-
-## [](#header-2) 7.3. Entender o arquivo ```src/registerServiceWorker.js```
-
-**src/registerServiceWorker.js**
+`src/registerServiceWorker.js`
 
 ```js
 // In production, we register a service worker to serve assets from local cache.
@@ -169,9 +162,9 @@ NETWORK:
 // This link also includes instructions on opting out of this behavior.
 
 const isLocalhost = Boolean(
-  window.location.hostname === 'localhost' ||
+  window.location.hostname === "localhost" ||
     // [::1] is the IPv6 localhost address.
-    window.location.hostname === '[::1]' ||
+    window.location.hostname === "[::1]" ||
     // 127.0.0.1/8 is considered localhost for IPv4.
     window.location.hostname.match(
       /^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/
@@ -179,7 +172,7 @@ const isLocalhost = Boolean(
 );
 
 export default function register() {
-  if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {
+  if (process.env.NODE_ENV === "production" && "serviceWorker" in navigator) {
     // The URL constructor is available in all browsers that support SW.
     const publicUrl = new URL(process.env.PUBLIC_URL, window.location);
     if (publicUrl.origin !== window.location.origin) {
@@ -189,7 +182,7 @@ export default function register() {
       return;
     }
 
-    window.addEventListener('load', () => {
+    window.addEventListener("load", () => {
       const swUrl = `${process.env.PUBLIC_URL}/service-worker.js`;
 
       if (isLocalhost) {
@@ -200,8 +193,8 @@ export default function register() {
         // service worker/PWA documentation.
         navigator.serviceWorker.ready.then(() => {
           console.log(
-            'This web app is being served cache-first by a service ' +
-              'worker. To learn more, visit https://goo.gl/SC7cgQ'
+            "This web app is being served cache-first by a service " +
+              "worker. To learn more, visit https://goo.gl/SC7cgQ"
           );
         });
       } else {
@@ -219,25 +212,25 @@ function registerValidSW(swUrl) {
       registration.onupdatefound = () => {
         const installingWorker = registration.installing;
         installingWorker.onstatechange = () => {
-          if (installingWorker.state === 'installed') {
+          if (installingWorker.state === "installed") {
             if (navigator.serviceWorker.controller) {
               // At this point, the old content will have been purged and
               // the fresh content will have been added to the cache.
               // It's the perfect time to display a "New content is
               // available; please refresh." message in your web app.
-              console.log('New content is available; please refresh.');
+              console.log("New content is available; please refresh.");
             } else {
               // At this point, everything has been precached.
               // It's the perfect time to display a
               // "Content is cached for offline use." message.
-              console.log('Content is cached for offline use.');
+              console.log("Content is cached for offline use.");
             }
           }
         };
       };
     })
     .catch(error => {
-      console.error('Error during service worker registration:', error);
+      console.error("Error during service worker registration:", error);
     });
 }
 
@@ -248,7 +241,7 @@ function checkValidServiceWorker(swUrl) {
       // Ensure service worker exists, and that we really are getting a JS file.
       if (
         response.status === 404 ||
-        response.headers.get('content-type').indexOf('javascript') === -1
+        response.headers.get("content-type").indexOf("javascript") === -1
       ) {
         // No service worker found. Probably a different app. Reload the page.
         navigator.serviceWorker.ready.then(registration => {
@@ -263,13 +256,13 @@ function checkValidServiceWorker(swUrl) {
     })
     .catch(() => {
       console.log(
-        'No internet connection found. App is running in offline mode.'
+        "No internet connection found. App is running in offline mode."
       );
     });
 }
 
 export function unregister() {
-  if ('serviceWorker' in navigator) {
+  if ("serviceWorker" in navigator) {
     navigator.serviceWorker.ready.then(registration => {
       registration.unregister();
     });
@@ -277,20 +270,17 @@ export function unregister() {
 }
 ```
 
+### 5. Registrando as mudanças no GitHub
 
-
-## [](#header-2) 7.4 Registrando as mudanças
-
-1. Fechar servidor web ```CTRL + C```
-2. Adicioanar novos e modificados arquivos (```git add```) no repositório local
-3. Registrar mudanças (```git commit```) no repositório local
-4. Publicar mudanças no repositório remoto (```git pull``` e ```git push```)
-
+1. Fechar servidor web `CTRL + C`
+2. Adicioanar novos e modificados arquivos (`git add`) no repositório local
+3. Registrar mudanças (`git commit`) no repositório local
+4. Publicar mudanças no repositório remoto (`git pull` e `git push`)
 
 ```sh
 # Fechar o servidor web
 ### 1. Pressionar CTRL+C
-### 
+###
 
 ### 2. Adicionar arquivos novos e modificados no repositório local
 git add public/behappy.appcache public/index.html
@@ -303,9 +293,7 @@ git pull
 git push
 ```
 
-
-
-## [](#header-2) 8. Publicando no Heroku
+### 6. Publicando no Heroku
 
 1. Acessar o [Heroku](https://www.heroku.com) e se autenticar
 2. Acessar o link do seu _App_ no Heroku
@@ -315,3 +303,7 @@ git push
 6. Em _Manual deploy_, clicar em _Deploy Branch_
 7. Aguardar um tempo, olhando o log
 8. No topo da página, clicar em _Open App_
+
+### 7. Homework
+
+**Just do it!!!**
