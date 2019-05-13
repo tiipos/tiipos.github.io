@@ -61,7 +61,7 @@
    2. Instale as bibliotecas `pnpm install`
 4. Execute localmente a API e teste
    1. Instale as bibliotecas `pnpm install`
-   2. Execute a API `pnpm start`
+   2. Execute a API `pnpm run dev-start`
    3. Teste usando um navegador, acessando a URL `http://localhost:8000/`
 5. Execute o Postman
    1. Acesse a URL `http://localhost:8000/` com método `GET`
