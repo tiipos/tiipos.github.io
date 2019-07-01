@@ -36,5 +36,5 @@ layout: default
 
 1. [Introdução](api/introduction)
 2. [Estrutura inicial da API](api/api)
-3. [CRUD](api/crud)
+3. [CRUD](api/crud) Gentilezas
 4. [Autenticação e autorização](api/auth)

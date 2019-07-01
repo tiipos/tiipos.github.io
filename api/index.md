@@ -4,7 +4,7 @@
 
 1. [Introdução](introduction)
 2. [Estrutura inicial da API](api)
-3. [CRUD](crud)
+3. [CRUD](crud) Gentilezas
 4. [Autenticação e autorização](auth)
 
 ## [](#header-2) Wikipedia
