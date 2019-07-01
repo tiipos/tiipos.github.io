@@ -55,15 +55,13 @@
 
 1. Fork o [respositório](https://github.com/tiipos/2019-behappy-api.git)
 2. Clone o seu repositório no desktop `git clone URL`
-   1. Execute `git clone https://github.com/{GIHUB_USERNAME}/tarefas-api.git`
-   2. Modifique o branch `git checkout --track origin/rotas`
-   3. Configure o git para fazer push com o branch `git branch --set-upstream-to origin/rotas`
+   - Execute `git clone https://github.com/{GIHUB_USERNAME}/tarefas-api.git`
 3. Preparando para programar
    1. Instale o pnpm `npm i -g pnpm knex nodemon`
    2. Instale as bibliotecas `pnpm install`
 4. Execute localmente a API e teste
    1. Instale as bibliotecas `pnpm install`
-   2. Execute a API `pnpm start`
+   2. Execute a API `pnpm run dev-start`
    3. Teste usando um navegador, acessando a URL `http://localhost:8000/`
 5. Execute o Postman
    1. Acesse a URL `http://localhost:8000/` com método `GET`
