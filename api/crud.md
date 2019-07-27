@@ -2,10 +2,10 @@
 
 ## Sumário <!-- omit in toc -->
 
-- [1. Objetivos](#1-Objetivos)
-- [2. As rotas de gentilezas](#2-As-rotas-de-gentilezas)
-- [Parte 1 Adicionando a entidade Task e a rota /tasks GET](#Parte-1-Adicionando-a-entidade-Task-e-a-rota-tasks-GET)
-- [Parte 2](#Parte-2)
+- [1. Objetivos](#1-objetivos)
+- [2. As rotas de gentilezas](#2-as-rotas-de-gentilezas)
+- [Parte 1 Adicionando a entidade Task e a rota /tasks GET](#parte-1-adicionando-a-entidade-task-e-a-rota-tasks-get)
+- [Parte 2](#parte-2)
 
 ## 1. Objetivos
 
@@ -166,6 +166,36 @@ const tasks_route = {
 export default tasks_route;
 ```
 
+arquivo `./src/routes/index.js`
+
+```js
+import root from "./root";
+import tasks_route from "./tasks"
+
+export { root, tasks_route };
+```
+
+arquivo `./src/server.js`
+
+```js
+import Hapi from "@hapi/hapi";
+
+import { root, tasks_route } from "./routes";
+
+const server = new Hapi.Server({
+  port: process.env.PORT || 8000
+});
+
+const init = async () => {
+  server.route([].concat(root).concat(tasks_route));
+
+  await server.start();
+  console.log("Server is running");
+};
+
+init();
+```
+
 testando a conexão
 
 ```sh
@@ -231,6 +261,15 @@ $ curl --verbose http://localhost:8000/tasks
 <
 * Connection #0 to host localhost left intact
 [{"oid":1,"title":"Bom dia","description":"Você deu bom dia para alguém há 44 dias"},{"oid":2,"title":"Ligação","description":"Você ligou para seus amigos há 44 dias"},{"oid":3,"title":"Zap","description":"Envie um zap aos seus amigos em 6 horas"}]
+```
+
+**publicando no repositório** local e remoto
+
+```sh
+git add migrations seeds src/routes/tasks.js src/routes/index.js
+git commit -m "Add rota GET para gentilezas"
+git pull origin master
+git push origin master
 ```
 
 ## Parte 2
