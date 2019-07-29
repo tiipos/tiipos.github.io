@@ -9,6 +9,7 @@
   - [criando tabela e inserindo dados](#criando-tabela-e-inserindo-dados)
   - [criando e testando a rota](#criando-e-testando-a-rota)
   - [retornando os dados corretos na rota](#retornando-os-dados-corretos-na-rota)
+  - [Ajustando o projeto para publicar no Heroku](#ajustando-o-projeto-para-publicar-no-heroku)
   - [Publicando no repositório local e remoto](#publicando-no-reposit%c3%b3rio-local-e-remoto)
 - [Parte 2 Adicionando o método POST e DELETE](#parte-2-adicionando-o-m%c3%a9todo-post-e-delete)
   - [Adicionando o método POST](#adicionando-o-m%c3%a9todo-post)
@@ -284,6 +285,49 @@ $ curl --verbose http://localhost:8000/tasks
 <
 * Connection #0 to host localhost left intact
 [{"oid":1,"title":"Bom dia","description":"Você deu bom dia para alguém há 44 dias"},{"oid":2,"title":"Ligação","description":"Você ligou para seus amigos há 44 dias"},{"oid":3,"title":"Zap","description":"Envie um zap aos seus amigos em 6 horas"}]
+```
+
+### Ajustando o projeto para publicar no Heroku
+
+arquivo `package.json`
+
+```json
+{
+  "name": "tarefas-api",
+  "version": "0.0.1",
+  "description": "API do App Lista de tarefas",
+  "main": "bootstrap.js",
+  "engines": {
+    "node": "^12.0.0"
+  },
+  "scripts": {
+    "dev-start": "nodemon bootstrap",
+    "start": "node bootstrap",
+    "postinstall": "knex migrate:latest && knex seed:run"
+  },
+  "keywords": [
+    "api",
+    "todo",
+    "tarefas",
+    "hapi"
+  ],
+  "author": "L A MINORA",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^18.3.1",
+    "@hapi/joi": "^15.1.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "hapi-auto-route": "^2.0.7",
+    "hapi-router": "^5.0.0",
+    "knex": "^0.15.2",
+    "nodemon": "^1.18.4",
+    "sqlite3": "^4.0.2"
+  }
+}
 ```
 
 ### Publicando no repositório local e remoto
