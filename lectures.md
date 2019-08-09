@@ -12,14 +12,16 @@ layout: default
 2. [adicionar um repositório remoto](git/remote-add)
 3. [trabalhando diariamente nos labs da DIATINF](git/labs)
 
-## [](#header-2) React Native
+## Node
 
-1. [Introdução](reactnative/intro)
-2. [Configurando e usando o ambiente de desenvolvimento](reactnative/environment)
-3. [Entendendo a interface do usuário](reactnative/ui)
-4. [Navegando entre telas](reactnative/nav)
-5. [Gerenciando o estado da aplicação](reactnative/redux)
-6. [Acessando APIs](reactnative/redux-saga)
+1. [Instalação](node/install)
+
+## [](#header-2) [API Node](api)
+
+1. [Introdução](api/introduction)
+2. [Estrutura inicial da API](api/api)
+3. [CRUD](api/crud) Gentilezas
+4. [Autenticação e autorização](api/auth)
 
 ## [](#header-2) [React](react)
 
@@ -32,9 +34,11 @@ layout: default
 7. [offline](react/react-07-offline)
 8. [UI Frameworks](react/react-08-ui)
 
-## [](#header-2) [API Node](api)
+## [](#header-2) React Native
 
-1. [Introdução](api/introduction)
-2. [Estrutura inicial da API](api/api)
-3. [CRUD](api/crud) Gentilezas
-4. [Autenticação e autorização](api/auth)
+1. [Introdução](reactnative/intro)
+2. [Configurando e usando o ambiente de desenvolvimento](reactnative/environment)
+3. [Entendendo a interface do usuário](reactnative/ui)
+4. [Navegando entre telas](reactnative/nav)
+5. [Gerenciando o estado da aplicação](reactnative/redux)
+6. [Acessando APIs](reactnative/redux-saga)
