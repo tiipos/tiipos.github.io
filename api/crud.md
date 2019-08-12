@@ -1621,7 +1621,7 @@ class Task {
   static getAll() {
     return knex
       .from(table_name)
-      .select("oid", "title", "description")
+      .select()
       .then(results => Task.deserialize(results))
       .catch(err => err);
   }
@@ -1631,7 +1631,8 @@ class Task {
       let task = new Task();
       task.oid = data.oid ? data.oid : 0;
       task.title = data.title ? data.title : "";
-      task.done = data.done ? data.done : false;
+      task.description = data.description ? data.description : "";
+      task.done = data.done ? true : false;
       task.delete = data.delete ? data.delete : false;
       return task;
     });
@@ -1707,7 +1708,7 @@ class Task {
   static getAll() {
     return knex
       .from(table_name)
-      .select("oid", "title", "description")
+      .select()
       .then(results => Task.deserialize(results))
       .catch(err => err);
   }
@@ -1725,7 +1726,8 @@ class Task {
       let task = new Task();
       task.oid = data.oid ? data.oid : 0;
       task.title = data.title ? data.title : "";
-      task.done = data.done ? data.done : false;
+      task.description = data.description ? data.description : "";
+      task.done = data.done ? true : false;
       task.delete = data.delete ? data.delete : false;
       return task;
     });
