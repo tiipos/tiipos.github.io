@@ -1912,7 +1912,7 @@ export default {
 };
 ```
 
-Edite o arquivo `src/routes/tasks/task_done.js`
+Edite o arquivo `src/routes/tasks/task_undone.js`
 
 ```js
 import { Task } from "../../models";
