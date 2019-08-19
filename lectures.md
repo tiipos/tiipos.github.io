@@ -21,6 +21,12 @@ layout: default
 1. [Introdução](api/introduction)
 2. [Estrutura inicial da API](api/api)
 3. [CRUD](api/crud) Gentilezas
+   1. [Configuração do ambiente](./01-environment)
+   2. [Primera rota /tasks GET](./02-tasks-get)
+   3. [Adicionando verbos PUT e DELETE e configurando auto carregar rotass](./03-tasks-put-delete)
+   4. [Knex migrations](./04-knex-migrations)
+   5. [Adicionado as rotas /tasks/{id} , /tasks/{id}/done e /tasks/{id}/undone](./05-tasks-id)
+   6. [revisitando a rota /tasks verbos POST e DELETE](./06-tasks-refactor)
 4. [Autenticação e autorização](api/auth)
 
 ## [](#header-2) [React](react)
