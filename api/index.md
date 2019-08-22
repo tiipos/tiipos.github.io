@@ -5,6 +5,12 @@
 1. [Introdução](introduction)
 2. [Estrutura inicial da API](api)
 3. [CRUD](crud) Gentilezas
+   1. [Configuração do ambiente](tasks/01-environment)
+   2. [Primera rota /tasks GET](tasks/02-tasks-get)
+   3. [Adicionando verbos PUT e DELETE e configurando auto carregar rotass](tasks/03-tasks-put-delete)
+   4. [Knex migrations](tasks/04-knex-migrations)
+   5. [Adicionado as rotas /tasks/{id} , /tasks/{id}/done e /tasks/{id}/undone](tasks/05-tasks-id)
+   6. [revisitando a rota /tasks verbos POST e DELETE](tasks/06-tasks-refactor)
 4. [Autenticação e autorização](auth)
 
 ## [](#header-2) Wikipedia
