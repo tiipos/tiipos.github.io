@@ -28,6 +28,9 @@ layout: default
    5. [Adicionado as rotas /tasks/{id} , /tasks/{id}/done e /tasks/{id}/undone](api/tasks/05-tasks-id)
    6. [revisitando a rota /tasks verbos POST e DELETE](api/tasks/06-tasks-refactor)
 4. [Autenticação e autorização](api/auth)
+   1. [Introdução a autenticação](api/auth/01-introduction)
+   2. [Autenticação por login e senha](api/auth/02-simple)
+   3. [Autenticação por token](api/auth/03-token)
 
 ## [](#header-2) [React](react)
 

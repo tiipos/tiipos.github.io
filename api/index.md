@@ -12,6 +12,9 @@
    5. [Adicionado as rotas /tasks/{id} , /tasks/{id}/done e /tasks/{id}/undone](tasks/05-tasks-id)
    6. [revisitando a rota /tasks verbos POST e DELETE](tasks/06-tasks-refactor)
 4. [Autenticação e autorização](auth)
+   1. [Introdução a autenticação](auth/01-introduction)
+   2. [Autenticação por login e senha](auth/02-simple)
+   3. [Autenticação por token](auth/03-token)
 
 ## [](#header-2) Wikipedia
 
