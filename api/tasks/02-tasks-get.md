@@ -1,4 +1,4 @@
-# [](#header) API : CRUD de gentilezas : Primeira rota /tasks GET <!-- omit in toc -->
+# API : CRUD de gentilezas : Primeira rota /tasks GET <!-- omit in toc -->
 
 ## Sumário <!-- omit in toc -->
 

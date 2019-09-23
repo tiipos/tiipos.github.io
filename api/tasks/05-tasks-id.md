@@ -1,13 +1,17 @@
-# API : CRUD de gentilezas : Adicionando as rotas /tasks/{id} /tasks/{id}/done /tasks/{id}/undone <!-- omit in toc -->
+# API : CRUD de gentilezas : Adicionando as rotas tasks <!-- omit in toc -->
+
+## Objetivos <!-- omit in toc -->
+
+- Adicionar as rotas `/tasks/{task_id}`, `/tasks/{task_id}/done` e `/tasks/{task_id}/undone`
 
 ## Sumário <!-- omit in toc -->
 
-- [Parte 3 Adicionando as rotas `/tasks/{task_id}`, `/tasks/{task_id}/done` e `/tasks/{task_id}/undone`](#parte-3-adicionando-as-rotas-taskstaskid-taskstaskiddone-e-taskstaskidundone)
+- [Parte 3 Adicionando as rotas](#parte-3-adicionando-as-rotas)
   - [Refatorando o código](#refatorando-o-c%c3%b3digo)
-  - [Adicionando a rota `tasks/{id}` verbo GET](#adicionando-a-rota-tasksid-verbo-get)
-  - [Adicionando rota `tasks/{id}/done` e `tasks/{id}/undone`](#adicionando-rota-tasksiddone-e-tasksidundone)
+  - [Adicionando a rota tasks/id verbo GET](#adicionando-a-rota-tasksid-verbo-get)
+  - [Adicionando rota tasks/id/done e tasks/id/undone](#adicionando-rota-tasksiddone-e-tasksidundone)
 
-## Parte 3 Adicionando as rotas `/tasks/{task_id}`, `/tasks/{task_id}/done` e `/tasks/{task_id}/undone`
+## Parte 3 Adicionando as rotas
 
 ### Refatorando o código
 
@@ -99,7 +103,7 @@ Note: Unnecessary use of -X or --request, GET is already inferred.
 user@pc:2019-behappy-api$
 ```
 
-### Adicionando a rota `tasks/{id}` verbo GET
+### Adicionando a rota tasks/id verbo GET
 
 Adicione a rota
 
@@ -213,7 +217,7 @@ Note: Unnecessary use of -X or --request, GET is already inferred.
 user@pc:2019-behappy-api$
 ```
 
-### Adicionando rota `tasks/{id}/done` e `tasks/{id}/undone`
+### Adicionando rota tasks/id/done e tasks/id/undone
 
 Edite o arquivo `src/models/tasks.js`
 

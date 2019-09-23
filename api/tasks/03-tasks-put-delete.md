@@ -1,4 +1,4 @@
-# [](#header) API : CRUD de gentilezas : Adicionando os verbos PUT e DELETE <!-- omit in toc -->
+# API : CRUD de gentilezas : Adicionando os verbos PUT e DELETE <!-- omit in toc -->
 
 ## Sumário <!-- omit in toc -->
 

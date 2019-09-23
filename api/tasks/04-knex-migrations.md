@@ -1,4 +1,4 @@
-# [](#header) API : CRUD de gentilezas : Knex migrations <!-- omit in toc -->
+# API : CRUD de gentilezas : Knex migrations <!-- omit in toc -->
 
 ## Sumário <!-- omit in toc -->
 

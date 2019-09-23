@@ -1,8 +1,21 @@
 # [](#header) API : CRUD de gentilezas : revisitando a rota /tasks verbos POST e DELETE <!-- omit in toc -->
 
+## Objetivos <!-- omit in toc -->
+
+- Modificar as rotas /tasks verdo POST e `/tasks/{task_id}` verbo DELETE
+- Refatorar o código-fonte
+
 ## Sumário <!-- omit in toc -->
 
-## Parte 4 Modificando as rotas `/tasks` verdo POST e `/tasks/{task_id}` verbo DELETE
+- [Parte 4 Modificando as rotas /tasks verdo POST e /tasks/id verbo DELETE](#parte-4-modificando-as-rotas-tasks-verdo-post-e-tasksid-verbo-delete)
+  - [Refatorando o verbo POST](#refatorando-o-verbo-post)
+- [Arquivos finais](#arquivos-finais)
+  - [Diretório: src/models](#diret%c3%b3rio-srcmodels)
+  - [Diretório: src/routes/tasks](#diret%c3%b3rio-srcroutestasks)
+  - [Diretório: src/routes/what](#diret%c3%b3rio-srcrouteswhat)
+  - [Diretório: src/routes/who](#diret%c3%b3rio-srcrouteswho)
+
+## Parte 4 Modificando as rotas /tasks verdo POST e /tasks/id verbo DELETE
 
 ### Refatorando o verbo POST
 
