@@ -8,7 +8,6 @@
 - [Adicinando a rota do usuário](#adicinando-a-rota-do-usu%c3%a1rio)
 - [Modificando o servidor](#modificando-o-servidor)
 
-
 ## Preparando o ambiente
 
 ```sh
@@ -41,7 +40,7 @@ exports.up = function(knex) {
 };
 
 exports.down = function(knex) {
-    return knex.schema.dropTable(table_name);
+  return knex.schema.dropTable(table_name);
 };
 ```
 
@@ -54,25 +53,26 @@ const table_name = "users";
 const salt = bcrypt.genSaltSync();
 
 exports.seed = function(knex) {
-  return knex(table_name).del()
-    .then(function () {
+  return knex(table_name)
+    .del()
+    .then(function() {
       return knex(table_name).insert([
         {
-          login: "testador", 
-          email: "testador@gmail.com", 
-          name: "Testador fake", 
+          login: "testador",
+          email: "testador@gmail.com",
+          name: "Testador fake",
           password: bcrypt.hashSync("secret", salt)
         },
         {
-          login: "professor", 
-          email: "professor@gmail.com", 
-          name: "Professor fake", 
+          login: "professor",
+          email: "professor@gmail.com",
+          name: "Professor fake",
           password: bcrypt.hashSync("s3cr3t", salt)
         },
         {
-          login: "aluno", 
-          email: "aluno@gmail.com", 
-          name: "Aluno fake", 
+          login: "aluno",
+          email: "aluno@gmail.com",
+          name: "Aluno fake",
           password: bcrypt.hashSync("53cr3t", salt)
         }
       ]);
@@ -99,12 +99,16 @@ import knex from "../config/knex";
 const table_name = "users";
 
 class User {
-    static login(username, password) {
-        return knex(table_name).select().where('login', username).then(users => {
-            if (users.length == undefined || users.length == 0) return false;
-            return bcrypt.compareSync(password, users[0].password);
-        });
-    }
+  static login(username, password) {
+    return knex(table_name)
+      .select()
+      .where("login", username)
+      .then(users => {
+        if (users.length == undefined || users.length == 0) return undefined;
+        if (bcrypt.compareSync(password, users[0].password)) return users[0];
+        return undefined;
+      });
+  }
 }
 
 export default User;
@@ -123,7 +127,7 @@ export default {
   options: {
     auth: "simple"
   },
-  handler: (request, reply) => ({msg: "logged"})
+  handler: (request, reply) => ({ msg: "logged" })
 };
 ```
 
@@ -142,28 +146,28 @@ const server = new Hapi.Server({
 
 const validate = async (request, username, password) => {
   const user = await User.login(username, password);
-	
+
   if (user == undefined) {
-	    return { credentials: null, isValid: false };
-	}
-	return { credentials: {id: user.oid, username: user.login}, isValid: true };
+    return { credentials: null, isValid: false };
+  }
+  return { credentials: { id: user.oid, username: user.login }, isValid: true };
 };
 
 const init = async () => {
   await server.register([
-	    {
-	      plugin: require("@hapi/basic")
-	    }
-	]);
-	server.auth.strategy('simple', 'basic', { validate });
-	
+    {
+      plugin: require("@hapi/basic")
+    }
+  ]);
+  server.auth.strategy("simple", "basic", { validate });
+
   await server.register({
     plugin: require("hapi-router"),
     options: {
       routes: "src/routes/**/*.js"
     }
   });
-  
+
   await server.start();
   console.log("Server is running");
   console.log(server.info);
@@ -171,4 +175,3 @@ const init = async () => {
 
 init();
 ```
-
