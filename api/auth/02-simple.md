@@ -133,7 +133,7 @@ Modificado `src/server.js`
 
 ```js
 import Hapi from "@hapi/hapi";
-import { User } from "../../models";
+import { User } from "./models";
 
 const server = new Hapi.Server({
   port: process.env.PORT || 8000,
