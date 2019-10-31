@@ -35,8 +35,8 @@ pnpm add @babel/core @babel/plugin-proposal-class-properties @babel/plugin-trans
 pnpm add hapi-auth-jwt2 jsonwebtoken
 
 rm ./mydb.sqlite
-pnpm run db-migrate-make users
-pnpm run db-seed-make users
+pnpm run db-migrate
+pnpm run db-populate
 
 ```
 
@@ -107,7 +107,7 @@ const token_validate = async (user, request) => {
   if (token == undefined) {
     return { credentials: null, isValid: false };
   } else {
-    const credentials = { id: user.id, name: user.name, token: token };
+    const credentials = { id: user.id, username: user.login, token: token };
     return { credentials, isValid: true };
   }
 };
@@ -876,6 +876,7 @@ exports.up = function(knex, Promise) {
       .integer("user")
       .notNullable()
       .default(0);
+    table.foreign("user").references("users.oid");
   });
 };
 
