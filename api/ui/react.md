@@ -84,6 +84,35 @@ arquivo `./public/index.html`
 </html>
 ```
 
+arquivo `.gitignore`
+```
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+yarn.lock
+```
+
 arquivo `./package.json`
 
 ```json
@@ -92,6 +121,9 @@ arquivo `./package.json`
   "author": {
     "email": "leonardo.minora@gmail.com",
     "name": "Leonardo MINORA"
+  },
+  "engines": {
+    "node": "12"
   },
   "version": "0.1.0",
   "private": true,
@@ -107,23 +139,66 @@ arquivo `./package.json`
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "echo Skip build on Heroku"
   },
   "eslintConfig": {
     "extends": "react-app"
   },
-  "browserslist": {
-    "production": [">0.2%", "not dead", "not op_mini all"],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ],
+  "heroku-run-build-script": true
 }
+
 ```
 
 ## Serviços
+
+arquivo `./src/infrastructure/auth.js`
+
+```js
+export const TOKEN_KEY = "@behappywithme-token";
+
+export const isAuthenticated = () => localStorage.getItem(TOKEN_KEY) !== null;
+
+export const getToken = () => localStorage.getItem(TOKEN_KEY);
+
+export const login = token => {
+  localStorage.setItem(TOKEN_KEY, token);
+};
+
+export const logout = () => {
+  localStorage.removeItem(TOKEN_KEY);
+};
+```
+
+
+arquivo `./src/infrastructure/api.js`
+```js
+import axios from "axios";
+
+import { getToken } from "./auth";
+
+// const url = "http://localhost:8000";
+const url = "https://behappy-api.herokuapp.com";
+
+const api = axios.create({
+  baseURL: url
+});
+
+api.interceptors.request.use(async config => {
+  const token = getToken();
+  if (token) {
+    config.headers.Authorization = `${token}`;
+  }
+  return config;
+});
+
+export default api;
+```
 
 ## Páginas: Login e Gentilezas
 
