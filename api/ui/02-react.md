@@ -12,12 +12,16 @@
 
 ## Configurando
 
+**Faça o fork** do repositório https://github.com/tiipos/2019-react-axios
+
 ```bash
 pnpx create-react-app react-axios-example
 cd react-axios-example
 
 pnpm add axios
 pnpm add semantic-ui-css semantic-ui-react
+
+git remote add origin https://github.com/$GITHUB_USER/2019-react-axios
 
 pnpm start
 ```
