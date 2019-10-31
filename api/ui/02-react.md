@@ -757,3 +757,19 @@ class TaskPage extends React.Component {
 
 export default TaskPage;
 ```
+
+## Commit React
+
+```bash
+git config user.name "github name"
+git config user.email "github email"
+git add .
+git commit -m "App ok"
+
+git pull origin master --allow-unrelated-histories 
+## edita os arquivos em conflito
+
+git add .
+git commit -m "manual merge"
+git push
+```
