@@ -1,12 +1,39 @@
+# React Native
 
+## Contexto
 
-# [](#header-1) React Native
+[React Native](http://facebook.github.io/react-native/) é como [React](https://reactjs.org).
 
-## [](#header-2) Índice
+Assim como no React, você precisa entender alguns dos conceitos básicos do React, tais como [JSX](https://reactjs.org/docs/introducing-jsx.html), [componentes e propriedades](https://reactjs.org/docs/components-and-props.html), [estado e ciclo de vida](https://reactjs.org/docs/state-and-lifecycle.html).
 
-1. [Introdução](intro)
-2. [Ambiente](environment)
-3. [Interface do usuário](ui/)
-4. [Navigation](nav)
-5. [Estado da aplicação](redux)
-6. [Acessando APIs](redux-saga)
+Programação é com JavaScript, Linguagem de marcação (pseudo html) e [JSON](https://www.w3schools.com/js/js_json_intro.asp) (JavaScript Object Notation)
+
+A página oficial diz:
+
+- Construa aplicativos nativos para iOS e Android usando JS e React.
+- Um aplicativo React Native é um aplicativo real (iOS e Android).
+- Não se preocupe em recompilar.
+- Use código nativo quando você precisar.
+
+## Ferramentas
+
+- Usando o navegador
+  - [snack expo](https://snack.expo.io/)
+- Instalando no próprio computador
+  - [node.js](https://nodejs.org), [npmjs](https://www.npmjs.com), [nvm](https://github.com/creationix/nvm), [ReactNative CLI](https://facebook.github.io/react-native/), [expo cli](https://expo.io/tools#cli), [watchman](https://facebook.github.io/watchman/)
+  - editor de código-fonte ou IDE
+- [Guia de instalação by CADES](https://github.com/cades-ifrn/minicurso-react-native-wtads/blob/master/install.md)
+
+## Quem tem aplicativo desenvolvido em ReactNative?
+
+[Who's using React Native?](http://facebook.github.io/react-native/showcase.html)
+
+## Links pt-br
+
+- [Medium](https://medium.com/) https://medium.com/reactbrasil/react-native/home
+- [slack](https://slack.com/intl/pt-br/) https://react-brasil.github.io/react-brasil-slack/
+- [github.com](https://github.com/) https://github.com/react-brasil
+
+## Notas de aula
+
+1. [Primeiro aplicativo](./01-intro)

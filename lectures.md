@@ -47,11 +47,14 @@ layout: default
 7. [offline](react/react-07-offline)
 8. [UI Frameworks](react/react-08-ui)
 
-## [](#header-2) React Native
+## [](#header-2) [React Native](reactnative)
 
-1. [Introdução](reactnative/intro)
-2. [Configurando e usando o ambiente de desenvolvimento](reactnative/environment)
-3. [Entendendo a interface do usuário](reactnative/ui)
-4. [Navegando entre telas](reactnative/nav)
-5. [Gerenciando o estado da aplicação](reactnative/redux)
-6. [Acessando APIs](reactnative/redux-saga)
+1. [Introdução](reactnative/01-intro)
+
+**antigos**
+
+1. [Configurando e usando o ambiente de desenvolvimento](reactnative/environment)
+2. [Entendendo a interface do usuário](reactnative/ui)
+3. [Navegando entre telas](reactnative/nav)
+4. [Gerenciando o estado da aplicação](reactnative/redux)
+5. [Acessando APIs](reactnative/redux-saga)
