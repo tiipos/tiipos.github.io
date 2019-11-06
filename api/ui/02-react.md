@@ -7,9 +7,12 @@
 - [Páginas: Login e Gentilezas](#p%c3%a1ginas-login-e-gentilezas)
 - [Refazendo página de Login](#refazendo-p%c3%a1gina-de-login)
 - [Refazendo a página de Gentilezas](#refazendo-a-p%c3%a1gina-de-gentilezas)
+- [api](#api)
 - [Adicionando método de done na página de Gentilezas](#adicionando-m%c3%a9todo-de-done-na-p%c3%a1gina-de-gentilezas)
 
 ## Configurando
+
+**Faça o fork** do repositório https://github.com/tiipos/2019-react-axios
 
 ```bash
 pnpx create-react-app react-axios-example
@@ -17,6 +20,8 @@ cd react-axios-example
 
 pnpm add axios
 pnpm add semantic-ui-css semantic-ui-react
+
+git remote add origin https://github.com/$GITHUB_USER/2019-react-axios
 
 pnpm start
 ```
@@ -503,6 +508,128 @@ class TaskPage extends React.Component {
 
 export default TaskPage;
 ```
+## api
+
+**repositório da API**
+
+arquivo `./package.json`
+```json
+{
+  "name": "tarefas-api",
+  "version": "0.0.1",
+  "description": "API do App Lista de tarefas",
+  "main": "bootstrap.js",
+  "engines": {
+    "node": "12"
+  },
+  "scripts": {
+    "dev-start": "nodemon bootstrap",
+    "start": "node bootstrap",
+    "postinstall": "knex migrate:latest && knex seed:run",
+    "db-migrate": "knex migrate:up",
+    "db-migrate-make": "knex migrate:make",
+    "db-migrate-down": "knex migrate:down",
+    "db-seed-make": "knex seed:make",
+    "db-populate": "knex seed:run",
+    "db-create": "knex migrate:latest && knex seed:run"
+  },
+  "keywords": [
+    "api",
+    "todo",
+    "tarefas",
+    "hapi"
+  ],
+  "author": "L A MINORA",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-transform-async-to-generator": "^7.5.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/register": "^7.6.0",
+    "@hapi/basic": "^5.1.1",
+    "@hapi/hapi": "^18.3.1",
+    "@hapi/joi": "^15.1.0",
+    "bcrypt": "^3.0.6",
+    "hapi-auth-jwt2": "^8.6.2",
+    "hapi-cors": "^1.0.3",
+    "hapi-router": "^5.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.19.1",
+    "sqlite3": "^4.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
+```
+
+arquivo `./src/server.js`
+```js
+import Hapi from "@hapi/hapi";
+import { User, Token } from "./models";
+
+const server = new Hapi.Server({
+  port: process.env.PORT || 8000,
+  debug: { request: ["*"] }
+});
+
+const basic_validate = async (request, username, password) => {
+  const user = await User.login(username, password);
+
+  if (user == undefined) {
+    return { credentials: null, isValid: false };
+  }
+  const token = Token.add(user);
+  return {
+    credentials: { id: user.oid, username: user.login, token: token },
+    isValid: true
+  };
+};
+
+const token_validate = async (user, request) => {
+  const token = Token.findByUser(user);
+  if (token == undefined) {
+    return { credentials: null, isValid: false };
+  } else {
+    const credentials = { id: user.id, name: user.name, token: token };
+    return { credentials, isValid: true };
+  }
+};
+
+const init = async () => {
+  await server.register([require("@hapi/basic"), require("hapi-auth-jwt2")]);
+  server.auth.strategy("simple", "basic", { validate: basic_validate });
+  server.auth.strategy("token", "jwt", {
+    key: Token.secret,
+    validate: token_validate,
+    verifyOptions: { algorithms: ["HS256"] }
+  });
+
+  await server.register([
+    {
+      plugin: require("hapi-router"),
+      options: {
+        routes: "src/routes/**/*.js"
+      }
+    },
+    {
+      plugin: require("hapi-cors"),
+      options: {
+        origins: ["*"]
+      }
+    }
+  ]);
+
+  await server.start();
+  console.log("Server is running");
+  console.log(server.info);
+};
+
+init();
+
+```
 
 ## Adicionando método de done na página de Gentilezas
 
@@ -629,4 +756,20 @@ class TaskPage extends React.Component {
 }
 
 export default TaskPage;
+```
+
+## Commit React
+
+```bash
+git config user.name "github name"
+git config user.email "github email"
+git add .
+git commit -m "App ok"
+
+git pull origin master --allow-unrelated-histories 
+## edita os arquivos em conflito
+
+git add .
+git commit -m "manual merge"
+git push
 ```
