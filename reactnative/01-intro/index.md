@@ -12,6 +12,7 @@
   - [Após iniciar, fica assim a tela do terminal](#ap%c3%b3s-iniciar-fica-assim-a-tela-do-terminal)
   - [Após iniciar, o navegador padrão abre](#ap%c3%b3s-iniciar-o-navegador-padr%c3%a3o-abre)
   - [Modifique App.js](#modifique-appjs)
+  - [Commit e push da modificação](#commit-e-push-da-modifica%c3%a7%c3%a3o)
 
 ## Instalando e configurando as ferramentas
 
@@ -260,10 +261,7 @@ touch .vscode/settings.json
 ## Executando o app no dispositivo
 
 ```console
-machine user:2019-behappy-mobile$  in 57.08s.
-leo:2019-behappy-mobile (master) $ clear
-
-leo:2019-behappy-mobile (master) $ yarn start
+machine user:2019-behappy-mobile$  yarn start
 yarn run v1.13.0
 $ expo start
 Starting project at .../2019-behappy-mobile
@@ -351,4 +349,31 @@ Running application on iPhone de Leonardo.
 Finished building JavaScript bundle in 1179ms.
 Running application on iPhone de Leonardo.
 
+```
+
+### Commit e push da modificação
+
+```console
+machine user:2019-behappy-mobile$ git add -v .
+add 'App.js'
+add 'src/index.js'
+
+machine user:2019-behappy-mobile$ git commit -vm "First app update"
+[master d9abd32] First app update
+ 2 files changed, 5 insertions(+), 20 deletions(-)
+ rewrite App.js (99%)
+ copy App.js => src/index.js (84%)
+
+machine user:2019-behappy-mobile$ git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 654 bytes | 654.00 KiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/leonardo-minora/2019-behappy-mobile.git
+   b1a85cf..d9abd32  master -> master
+
+machine user:2019-behappy-mobile$
 ```
