@@ -30,10 +30,31 @@ A página oficial diz:
 
 ## Links pt-br
 
-- [Medium](https://medium.com/) https://medium.com/reactbrasil/react-native/home
-- [slack](https://slack.com/intl/pt-br/) https://react-brasil.github.io/react-brasil-slack/
-- [github.com](https://github.com/) https://github.com/react-brasil
+- [Medium](https://medium.com/) [react-native-brasil](https://medium.com/reactbrasil/react-native/home)
+- [slack](https://slack.com/intl/pt-br/) [react-brasil](https://react-brasil.github.io/react-brasil-slack/)
+- [github.com](https://github.com/) [react-brasil](https://github.com/react-brasil)
 
 ## Notas de aula
 
 1. [Primeiro aplicativo](./01-intro)
+
+## Outros frameworks multiplataforma
+
+- Nativas
+  - javascripit
+    - [flutter](https://flutter.dev)
+    - [vue native](https://vue-native.io)
+    - [native script](https://www.nativescript.org)
+    - [ionic](https://ionicframework.com)
+    - [meteor](https://www.meteor.com)
+  - [jasonette](http://jasonette.com)
+  - [weex](https://weex.apache.org)
+  - [microsoft xamarim](https://visualstudio.microsoft.com/pt-br/xamarin/)
+- Aplicações Híbrdas
+  - [apache cordova](https://cordova.apache.org)
+  - [framework7](https://framework7.io)
+  - [onsen ui](https://onsen.io)
+  - [monaca](https://monaca.io)
+  - [node webkit](https://nwjs.io)
+  - [adobe phonegap](https://phonegap.com)
+  - [webkit](https://webkit.org)
