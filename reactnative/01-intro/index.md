@@ -145,6 +145,10 @@ machine user:2019-behappy-mobile$
 
 ### Conecte ao repositório remoto e realize o primeiro commit
 
+**fork do repositório remoto**
+
+[mobile](https://github.com/tiipos/2019-behappy-mobile/)
+
 **adicione o repositório remoto**
 
 ```console
