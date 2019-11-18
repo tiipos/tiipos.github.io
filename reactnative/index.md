@@ -37,6 +37,7 @@ A página oficial diz:
 ## Notas de aula
 
 1. [Primeiro aplicativo](./01-intro)
+2. [Navegabilidade de telas](./02-navigation)
 
 ## Outros frameworks multiplataforma
 
@@ -50,7 +51,7 @@ A página oficial diz:
   - [jasonette](http://jasonette.com)
   - [weex](https://weex.apache.org)
   - [microsoft xamarim](https://visualstudio.microsoft.com/pt-br/xamarin/)
-- Aplicações Híbrdas
+- Aplicações Híbridas
   - [apache cordova](https://cordova.apache.org)
   - [framework7](https://framework7.io)
   - [onsen ui](https://onsen.io)
