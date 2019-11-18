@@ -58,34 +58,6 @@ yarn run v1.13.0
 $ expo start
 ...
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   To run the app with live reloading, choose one of:
   • Scan the QR code above with the Expo app (Android) or the Camera app (iOS).
   • Press a for Android emulator, or i for iOS simulator.
@@ -329,4 +301,13 @@ export default createAppContainer(
     }
   )
 );
+```
+## Agora modifique o aplicativo
+
+edite o arquivo `./src/index.js`
+
+```js
+import AppContainer from "./config/routes";
+
+export default AppContainer;
 ```
