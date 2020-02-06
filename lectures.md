@@ -2,11 +2,18 @@
 layout: default
 ---
 
-# [](#header-1) Notas de aula
+# Notas de aula 2020
 
-## [](#header-2) Introdução
+## React
 
-## [](#header-2) Git
+- [Criei uma primeira aplicação](react/01-2020-intro)
+
+
+# Notas de aula 2019
+
+## Introdução
+
+## Git
 
 1. [criar um repositório local](git/local-init)
 2. [adicionar um repositório remoto](git/remote-add)
@@ -16,7 +23,7 @@ layout: default
 
 1. [Instalação](node/install)
 
-## [](#header-2) [API Node](api)
+## [API Node](api)
 
 1. [Introdução](api/introduction)
 2. [Estrutura inicial da API](api/api)
@@ -36,7 +43,7 @@ layout: default
    2. [react](api/ui/02-react)
    3. [react native](api/ui/03-reactnative)
 
-## [](#header-2) [React](react)
+## [React](react)
 
 1. [Introdução](react/react-01-intro)
 2. [Build and deploy](react/react-02-build)
@@ -47,7 +54,7 @@ layout: default
 7. [offline](react/react-07-offline)
 8. [UI Frameworks](react/react-08-ui)
 
-## [](#header-2) [React Native](reactnative)
+## [React Native](reactnative)
 
 1. [Introdução](reactnative/01-intro)
 2. [Navegabilidade](reactnative/02-navigation)
