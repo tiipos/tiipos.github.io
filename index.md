@@ -10,6 +10,10 @@ layout: default
   - Carga horária total: 160 horas/aula
   - Carga horária semanal: 4 horas/aula
   - Carga horária por bimestre: 10 semanas com carga-horária de 40 horas/aula
+- Github
+  - [web](https://github.com/tiipos/2020-web-task)
+  - [mobile](https://github.com/tiipos/2020-mobile-task)
+  - [api](https://github.com/tiipos/2020-api-task)
 - Horários e Laboratórios
   - **Aulas**
     - terça-feira, Laboratótio 06, 14:30 as 16:00
