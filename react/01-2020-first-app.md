@@ -1,4 +1,12 @@
-# React
+# React : Meu primeiro aplicativo
+
+## Sobre a aula
+
+- **Obejivo**:
+  1. Ter um primeiro contato com a tecnologia
+  2. Criar o primeiro aplicativo web
+  3. Publicar o aplicativo na internet
+  4. Entender a dinâmica de trabalho
 
 ## Passo a passo
 
@@ -19,4 +27,4 @@
 
 ## Video aula
 
-[youtube]()
+[youtube](https://youtu.be/eikKSBDK7RM)
