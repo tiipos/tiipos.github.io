@@ -1,14 +1,3 @@
----
-layout: default
----
-
-# Notas de aula 2020
-
-## React
-
-- [Criei uma primeira aplicação](react/01-2020-intro)
-
-
 # Notas de aula 2019
 
 ## Introdução
