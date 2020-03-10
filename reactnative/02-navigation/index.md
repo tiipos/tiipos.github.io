@@ -3,6 +3,11 @@
 ## Sumário <!-- omit in toc -->
 
 - [Instalando e configurando as ferramentas](#instalando-e-configurando-as-ferramentas)
+  - [no smartphone](#no-smartphone)
+  - [Laboratório de informática](#laborat%c3%b3rio-de-inform%c3%a1tica)
+  - [Acessando código-fonte do app](#acessando-c%c3%b3digo-fonte-do-app)
+  - [instalando as bibliotecas de navegação](#instalando-as-bibliotecas-de-navega%c3%a7%c3%a3o)
+  - [instalando a biblioteca de armazenamento](#instalando-a-biblioteca-de-armazenamento)
   - [Inicie a aplicação mobile](#inicie-a-aplica%c3%a7%c3%a3o-mobile)
 - [Projetando a nevagabilidade](#projetando-a-nevagabilidade)
 - [Implementando as telas](#implementando-as-telas)
@@ -13,12 +18,15 @@
   - [Tela de Perfil](#tela-de-perfil)
   - [índice das telas](#%c3%adndice-das-telas)
 - [Implementando as Rotas](#implementando-as-rotas)
+- [Agora modifique o aplicativo](#agora-modifique-o-aplicativo)
 
 ## Instalando e configurando as ferramentas
 
-**no smartphone**
+### no smartphone
 
-- Lembre de instalar o expo app, ver detalhes em https://expo.io/tools#client
+Lembre de instalar o expo app, ver detalhes em https://expo.io/tools#client
+
+### Laboratório de informática
 
 **no computador do laboratório no linux, se ainda não tiver o nvm, node, yarn, expo-cli**
 
@@ -34,7 +42,17 @@ npm install --global yarn expo-cli
 
 ```
 
-**instalando as bibliotecas de navegação**
+### Acessando código-fonte do app
+
+**Clonando**
+
+```console
+
+```
+
+**Atualizando**
+
+### instalando as bibliotecas de navegação
 
 [React Navigation](https://reactnavigation.org)
 
@@ -42,7 +60,7 @@ npm install --global yarn expo-cli
 yarn add react-navigation react-navigation-stack react-native-gesture-handler
 ```
 
-**instalando a biblioteca de armazenamento**
+### instalando a biblioteca de armazenamento
 
 [React Native Async Storage](https://github.com/react-native-community/async-storage)
 
@@ -302,6 +320,7 @@ export default createAppContainer(
   )
 );
 ```
+
 ## Agora modifique o aplicativo
 
 edite o arquivo `./src/index.js`
