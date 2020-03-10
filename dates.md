@@ -16,7 +16,7 @@ layout: default
 | 06 | 27/02/2020 | [Estado e ciclo de vida](react/04-2020-state)          |
 | 07 | 03/03/20   | [Acesso a API externa](react/05-2020-api)              |
 | 08 | 05/03/20   | Acesso a API externa                                   |
-| 09 | 10/03/20   | []                                                     |
+| 09 | 10/03/20   | [Manipulando eventos](react/06-2020-events)            |
 | 10 | 12/03/20   |                                                        |
 | 11 | 17/03/20   |                                                        |
 | 12 | 19/03/20   |                                                        |
