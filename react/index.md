@@ -1,4 +1,4 @@
-# Introdução ao React
+# React - Notas de aula
 
 ## Sumário
 
