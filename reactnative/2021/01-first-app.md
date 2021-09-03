@@ -5,8 +5,8 @@
 -  **Objetivo**:
 
    1. Ter um primeiro contato com a tecnologia
-   2. Criar o primeiro aplicativo web
-   3. Publicar o aplicativo na internet
+   2. Criar o primeiro aplicativo mobile com React Native
+   3. Testar o aplicativo no celular
    4. Entender a dinâmica de trabalho
 
 -  **Pré-requisitos**:
@@ -40,7 +40,7 @@
       -  babel.config.js
       -  package.json
 11.   Comitar os arquivos `2021-TarefasMobile` (`git add . && git commit -m "my first react mobile app"`)
-12.   Publicar no github (`git push origin master`)
+12.   Publicar no github (`git push origin main`)
 
 ## Saídas dos comandos
 
