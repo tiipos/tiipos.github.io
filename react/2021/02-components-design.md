@@ -28,4 +28,5 @@
 
 ## Video aula
 
--  [youtube](https://youtu.be/FUWugJ5arxM)
+-  [Momento Síncrono 1h20m](https://youtu.be/bsFC4qMkQOo)
+-  [Momento Assíncrono 10m](https://youtu.be/FUWugJ5arxM)

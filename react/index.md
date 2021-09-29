@@ -3,6 +3,14 @@
 ## Sumário
 
 1. [Meu primeiro web app](2021/01-first-app)
+2. [Design de componentes](2021/02-components-design)
+3. [Codificando componentes](2021/03-components-code)
+4. [Usando bibliotecas de componentes](2021/04-components-libs)
+5. Usando uma lista de componentes
+6. Styled components
+7. Usando dados de uma API
+8. Trabalhando com várias páginas
+9. Autenticação
 
 ## Fluxo de trabalho
 
